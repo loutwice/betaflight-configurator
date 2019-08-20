@@ -1,22 +1,22 @@
-# Betaflight Configurator
+# Emuflight Configurator
 
 ![Betaflight](http://static.rcgroups.net/forums/attachments/6/1/0/3/7/6/a9088900-228-bf_logo.jpg)
 
 [![Crowdin](https://d322cqt584bo4o.cloudfront.net/betaflight-configurator/localized.svg)](https://crowdin.com/project/betaflight-configurator)
 
-Betaflight Configurator is a crossplatform configuration tool for the Betaflight flight control system.
+Emuflight Configurator is a crossplatform configuration tool for the Emuflight flight control system.
 
-It runs as an app within Google Chrome and allows you to configure the Betaflight software running on any [supported Betaflight target](https://github.com/betaflight/betaflight/tree/master/src/main/target).
+It runs as an app within Google Chrome and allows you to configure the Emuflight software running on any [supported Emuflight target](https://github.com/betaflight/betaflight/tree/master/src/main/target).
 
 There is also now a standalone version available, since Google Chrome Apps are getting deprecated on platforms that aren't Chrome OS. [Downloads are available in Releases.](https://github.com/betaflight/betaflight-configurator/releases)
 
-Various types of aircraft are supported by the tool and by Betaflight, e.g. quadcopters, hexacopters, octocopters and fixed-wing aircraft.
+Various types of aircraft are supported by the tool and by Emuflight, e.g. quadcopters, hexacopters, octocopters and fixed-wing aircraft.
 
 ## Authors
 
-Betaflight Configurator is a [fork](#credits) of the Cleanflight Configurator with support for Betaflight instead of Cleanflight.
+Emuflight Configurator is a [fork](#credits) of the Cleanflight Configurator with support for Emuflight instead of Cleanflight.
 
-This configurator is the only configurator with support for Betaflight specific features. It will likely require that you run the latest firmware on the flight controller.
+This configurator is the only configurator with support for Emuflight specific features. It will likely require that you run the latest firmware on the flight controller.
 If you are experiencing any problems please make sure you are running the [latest firmware version](https://github.com/betaflight/betaflight/releases/).
 
 ## Installation
@@ -31,10 +31,10 @@ Download the installer from [Releases.](https://github.com/betaflight/betaflight
 
 [![available in the Chrome web store for Chromeos](https://developer.chrome.com/webstore/images/ChromeWebStore_Badge_v2_206x58.png)](https://chrome.google.com/webstore/detail/dlgclabibdhkfnbkajgkplmkpndajfom)
 
-1. Visit the [Betaflight Configurator product page in the Chrome web store](https://chrome.google.com/webstore/detail/dlgclabibdhkfnbkajgkplmkpndajfom)
+1. Visit the [Emuflight Configurator product page in the Chrome web store](https://chrome.google.com/webstore/detail/dlgclabibdhkfnbkajgkplmkpndajfom)
 2. Click **+ Add to Chrome**
 
-Please note - the application will automatically update itself when new versions are released.  Please ensure you maintain configuration backups as described in the Betaflight documentation.
+Please note - the application will automatically update itself when new versions are released.  Please ensure you maintain configuration backups as described in the Emuflight documentation.
 
 (A deprecated legacy version for all platforms is also available [here](https://chrome.google.com/webstore/detail/betaflight-configurator/kdaghagfopacdngbohiknlhcocjccjao).)
 
@@ -85,7 +85,7 @@ You can also use multiple platforms e.g. `yarn gulp <taskname> --osx64 --linux64
 
 ## Languages
 
-Betaflight Configurator has been translated into several languages. The application will try to detect and use your system language if a translation into this language is available. You can help [translating the application into your language](https://crowdin.com/project/betaflight-configurator).
+Emuflight Configurator has been translated into several languages. The application will try to detect and use your system language if a translation into this language is available. You can help [translating the application into your language](https://crowdin.com/project/betaflight-configurator).
 
 If you prefer to have the application in English or any other language, you can select your desired language in the options menu of the application.
 
@@ -109,11 +109,11 @@ If you need help please reach out on the [betaflightgroup](https://betaflightgro
 
 ### Issue trackers
 
-For Betaflight configurator issues raise them here
+For Emuflight configurator issues raise them here
 
 https://github.com/betaflight/betaflight-configurator/issues
 
-For Betaflight firmware issues raise them here
+For Emuflight firmware issues raise them here
 
 https://github.com/betaflight/betaflight/issues
 

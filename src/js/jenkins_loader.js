@@ -40,9 +40,9 @@ JenkinsLoader.prototype.loadJobs = function (viewName, callback) {
             $.get(url, jobsInfo => {
                 GUI.log(i18n.getMessage('buildServerLoaded', ['jobs']));
 
-                // remove Betaflight prefix, rename Betaflight job to Development
+                // remove Emuflight prefix, rename Emuflight job to Development
                 var jobs = jobsInfo.jobs.map(job => {
-                    return { title: job.name.replace('Betaflight ', '').replace('Betaflight', 'Development'), name: job.name };
+                    return { title: job.name.replace('Emuflight ', '').replace('Betaflight', 'Development'), name: job.name };
                 })
 
                 // cache loaded info

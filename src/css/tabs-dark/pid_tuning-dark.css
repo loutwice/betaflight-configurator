@@ -129,12 +129,12 @@
 }
 
 .tab-pid_tuning .tab_container td.active {
-    background-color: #ffbb2a;
+    background-color: #2297eb;
     color: black;
 }
 
 .tab-pid_tuning .tab_container td.active a {
-    background-color: #ffbb2a;
+    background-color: #2297eb;
     color: black;
 }
 

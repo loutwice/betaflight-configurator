@@ -122,7 +122,7 @@
         "message": "未検証バージョンの更新通知を表示"
     },
     "configuratorUpdateNotice": {
-        "message": "お使いの<b>Betaflight Configurator<\/b>は旧バージョンです。<br>Version <b>$1<\/b> が利用可能です。<a href=\"$2\" target=\"_blank\">リリースページ<\/a>から修正・機能向上した最新版をダウンロードしてインストールして下さい。<br>注: 更新する前にConfiguratorを閉じて下さい。"
+        "message": "お使いの<b>Emuflight Configurator<\/b>は旧バージョンです。<br>Version <b>$1<\/b> が利用可能です。<a href=\"$2\" target=\"_blank\">リリースページ<\/a>から修正・機能向上した最新版をダウンロードしてインストールして下さい。<br>注: 更新する前にConfiguratorを閉じて下さい。"
     },
     "configuratorUpdateWebsite": {
         "message": "リリースサイトに移動"
@@ -335,7 +335,7 @@
         "message": "このファームウェアバージョンは<span class=\"message-negative\">サポートされていません<\/span>。<strong>$1<\/strong>以上のバージョンのAPIをサポートするファームウェアにアップグレードして下さい。書換えする前にCLIを使用してバックアップして下さい。CLIのバックアップ \/ リストア手順はドキュメントに記載されています。<br \/>または、アップグレードする準備ができていない場合は、旧バージョンのConfiguratorをダウンロードして使用して下さい。"
     },
     "firmwareTypeNotSupported": {
-        "message": "CLIモードを除き、Cleanflight \/ Betaflight 以外のファームウェアは<span class=\"message-negative\">サポートされていません<\/span>。"
+        "message": "CLIモードを除き、Cleanflight \/ Emuflight 以外のファームウェアは<span class=\"message-negative\">サポートされていません<\/span>。"
     },
     "firmwareUpgradeRequired": {
         "message": "このデバイスのファームウェアは、新しいバージョンにアップグレードする必要があります。 書換えする前にCLIを使用してバックアップして下さい。 CLIのバックアップ \/ リストア手順はドキュメントに記載されています。<br \/>または、アップグレードする準備ができていない場合は、旧バージョンのConfiguratorをダウンロードして使用して下さい。"
@@ -459,19 +459,19 @@
         "message": "EEPROM <span class=\"message-positive\">保存しました<\/span>"
     },
     "defaultWelcomeIntro": {
-        "message": "<strong>Betaflight - Configurator<\/strong>へようこそ。<br \/>このユーティリティは、フライトコントローラの設定やチューニングを簡単に更新できるよう設計されています。"
+        "message": "<strong>Emuflight - Configurator<\/strong>へようこそ。<br \/>このユーティリティは、フライトコントローラの設定やチューニングを簡単に更新できるよう設計されています。"
     },
     "defaultWelcomeHead": {
         "message": "ハードウェア"
     },
     "defaultWelcomeText": {
-        "message": "このアプリケーションは、Betaflightを実行できるすべてのハードウェアをサポートしています。対応するハードウェアの完全なリストについては、[ファームフラッシャー] タブを確認して下さい。<br><br><a href=\"https:\/\/github.com\/betaflight\/blackbox-log-viewer\/releases\" target=\"_blank\">Betaflight Blackbox Log Viewerをダウンロード<\/a><br \/><br \/>ファームウェアのソースコードのダウンロード先は<a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">こちら<\/a><br \/><br \/>最新の<a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">CP210xドライバ<\/a>のダウンロード先は<a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">こちら<\/a><br \/>最新の<a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">STM USB VCPドライバ<\/a>のダウンロード先は<a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">こちら<\/a><br \/>最新のWindows用<a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a>USBドライバ インストーラのダウンロード先は<a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">こちら<\/a><br \/>"
+        "message": "このアプリケーションは、Betaflightを実行できるすべてのハードウェアをサポートしています。対応するハードウェアの完全なリストについては、[ファームフラッシャー] タブを確認して下さい。<br><br><a href=\"https:\/\/github.com\/betaflight\/blackbox-log-viewer\/releases\" target=\"_blank\">Emuflight Blackbox Log Viewerをダウンロード<\/a><br \/><br \/>ファームウェアのソースコードのダウンロード先は<a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">こちら<\/a><br \/><br \/>最新の<a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">CP210xドライバ<\/a>のダウンロード先は<a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">こちら<\/a><br \/>最新の<a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">STM USB VCPドライバ<\/a>のダウンロード先は<a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">こちら<\/a><br \/>最新のWindows用<a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a>USBドライバ インストーラのダウンロード先は<a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">こちら<\/a><br \/>"
     },
     "defaultContributingHead": {
         "message": "開発への協力・貢献"
     },
     "defaultContributingText": {
-        "message": "Betaflightを今後より良くするためにご協力いただける場合、以下を含むさまざまな方法でお手伝いしていただけます:<br \/><ul><li>\nフォーラムやIRCで他のユーザの質問に答える<\/li><li>\nファームウェアとConfiguratorへのコードの提供 - 新機能や修正、改良<\/li><li>\n<a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">新機能のフィックス<\/a>、テストとフィードバックの提供<\/li><li>\n<a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">問題のヘルプと新機能リクエスト<\/a>へのコメント協力<\/li><li>\n<a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\">Betaflight Configuratorを母国語へ翻訳すること<\/a>に協力してみましょう。<\/li><li><\/li><\/ul>"
+        "message": "Betaflightを今後より良くするためにご協力いただける場合、以下を含むさまざまな方法でお手伝いしていただけます:<br \/><ul><li>\nフォーラムやIRCで他のユーザの質問に答える<\/li><li>\nファームウェアとConfiguratorへのコードの提供 - 新機能や修正、改良<\/li><li>\n<a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">新機能のフィックス<\/a>、テストとフィードバックの提供<\/li><li>\n<a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">問題のヘルプと新機能リクエスト<\/a>へのコメント協力<\/li><li>\n<a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\">Emuflight Configuratorを母国語へ翻訳すること<\/a>に協力してみましょう。<\/li><li><\/li><\/ul>"
     },
     "defaultFacebookText": {
         "message": "私たちは<a href=\"https:\/\/www.facebook.com\/groups\/betaflightgroup\/\" target=\"_blank\">Facebookグループ<\/a>も運営しています。<br \/>私たちと一緒にBetaflightについて語り合い、設定に関する質問をしたり、パイロット同士で交流してみましょう。"
@@ -492,7 +492,7 @@
         "message": "オープンソース \/ 寄付について"
     },
     "defaultDonateText": {
-        "message": "<p><strong>Betaflight<\/strong>は<strong>オープンソース<\/strong>であり、すべてのユーザに対し保証なしで<strong>無償<\/strong>にて提供されるフライトコントローラソフトウェアです。<\/p><p>もし、あなたがBetaflightやBetaflight Configuratorが役立つと感じたら、寄付による開発の<strong>サポート<\/strong>をご検討ください。<\/p>"
+        "message": "<p><strong>Betaflight<\/strong>は<strong>オープンソース<\/strong>であり、すべてのユーザに対し保証なしで<strong>無償<\/strong>にて提供されるフライトコントローラソフトウェアです。<\/p><p>もし、あなたがBetaflightやEmuflight Configuratorが役立つと感じたら、寄付による開発の<strong>サポート<\/strong>をご検討ください。<\/p>"
     },
     "defaultDonateBottom": {
         "message": "<p>引き続き経済的に貢献したい場合は <a href='https:\/\/www.patreon.com\/betaflight'>Patreon<\/a> で私達の支援者になることをご検討ください。<\/p>"
@@ -510,7 +510,7 @@
         "message": "Betaflightドキュメントは、リリースノートおよび wiki にてご利用いただけます。<br \/><br \/>"
     },
     "defaultDocumentation1": {
-        "message": "Betaflight wiki はすばらしい情報リソースを<a href=\"https:\/\/github.com\/betaflight\/betafli<a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\">ght\/wiki\" target=\"_blank\">こちら<\/a>で検索・確認することができます。"
+        "message": "Emuflight wiki はすばらしい情報リソースを<a href=\"https:\/\/github.com\/betaflight\/betafli<a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\">ght\/wiki\" target=\"_blank\">こちら<\/a>で検索・確認することができます。"
     },
     "defaultDocumentation2": {
         "message": "ファームウェア リリースノートは、GitHub リリースページの<a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\">こちら<\/a>で確認いただけます。"
@@ -531,16 +531,16 @@
         "message": "<a href=\"http:\/\/www.rcgroups.com\/forums\/showthread.php?t=2464844&page=1\" target=\"_blank\">RC Groups スレッド<\/a>"
     },
     "defaultSupport2": {
-        "message": "<a href=\"http:\/\/betaflight.info\" target=\"_blank\">Betaflight Wiki<\/a>"
+        "message": "<a href=\"http:\/\/betaflight.info\" target=\"_blank\">Emuflight Wiki<\/a>"
     },
     "defaultSupport3": {
-        "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\">Joshua Bardwell Betaflight Videos<\/a>"
+        "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\">Joshua Bardwell Emuflight Videos<\/a>"
     },
     "defaultSupport4": {
         "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
     },
     "defaultSupport5": {
-        "message": "<a href=\"https:\/\/slack.betaflight.com\" target=\"_blank\">Betaflight devs on slack<\/a>"
+        "message": "<a href=\"https:\/\/slack.betaflight.com\" target=\"_blank\">Emuflight devs on slack<\/a>"
     },
     "initialSetupBackupAndRestoreApiVersion": {
         "message": "<span class=\"message-negative\">バックアップと復元の機能が無効です。<\/span>ファームウェアのAPIバージョンは<span class=\"message-negative\">$1<\/span>ですが、バックアップと復元には<span class=\"message-positive\">$2<\/span>が必要です。バックアップにはCLIをご利用下さい。方法についてはBetaflightドキュメントを参照して下さい。"
@@ -739,7 +739,7 @@
         "description": "Description of the BST arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipMSP": {
-        "message": "おそらくこのBetaflight Configuratorで、MSP接続は有効です",
+        "message": "おそらくこのEmuflight Configuratorで、MSP接続は有効です",
         "description": "Description of the MSP arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipPARALYZE": {
@@ -1065,7 +1065,7 @@
         "message": "ビーコントーン"
     },
     "configurationDshotBeaconHelp": {
-        "message": "Dshotビーコンは、ESCおよびモーターを使用してビーコン音を生成します。これは同時に、モーターが回転しているときにDshotビーコンを使用できないことを意味します。 Betaflight 3.4以降では、Dshotビーコンが有効な状態である時にアーミングを試みると、機体がアームされる前、最後に鳴らしたDshotビーコントーンの後に2秒の遅延が起こります。これはDshotビーコン機能が、アーミング中に送信されたDshotコマンドを妨害しないようにするためです。\n<br\/><strong>注:<\/strong> Dshotビーコンは、有効な状態のときにモーターへ電流を流しているため、ビーコン強度が強すぎると過剰な熱の発生やモーター、ESCの損傷を招く場合があります。ビーコン強度を調整してテストするには、BLHeli ConfiguratorまたはBLHeli Suiteを使用して下さい。"
+        "message": "Dshotビーコンは、ESCおよびモーターを使用してビーコン音を生成します。これは同時に、モーターが回転しているときにDshotビーコンを使用できないことを意味します。 Emuflight 3.4以降では、Dshotビーコンが有効な状態である時にアーミングを試みると、機体がアームされる前、最後に鳴らしたDshotビーコントーンの後に2秒の遅延が起こります。これはDshotビーコン機能が、アーミング中に送信されたDshotコマンドを妨害しないようにするためです。\n<br\/><strong>注:<\/strong> Dshotビーコンは、有効な状態のときにモーターへ電流を流しているため、ビーコン強度が強すぎると過剰な熱の発生やモーター、ESCの損傷を招く場合があります。ビーコン強度を調整してテストするには、BLHeli ConfiguratorまたはBLHeli Suiteを使用して下さい。"
     },
     "configurationBeeper": {
         "message": "ビープ音 設定"
@@ -1164,7 +1164,7 @@
         "message": "<strong>注意:<\/strong>FCがこの速度で動作するか確認して下さい！CPUとサイクル時間の安定度を確認して下さい。この変更はPIDの再調整を必要とするかもしれません。TIP: パフォーマンスを上げるためには加速度センサや他センサを無効にします。"
     },
     "configurationLoopTimeNo32KhzHelp": {
-        "message": "$t(configurationLoopTimeHelp.message)<br><strong>ジャイロ 32kMz サンプリングモードにおける注意事項:<\/strong> 実験的な機能として、ジャイロ 32kHz サンプリングモードがBetaflightに実装されました。利用可能になって以降、機体の振動に過敏であること、および積極的なフィルタリングを必要とし高ノイズとなってしまうことがあるため、ジャイロ 8kHz サンプリングモードを超えるような利点が実績として得られませんでした。このため、Betaflight 4.0では<strong>ジャイロ32 kHzサンプリングモードのサポートを終了致します。<\/strong>"
+        "message": "$t(configurationLoopTimeHelp.message)<br><strong>ジャイロ 32kMz サンプリングモードにおける注意事項:<\/strong> 実験的な機能として、ジャイロ 32kHz サンプリングモードがBetaflightに実装されました。利用可能になって以降、機体の振動に過敏であること、および積極的なフィルタリングを必要とし高ノイズとなってしまうことがあるため、ジャイロ 8kHz サンプリングモードを超えるような利点が実績として得られませんでした。このため、Emuflight 4.0では<strong>ジャイロ32 kHzサンプリングモードのサポートを終了致します。<\/strong>"
     },
     "configurationGPS": {
         "message": "GPS"
@@ -2292,7 +2292,7 @@
         "message": "フラッシュメモリを保存... (廃止予定)"
     },
     "dataflashSaveFileDepreciationHint": {
-        "message": "Betaflight Configuratorを使ってブラックボックスログを保存するのは、時間がかかり比較的エラーが発生しやすくなります。代わりに '<b>$t(onboardLoggingRebootMscText.message)<\/b>' (上記) を使用して大容量ストレージモードを有効にし、FCにアクセスしてログをダウンロードする記憶媒体とすることをお勧めします。"
+        "message": "Emuflight Configuratorを使ってブラックボックスログを保存するのは、時間がかかり比較的エラーが発生しやすくなります。代わりに '<b>$t(onboardLoggingRebootMscText.message)<\/b>' (上記) を使用して大容量ストレージモードを有効にし、FCにアクセスしてログをダウンロードする記憶媒体とすることをお勧めします。"
     },
     "dataflashButtonErase": {
         "message": "データを消去"
@@ -3074,7 +3074,7 @@
         "message": "横向き \/ 下向き \/ 任意な回転による取付けが可能なFCボードの回転角度です。外部センサーを使用する場合は、センサーのアライメント (Gyro、Accel、コンパス) を使用して、ボードの向きから独立したセンサー位置を定義します。 "
     },
     "failsafeFeaturesHelpOld": {
-        "message": "フェイルセーフ設定が大幅に変更されました。 改善された設定パネルを有効にするには、Betaflight <strong>v1.12.0 以上<\/strong> を使用して下さい。"
+        "message": "フェイルセーフ設定が大幅に変更されました。 改善された設定パネルを有効にするには、Emuflight <strong>v1.12.0 以上<\/strong> を使用して下さい。"
     },
     "failsafePaneTitleOld": {
         "message": "受信機フェイルセーフ"
@@ -3206,7 +3206,7 @@
         "message": "保存"
     },
     "powerFirmwareUpgradeRequired": {
-        "message": "ファームウェアのアップグレードが<span class=\"message-negative\">必要です<\/span>。使用されるバッテリー \/ 電流 \/ 電圧構成API &lt; 1.33.0 (Betaflight release &lt;=3.1.7) はサポートされていません。"
+        "message": "ファームウェアのアップグレードが<span class=\"message-negative\">必要です<\/span>。使用されるバッテリー \/ 電流 \/ 電圧構成API &lt; 1.33.0 (Emuflight release &lt;=3.1.7) はサポートされていません。"
     },
     "powerBatteryVoltageMeterSource": {
         "message": "電圧メーターソース"
@@ -3995,7 +3995,7 @@
         "message": "<b>エラー D値メソッド<\/b>は、より直接的なスティックレスポンスを提供し、ほぼレース向けとなります。 <br><br><b>測定 D値メソッド<\/b>は、よりスムーズなスティックレスポンスを提供し、フリースタイル時により有用なものとなります。"
     },
     "pidTuningPidControllerTip": {
-        "message": "<b>Legacy vs Betaflight (float):<\/b> PIDスケーリングとPIDロジックはまったく同じ仕様です。必ずしも再調整は必要ありません。Legacyは、整数演算に基づく基本的なPIDコントローラである旧ベータ版の進化型演算方式です。 Betaflight PIDコントローラは浮動小数点演算を使用し、マルチローター用に特別に設計された多くの新機能を備えています。<br><b>Float vs Integer:<\/b> PIDスケーリングとPIDロジックはまったく同じ仕様です。再調整は必要ありません。F1ボードにはオンボードFPUがないため、浮動小数点演算によってCPU負荷が増加するため、整数演算にて性能が向上しますが、浮動小数点演算の方がわずかに精度が向上します。"
+        "message": "<b>Legacy vs Emuflight (float):<\/b> PIDスケーリングとPIDロジックはまったく同じ仕様です。必ずしも再調整は必要ありません。Legacyは、整数演算に基づく基本的なPIDコントローラである旧ベータ版の進化型演算方式です。 Emuflight PIDコントローラは浮動小数点演算を使用し、マルチローター用に特別に設計された多くの新機能を備えています。<br><b>Float vs Integer:<\/b> PIDスケーリングとPIDロジックはまったく同じ仕様です。再調整は必要ありません。F1ボードにはオンボードFPUがないため、浮動小数点演算によってCPU負荷が増加するため、整数演算にて性能が向上しますが、浮動小数点演算の方がわずかに精度が向上します。"
     },
     "pidTuningFilterTip": {
         "message": "<b>ジャイロフィルター:<\/b> ジャイロのローパスフィルターです。より多くフィルタリングするには低い値を使用します。 <br><b>D値フィルター:<\/b> D値のローパスフィルターです。 D値のチューニングに反映されます。より多くフィルタリングするには低い値を使用します。<br><b>ヨーフィルター:<\/b> ヨー出力をフィルタリングします。ノイズの多いヨー軸設定に効果が表れます。"

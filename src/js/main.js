@@ -62,7 +62,7 @@ function setupAnalytics(result) {
 
     var debugMode = typeof process === "object" && process.versions['nw-flavor'] === 'sdk';
 
-    analytics = new Analytics('UA-123002063-1', userId, 'Betaflight Configurator', CONFIGURATOR.version, CONFIGURATOR.gitChangesetId, GUI.operating_system, checkForDebugVersions, optOut, debugMode, getBuildType());
+    analytics = new Analytics('UA-123002063-1', userId, 'Emuflight Configurator', CONFIGURATOR.version, CONFIGURATOR.gitChangesetId, GUI.operating_system, checkForDebugVersions, optOut, debugMode, getBuildType());
 
     function logException(exception) {
         analytics.sendException(exception.stack);

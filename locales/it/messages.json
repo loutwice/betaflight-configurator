@@ -122,7 +122,7 @@
         "message": "Mostra notifiche per versioni beta del configuratore"
     },
     "configuratorUpdateNotice": {
-        "message": "Stai usando una versione obsoleta di <b>Betaflight Configurator<\/b>. <br>La versione <b>$1<\/b> è disponibile online, visita <a href=\"$2\" target=\"_blank\">la pagina dei rilasci<\/a> per scaricare e installare l'ultima versione.<br> Perfavore chiudi l'applicazione prima di aggiornare."
+        "message": "Stai usando una versione obsoleta di <b>Emuflight Configurator<\/b>. <br>La versione <b>$1<\/b> è disponibile online, visita <a href=\"$2\" target=\"_blank\">la pagina dei rilasci<\/a> per scaricare e installare l'ultima versione.<br> Perfavore chiudi l'applicazione prima di aggiornare."
     },
     "configuratorUpdateWebsite": {
         "message": "Visita la pagina degli aggiornamenti"
@@ -335,7 +335,7 @@
         "message": "Questa versione del firmware <span class=\"message-negative\">non è supportata<\/span>. Si prega di aggiornare con un firmware che supporti la versione <strong>api $1<\/strong> o superiore. Usa il CLI per effettuare un backup prima di flashare la scheda. Puoi trovare la procedura nella documentazione.<br \/>In alternativa scarica una versione precedente del configuratore."
     },
     "firmwareTypeNotSupported": {
-        "message": "Il configuratore <span class=\"message-negative\">non supporta<\/span> firmware diversi da Cleanflight o Betaflight. Solo la modalità CLI è supportata."
+        "message": "Il configuratore <span class=\"message-negative\">non supporta<\/span> firmware diversi da Cleanflight o Emuflight. Solo la modalità CLI è supportata."
     },
     "firmwareUpgradeRequired": {
         "message": "La versione del firmware installata sul dispositivo necessita di un aggiornamento. Usa il CLI per effettuare un backup prima dell'aggiornamento. La procedura è disponibile nella documentazione. <br\/>In alternativa puoi scaricare una versione precedente del configuratore."
@@ -372,7 +372,7 @@
         "message": "<span class=\"message-negative\">Non puoi<\/span> eseguire questa operazione in questo momento, devi attendere il completamento dell'operazione in corso..."
     },
     "tabSwitchUpgradeRequired": {
-        "message": "Devi <strong>aggiornare<\/strong> il firmware all'ultima versione di Betaflight prima di poter usare la sezione $1."
+        "message": "Devi <strong>aggiornare<\/strong> il firmware all'ultima versione di Emuflight prima di poter usare la sezione $1."
     },
     "firmwareVersion": {
         "message": "Versione del Firmware: <strong>$1<\/strong>"
@@ -459,7 +459,7 @@
         "message": "EEPROM <span class=\"message-positive\">salvata<\/span>"
     },
     "defaultWelcomeIntro": {
-        "message": "Benvenuto in<strong> Betaflight - Configurator<\/strong> <br> utility disegnata per aggiornare, configurare e regolare il tuo flight controller in maniera semplice."
+        "message": "Benvenuto in<strong> Emuflight - Configurator<\/strong> <br> utility disegnata per aggiornare, configurare e regolare il tuo flight controller in maniera semplice."
     },
     "defaultWelcomeHead": {
         "message": "Hardware"
@@ -468,10 +468,10 @@
         "message": "Contribuisci"
     },
     "defaultContributingText": {
-        "message": "Se vuoi contribuire a rendere Betaflight ancora migliore puoi aiutare in molti modi, quali:<br \/><ul><li>Rispondere alle domande degli altri utenti sui forum e IRC.<\/li><li>Contribuire a scrivere codice per il firmware ed il configuratore - nuove funzioni, correzioni, miglioramenti<\/li><li>Testare le <a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">nuove funzioni\/correzzioni<\/a> e fornendo feedback.<\/li><li>Aiutare a risolvere<a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\"> problemi e commentare le funzioni richieste<\/a><\/li><li>Collaborare alla <a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\">traduzione del configuratore<\/a> nella tua lingua<\/li><\/ul>"
+        "message": "Se vuoi contribuire a rendere Emuflight ancora migliore puoi aiutare in molti modi, quali:<br \/><ul><li>Rispondere alle domande degli altri utenti sui forum e IRC.<\/li><li>Contribuire a scrivere codice per il firmware ed il configuratore - nuove funzioni, correzioni, miglioramenti<\/li><li>Testare le <a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">nuove funzioni\/correzzioni<\/a> e fornendo feedback.<\/li><li>Aiutare a risolvere<a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\"> problemi e commentare le funzioni richieste<\/a><\/li><li>Collaborare alla <a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\">traduzione del configuratore<\/a> nella tua lingua<\/li><\/ul>"
     },
     "defaultFacebookText": {
-        "message": "Abbiamo anche un <a href=\"https:\/\/www.facebook.com\/groups\/betaflightgroup\/\" target=\"_blank\">gruppo Facebook<\/a>.<br \/>. Unisciti a noi per discutere di Betaflight, fare domande riguardo la configurazione, o semplicemente ritrovarti con altri piloti."
+        "message": "Abbiamo anche un <a href=\"https:\/\/www.facebook.com\/groups\/betaflightgroup\/\" target=\"_blank\">gruppo Facebook<\/a>.<br \/>. Unisciti a noi per discutere di Emuflight, fare domande riguardo la configurazione, o semplicemente ritrovarti con altri piloti."
     },
     "defaultChangelogAction": {
         "message": "Modifiche"
@@ -501,10 +501,10 @@
         "message": "Documentazione \/ Manuale"
     },
     "defaultDocumentation": {
-        "message": "La documentazione Betaflight è disponibile nelle note di versione e wiki.<br \/><br \/>"
+        "message": "La documentazione Emuflight è disponibile nelle note di versione e wiki.<br \/><br \/>"
     },
     "defaultDocumentation1": {
-        "message": "Betaflight wiki è una grande risorsa in cui trovare informazioni, lo trovi <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\">QUI<\/a>."
+        "message": "Emuflight wiki è una grande risorsa in cui trovare informazioni, lo trovi <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\">QUI<\/a>."
     },
     "defaultDocumentation2": {
         "message": "Le informazioni relative alla release per il firmware possono essere lette sulla pagina GitHub delle nuove versioni, <a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\">QUI<\/a>."
@@ -525,19 +525,19 @@
         "message": "<a href=\"http:\/\/www.rcgroups.com\/forums\/showthread.php?t=2464844&page=1\" target=\"_blank\">thread nel forum RC Groups <\/a>"
     },
     "defaultSupport2": {
-        "message": "<a href=\"http:\/\/betaflight.info\" target=\"_blank\">Betaflight Wiki<\/a>"
+        "message": "<a href=\"http:\/\/betaflight.info\" target=\"_blank\">Emuflight Wiki<\/a>"
     },
     "defaultSupport3": {
-        "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\">Joshua Bardwell Betaflight Video<\/a>"
+        "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\">Joshua Bardwell Emuflight Video<\/a>"
     },
     "defaultSupport4": {
         "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
     },
     "defaultSupport5": {
-        "message": "<a href=\"https:\/\/slack.betaflight.com\" target=\"_blank\">sviluppatori Betaflight su slack<\/a>"
+        "message": "<a href=\"https:\/\/slack.betaflight.com\" target=\"_blank\">sviluppatori Emuflight su slack<\/a>"
     },
     "initialSetupBackupAndRestoreApiVersion": {
-        "message": "<span class=\"message-negative\">funzione di Backup e ripristino disabilitata.<\/span>La versione API del tuo Firmware è <span class=\"message-negative\">$1<\/span>, per eseguire backup e ripristino è necessaria la versione<span class=\"message-positive\">$2<\/span>. puoi eseguire il backup dei tuoi settaggi via CLI, vedi la documentazione Betaflight per la procedura."
+        "message": "<span class=\"message-negative\">funzione di Backup e ripristino disabilitata.<\/span>La versione API del tuo Firmware è <span class=\"message-negative\">$1<\/span>, per eseguire backup e ripristino è necessaria la versione<span class=\"message-positive\">$2<\/span>. puoi eseguire il backup dei tuoi settaggi via CLI, vedi la documentazione Emuflight per la procedura."
     },
     "initialSetupButtonCalibrateAccel": {
         "message": "Calibra Accelerometro"
@@ -996,7 +996,7 @@
         "message": "Tono Beacon"
     },
     "configurationDshotBeaconHelp": {
-        "message": "Il beacon Dshot utilizza i regolatori e i motori per produrre il suono. Ciò significa che il beacon Dshot non può essere utilizzato quando i motori girano. In Betaflight 3.4 e successivi, quando si prova ad armare mentre il BEACON Dshot è attivo, si ha un ritardo di 2 secondi dopo l'ultimo beacon prima che il modello sia armato. Questo per impedire che la funzionalità di beacon interferisca con i comandi Dshot inviati quando si arma.<br\/><strong>Attenzione:<\/strong> poiché il beacon Dshot porta corrente attraverso i motori quando è attivo, può provocare surriscaldamento e danni ai motori e \/ o ai regolatori se la forza del beacon è impostata troppo alta. Utilizzare BLHeli Configurator o la Suite BLHeli per regolare e testare la potenza del beacon."
+        "message": "Il beacon Dshot utilizza i regolatori e i motori per produrre il suono. Ciò significa che il beacon Dshot non può essere utilizzato quando i motori girano. In Emuflight 3.4 e successivi, quando si prova ad armare mentre il BEACON Dshot è attivo, si ha un ritardo di 2 secondi dopo l'ultimo beacon prima che il modello sia armato. Questo per impedire che la funzionalità di beacon interferisca con i comandi Dshot inviati quando si arma.<br\/><strong>Attenzione:<\/strong> poiché il beacon Dshot porta corrente attraverso i motori quando è attivo, può provocare surriscaldamento e danni ai motori e \/ o ai regolatori se la forza del beacon è impostata troppo alta. Utilizzare BLHeli Configurator o la Suite BLHeli per regolare e testare la potenza del beacon."
     },
     "configurationBeeper": {
         "message": "Configurazione dei Beep"
@@ -1560,7 +1560,7 @@
         "message": "Anteprima"
     },
     "receiverMspWarningText": {
-        "message": "Questi stick consentono a Betaflight di essere armato e testato senza un radiocomando o una ricevente. Tuttavia, <strong>questa funzionalità non deve essere usata per volare e le eliche devono essere rimosse.<\/strong> <br><br>Questa funzionalità non garantisce un controllo affidabile del vostro modello. <strong>Se le eliche non sono state rimosse si possono provocare GRAVI LESIONI o danni.<\/strong>"
+        "message": "Questi stick consentono a Emuflight di essere armato e testato senza un radiocomando o una ricevente. Tuttavia, <strong>questa funzionalità non deve essere usata per volare e le eliche devono essere rimosse.<\/strong> <br><br>Questa funzionalità non garantisce un controllo affidabile del vostro modello. <strong>Se le eliche non sono state rimosse si possono provocare GRAVI LESIONI o danni.<\/strong>"
     },
     "receiverMspEnableButton": {
         "message": "Abilita i controlli"
@@ -2355,13 +2355,13 @@
         "message": "Messaggio:"
     },
     "firmwareFlasherWarningText": {
-        "message": "Si prega di <span class=\"message-negative\">non<\/span> provare a flashare l'hardware <strong>NON-Betaflight<\/strong> con questo firmware flasher.<br \/> <span class=\"message-negative\">NON<\/span> <strong>disconnettere<\/strong> la scheda e <strong>NON spegnere<\/strong> il tuo computer mentre stai flashando. <br \/> <br \/> <strong>Nota:<\/strong> il bootloader STM32 è memorizzato nella ROM, non può essere formattato. <br \/> <strong>Nota:<\/strong><span class=\"message-negative\"> La connessione automatica<\/span> è sempre disabilitata mentre ci si trova all'interno del firmware flasher. <br \/> <strong>Nota:<\/strong> assicurati di avere un backup; alcuni upgrade\/downgrade cancelleranno la tua configurazione.<br \/><strong>Nota:<\/strong> se hai problemi a flashare il controllore di volo<strong> prova a scollegare prima tutti i cavi<\/strong>, prova a riavviare, aggiorna chrome, aggiorna i driver.<br \/><strong>Nota:<\/strong> quando provi a flashare schede che hanno collegato irettamente le prese USB (le schede più recenti) assicurati di aver letto la sezione USB Flashing del manuale di Betaflight e di aver installato il software e i driver corretti."
+        "message": "Si prega di <span class=\"message-negative\">non<\/span> provare a flashare l'hardware <strong>NON-Betaflight<\/strong> con questo firmware flasher.<br \/> <span class=\"message-negative\">NON<\/span> <strong>disconnettere<\/strong> la scheda e <strong>NON spegnere<\/strong> il tuo computer mentre stai flashando. <br \/> <br \/> <strong>Nota:<\/strong> il bootloader STM32 è memorizzato nella ROM, non può essere formattato. <br \/> <strong>Nota:<\/strong><span class=\"message-negative\"> La connessione automatica<\/span> è sempre disabilitata mentre ci si trova all'interno del firmware flasher. <br \/> <strong>Nota:<\/strong> assicurati di avere un backup; alcuni upgrade\/downgrade cancelleranno la tua configurazione.<br \/><strong>Nota:<\/strong> se hai problemi a flashare il controllore di volo<strong> prova a scollegare prima tutti i cavi<\/strong>, prova a riavviare, aggiorna chrome, aggiorna i driver.<br \/><strong>Nota:<\/strong> quando provi a flashare schede che hanno collegato irettamente le prese USB (le schede più recenti) assicurati di aver letto la sezione USB Flashing del manuale di Emuflight e di aver installato il software e i driver corretti."
     },
     "firmwareFlasherRecoveryHead": {
         "message": "<strong> Recupero \/ comunicazione persa <\/strong>"
     },
     "firmwareFlasherRecoveryText": {
-        "message": "Se hai perso la comunicazione con la tua scheda segui questi passaggi per ripristinare la comunicazione: <ul> <li> Spegni <\/li> <li> Abilita 'Nessuna sequenza di riavvio', attiva 'Cancellazione completa del chip'. <\/li> <li > Ponticellare i pin BOOT o tenere premuto il pulsante BOOT. <\/li> <li> Accendere (il LED di attività NON lampeggia se eseguito correttamente) <\/li> <li> Installa tutti i driver STM32 e Zadig se necessario (vedere sezione <a href = \"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Betaflight\" target = \"_blank\"> USB Flashing<\/a> del manuale di Betaflight). <\/li> <li> Chiudi Configurator, chiudi tutte le istanze di Chrome in esecuzione, chiudi tutte le app di Chrome, riavvia Configurator. <\/li> <li> Rilascia il pulsante BOOT se il tuo FC ne ha uno. <\/li> <li> Flasha con il firmware corretto (utilizzando Baud rate manuale se specificato nel manuale del controllore di volo). <\/li> <li> Spegni. <\/li> <li> Rimuovi il ponticello di BOOT. <\/li> <li>Accendi (il LED di attività dovrebbe lampeggiare). <\/li> <li> Connetti normalmente.<\/li><\/ul>"
+        "message": "Se hai perso la comunicazione con la tua scheda segui questi passaggi per ripristinare la comunicazione: <ul> <li> Spegni <\/li> <li> Abilita 'Nessuna sequenza di riavvio', attiva 'Cancellazione completa del chip'. <\/li> <li > Ponticellare i pin BOOT o tenere premuto il pulsante BOOT. <\/li> <li> Accendere (il LED di attività NON lampeggia se eseguito correttamente) <\/li> <li> Installa tutti i driver STM32 e Zadig se necessario (vedere sezione <a href = \"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Betaflight\" target = \"_blank\"> USB Flashing<\/a> del manuale di Emuflight). <\/li> <li> Chiudi Configurator, chiudi tutte le istanze di Chrome in esecuzione, chiudi tutte le app di Chrome, riavvia Configurator. <\/li> <li> Rilascia il pulsante BOOT se il tuo FC ne ha uno. <\/li> <li> Flasha con il firmware corretto (utilizzando Baud rate manuale se specificato nel manuale del controllore di volo). <\/li> <li> Spegni. <\/li> <li> Rimuovi il ponticello di BOOT. <\/li> <li>Accendi (il LED di attività dovrebbe lampeggiare). <\/li> <li> Connetti normalmente.<\/li><\/ul>"
     },
     "firmwareFlasherButtonLeave": {
         "message": "Lascia il firmware flasher"
@@ -2720,7 +2720,7 @@
         "message": "Potenza esponenziale RC"
     },
     "pidTuningRcExpoPowerHelp": {
-        "message": "L'esponenziale che viene usato per calcolare l'Esponenziale RC. Nelle versioni di Betaflight precedenti alla 3.0, il valore è fissato a 3."
+        "message": "L'esponenziale che viene usato per calcolare l'Esponenziale RC. Nelle versioni di Emuflight precedenti alla 3.0, il valore è fissato a 3."
     },
     "pidTuningLevel": {
         "message": "Angle\/Horizon"
@@ -2864,7 +2864,7 @@
         "message": "Rotazione arbitraria del controllore di volo, per permettere di montarlo di lato, sottosopra, ruotato ecc.. Quando si utilizzano sensori esterni, usa l'allineamento del sensore (Gyro, Acc, Mag) per definire la posizione del sensore indipendente dall'orientamento del controllore di volo."
     },
     "failsafeFeaturesHelpOld": {
-        "message": "La configurazione del Failsafe è cambiata considerevolmente. Usa Betaflight <strong>v1.12.0+<\/strong> per abilitare il pannello di configurazione migliorato."
+        "message": "La configurazione del Failsafe è cambiata considerevolmente. Usa Emuflight <strong>v1.12.0+<\/strong> per abilitare il pannello di configurazione migliorato."
     },
     "failsafePaneTitleOld": {
         "message": "Failsafe della ricevente"
@@ -2993,7 +2993,7 @@
         "message": "Salva"
     },
     "powerFirmwareUpgradeRequired": {
-        "message": "Aggiornamento firmware <span class=\"message-negative\"> richiesto <\/span>. La configurazione di batteria \/ amperaggio \/ voltaggio non è supportato usando API &lt; 1.33.0 (Betaflight release &lt; = 3.17)."
+        "message": "Aggiornamento firmware <span class=\"message-negative\"> richiesto <\/span>. La configurazione di batteria \/ amperaggio \/ voltaggio non è supportato usando API &lt; 1.33.0 (Emuflight release &lt; = 3.17)."
     },
     "powerBatteryVoltageMeterSource": {
         "message": "Sorgente del monitor voltaggio"
@@ -3698,7 +3698,7 @@
         "message": "<b> Derivata dall'errore <\/ b> fornisce una risposta diretta più diretta ed è per lo più preferibile per le corse. <br> <br> <b> La derivata dalla misurazione <\/ b> fornisce una risposta più semplice e più utile per il freestyle"
     },
     "pidTuningPidControllerTip": {
-        "message": "<b>Legacy vs Betaflight (float):<\/b> PID scaling e PID logic sono la stessa cosa. La calibrazione può non essere necessaria. Legacy è la riscrittura del vecchio Betaflight evoluto che è un semplice controller PID basato su numeri Interi. Il controller PID di Betaflight usa calcoli in virgola mobile ed ha molte nuove funzioni disegnate specificamente per i multirotori <br> <b>Float vs Integer:<\/b> PID scaling e PID logic sono la stessa cosa. Calibrazione non richiesta. Le schede F1 non hanno una FPU integrata, i calcoli in virgola mobile aumentato il carico della CPU. I calcoli in numeri Interi migliorano le performance ma i calcoli in virgola mobile possono far guadagnare un po' di precisione."
+        "message": "<b>Legacy vs Emuflight (float):<\/b> PID scaling e PID logic sono la stessa cosa. La calibrazione può non essere necessaria. Legacy è la riscrittura del vecchio Emuflight evoluto che è un semplice controller PID basato su numeri Interi. Il controller PID di Emuflight usa calcoli in virgola mobile ed ha molte nuove funzioni disegnate specificamente per i multirotori <br> <b>Float vs Integer:<\/b> PID scaling e PID logic sono la stessa cosa. Calibrazione non richiesta. Le schede F1 non hanno una FPU integrata, i calcoli in virgola mobile aumentato il carico della CPU. I calcoli in numeri Interi migliorano le performance ma i calcoli in virgola mobile possono far guadagnare un po' di precisione."
     },
     "pidTuningFilterTip": {
         "message": "<b>Filtro Leggero per Giroscopio :<\/b> Filtro Passbasso per giroscopio. Usa valori bassi per un filtraggio maggiore.<br><b>Filtro D Term:<\/b> Filtro Passabasso per Dterm. Può influire sul tuning di D. Usa valori bassi per un filtraggio maggiore. <br><b>Filtro Yaw:<\/b> Filtra il comando yaw. Può aiutare nei setup con asse orizzontale rumoroso"

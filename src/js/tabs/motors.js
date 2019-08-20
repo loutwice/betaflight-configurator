@@ -56,7 +56,7 @@ TABS.motors.initialize = function (callback) {
         $('#content').load("./tabs/motors.html", process_html);
     }
 
-    // Get information from Betaflight
+    // Get information from Emuflight
     if (semver.gte(CONFIG.apiVersion, "1.36.0")) {
         // BF 3.2.0+
         MSP.send_message(MSPCodes.MSP_MOTOR_CONFIG, false, false, get_arm_status);
@@ -616,7 +616,7 @@ TABS.motors.initialize = function (callback) {
                 $('.motor-' + i + ' .indicator', motors_wrapper).css({
                     'margin-top' : margin_top + 'px',
                     'height' : height + 'px',
-                    'background-color' : 'rgba(255,187,0,1.'+ color +')'
+                    'background-color' : 'rgba(34,183,235,1.'+ color +')'
                 });
             }
 
@@ -628,7 +628,7 @@ TABS.motors.initialize = function (callback) {
                 color = parseInt(data * 0.009);
 
                 $('.servo-' + i + ' .label', servos_wrapper).text(SERVO_DATA[i]);
-                $('.servo-' + i + ' .indicator', servos_wrapper).css({'margin-top' : margin_top + 'px', 'height' : height + 'px', 'background-color' : 'rgba(255,187,0,1'+ color +')'});
+                $('.servo-' + i + ' .indicator', servos_wrapper).css({'margin-top' : margin_top + 'px', 'height' : height + 'px', 'background-color' : 'rgba(34,183,235,1'+ color +')'});
             }
             //keep the following here so at least we get a visual cue of our motor setup
             update_arm_status();
