@@ -92,7 +92,7 @@ var MSPCodes = {
     MSP_ANALOG:                     110,
     MSP_RC_TUNING:                  111,
     MSP_PID:                        112,
-    //MSP_BOX:                        113, // DEPRECATED 
+    //MSP_BOX:                        113, // DEPRECATED
     MSP_MISC:                       114, // DEPRECATED
     MSP_BOXNAMES:                   116,
     MSP_PIDNAMES:                   117,
@@ -161,5 +161,11 @@ var MSPCodes = {
 
     MSP_EEPROM_WRITE:               250,
     MSP_DEBUGMSG:                   253, // Not used
-    MSP_DEBUG:                      254
+    MSP_DEBUG:                      254,
+
+    MSP_SET_FAST_KALMAN:            255,
+    MSP_SET_IMUF_CONFIG:            256,
+    MSP_FAST_KALMAN:                257,
+    MSP_IMUF_CONFIG:                258,
+    MSP_IMUF_INFO:                  259
 };

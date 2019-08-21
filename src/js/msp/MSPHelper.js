@@ -909,7 +909,7 @@ MspHelper.prototype.process_data = function(dataHandler) {
                     RX_CONFIG.airModeActivateThreshold = 0;
                 }
 
-                
+
                 break;
 
             case MSPCodes.MSP_FAILSAFE_CONFIG:
@@ -949,7 +949,7 @@ MspHelper.prototype.process_data = function(dataHandler) {
                         let gyroUse32kHz = data.readU8();
                         if (semver.lt(CONFIG.apiVersion, "1.41.0")) {
                             PID_ADVANCED_CONFIG.gyroUse32kHz = gyroUse32kHz;
-                        } 
+                        }
                         if (semver.gte(CONFIG.apiVersion, "1.42.0")) {
                             PID_ADVANCED_CONFIG.motorPwmInversion = data.readU8();
                             PID_ADVANCED_CONFIG.gyroToUse = data.readU8();
@@ -1008,6 +1008,20 @@ MspHelper.prototype.process_data = function(dataHandler) {
                     }
                 }
                 break;
+                case MSPCodes.MSP_FAST_KALMAN:
+                KALMAN_FILTER_CONFIG.gyro_filter_q = data.readU16();
+                KALMAN_FILTER_CONFIG.gyro_filter_r = data.readU16();
+                break;
+            case MSPCodes.MSP_IMUF_CONFIG:
+                IMUF_FILTER_CONFIG.imuf_mode = data.readU16();
+                IMUF_FILTER_CONFIG.imuf_roll_q = data.readU16();
+                IMUF_FILTER_CONFIG.imuf_pitch_q = data.readU16();
+                IMUF_FILTER_CONFIG.imuf_yaw_q = data.readU16();
+                IMUF_FILTER_CONFIG.imuf_w = data.readU16();
+                IMUF_FILTER_CONFIG.imuf_pitch_lpf_cutoff_hz = data.readU16();
+                IMUF_FILTER_CONFIG.imuf_roll_lpf_cutoff_hz = data.readU16();
+                IMUF_FILTER_CONFIG.imuf_yaw_lpf_cutoff_hz = data.readU16();
+                break;
             case MSPCodes.MSP_SET_PID_ADVANCED:
                 console.log("Advanced PID settings saved");
                 break;
@@ -1052,7 +1066,7 @@ MspHelper.prototype.process_data = function(dataHandler) {
                                     ADVANCED_TUNING.feedforwardPitch = data.readU16();
                                     ADVANCED_TUNING.feedforwardYaw   = data.readU16();
                                     ADVANCED_TUNING.antiGravityMode  = data.readU8();
-                                    
+
                                     if (semver.gte(CONFIG.apiVersion, "1.41.0")) {
                                         ADVANCED_TUNING.dMinRoll = data.readU8();
                                         ADVANCED_TUNING.dMinPitch = data.readU8();
@@ -1836,7 +1850,7 @@ MspHelper.prototype.crunch = function(code) {
                                           .push8(ADVANCED_TUNING.dMinAdvance)
                                           .push8(ADVANCED_TUNING.useIntegratedYaw)
                                           .push8(ADVANCED_TUNING.integratedYawRelax);
-                                          
+
                                     if(semver.gte(CONFIG.apiVersion, "1.42.0")) {
                                         buffer.push8(ADVANCED_TUNING.itermRelaxCutoff);
                                     }
@@ -2099,7 +2113,7 @@ MspHelper.prototype.sendModeRanges = function(onCompleteCallback) {
 
         if (semver.gte(CONFIG.apiVersion, "1.41.0")) {
             var modeRangeExtra = MODE_RANGES_EXTRA[modeRangeIndex];
-            
+
             buffer.push8(modeRangeExtra.modeLogic)
                 .push8(modeRangeExtra.linkedTo);
         }
@@ -2153,7 +2167,7 @@ MspHelper.prototype.sendVoltageConfig = function(onCompleteCallback) {
     var nextFunction = send_next_voltage_config;
 
     var configIndex = 0;
-    
+
     if (VOLTAGE_METER_CONFIGS.length == 0) {
         onCompleteCallback();
     } else {
@@ -2184,7 +2198,7 @@ MspHelper.prototype.sendCurrentConfig = function(onCompleteCallback) {
     var nextFunction = send_next_current_config;
 
     var configIndex = 0;
-    
+
     if (CURRENT_METER_CONFIGS.length == 0) {
         onCompleteCallback();
     } else {
