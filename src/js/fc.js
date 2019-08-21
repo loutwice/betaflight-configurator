@@ -55,6 +55,8 @@ var GPS_RESCUE;
 var RXFAIL_CONFIG;
 var PID_ADVANCED_CONFIG;
 var FILTER_CONFIG;
+var IMUF_FILTER_CONFIG;
+var KALMAN_FILTER_CONFIG;
 var ADVANCED_TUNING;
 var SENSOR_CONFIG;
 var COPY_PROFILE;
@@ -109,7 +111,7 @@ var FC = {
             dstProfile:                 0,
             srcProfile:                 0,
         };
-        
+
         FEATURE_CONFIG = {
             features:                   0,
         };
@@ -119,11 +121,11 @@ var FC = {
             dshotBeaconTone:            0,
             dshotBeaconConditions:      0,
         };
-        
+
         MIXER_CONFIG = {
             mixer:                      0,
             reverseMotorDir:            0,
-        }; 
+        };
 
         BOARD_ALIGNMENT_CONFIG = {
             roll:                       0,
@@ -391,6 +393,20 @@ var FC = {
             dyn_notch_q:                0,
             dyn_notch_min_hz:           0,
         };
+        IMUF_FILTER_CONFIG = {
+                  imuf_mode:                0,
+                  imuf_roll_q:              0,
+                  imuf_pitch_q:             0,
+                  imuf_yaw_q:               0,
+                  imuf_w:                   0,
+                  imuf_roll_lpf_cutoff_hz:  0,
+                  imuf_pitch_lpf_cutoff_hz: 0,
+                  imuf_yaw_lpf_cutoff_hz:   0
+              }
+        KALMAN_FILTER_CONFIG = {
+                  gyro_filter_q:            0,
+                  gyro_filter_r:            0,
+              };
 
         ADVANCED_TUNING = {
             rollPitchItermIgnoreRate:   0,
@@ -455,7 +471,7 @@ var FC = {
             fpvCamAngleDegrees:           0,
             rcSmoothingType:              0,
             rcSmoothingInputCutoff:       0,
-            rcSmoothingDerivativeCutoff:  0, 
+            rcSmoothingDerivativeCutoff:  0,
             rcSmoothingInputType:         0,
             rcSmoothingDerivativeType:    0,
         };
