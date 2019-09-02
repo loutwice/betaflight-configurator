@@ -1,11 +1,7 @@
 {
     "manifest_version": 2,
     "minimum_chrome_version": "49",
-<<<<<<< HEAD
-    "version": "0.0.2",
-=======
     "version": "0.0.3",
->>>>>>> b81b7259... fixing pid filter tab
     "author": "Emuflight Squad",
     "name": "Emuflight - Configurator",
     "short_name": "Emuflight",

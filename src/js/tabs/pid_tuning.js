@@ -201,23 +201,6 @@ TABS.pid_tuning.initialize = function (callback) {
 
           if (CONFIG.boardIdentifier !== "HESP" && CONFIG.boardIdentifier !== "SX10" && CONFIG.boardIdentifier !== "FLUX") {
 
-<<<<<<< HEAD
-                          $('.pid_filter input[name="kalmanQCoefficient"]').val(KALMAN_FILTER_CONFIG.gyro_filter_q);
-                          $('.pid_filter input[name="kalmanRCoefficient"]').val(KALMAN_FILTER_CONFIG.gyro_filter_r);
-
-                      } else {
-                          $('#imuf_roll_q').val(IMUF_FILTER_CONFIG.imuf_roll_q);
-                          $('#imuf_pitch_q').val(IMUF_FILTER_CONFIG.imuf_pitch_q);
-                          $('#imuf_yaw_q').val(IMUF_FILTER_CONFIG.imuf_yaw_q);
-                          $('#imuf_w').val(IMUF_FILTER_CONFIG.imuf_w);
-
-                          //Only show HELIO SPRING compatible settings
-
-                          $('.kalmanFilterSettingsPanel').hide();
-
-                          $('#imufFilterSettingsPanel').show();
-                      }
-=======
                             $('.kalmanFilterSettingsPanel').show();
 
                         $('.pid_filter input[name="kalmanQCoefficient"]').val(KALMAN_FILTER_CONFIG.gyro_filter_q);
@@ -235,7 +218,6 @@ TABS.pid_tuning.initialize = function (callback) {
                         $('#imufFilterSettingsPanel').show();
                     }
 
->>>>>>> b81b7259... fixing pid filter tab
 
 
             // I Term Rotation
@@ -1513,17 +1495,6 @@ TABS.pid_tuning.initialize = function (callback) {
             }).then(function () {
                 return MSP.promise(MSPCodes.MSP_SET_FILTER_CONFIG, mspHelper.crunch(MSPCodes.MSP_SET_FILTER_CONFIG));
               }).then(function () {
-<<<<<<< HEAD
-                            if (semver.gte(CONFIG.apiVersion, "1.40.0")) {
-                                if(CONFIG.boardIdentifier !== "HESP" && CONFIG.boardIdentifier !== "SX10" && CONFIG.boardIdentifier !== "FLUX") {
-                                    if (isKalmanFilterSelected()) {
-                                        return MSP.promise(MSPCodes.MSP_SET_FAST_KALMAN, mspHelper.crunch(MSPCodes.MSP_SET_FAST_KALMAN));
-                                    }
-                                } else {
-                                    return MSP.promise(MSPCodes.MSP_SET_IMUF_CONFIG, mspHelper.crunch(MSPCodes.MSP_SET_IMUF_CONFIG));
-                                }
-                            }
-=======
                               if (semver.gte(CONFIG.apiVersion, "1.40.0")) {
                                   if(CONFIG.boardIdentifier !== "HESP" && CONFIG.boardIdentifier !== "SX10" && CONFIG.boardIdentifier !== "FLUX") {
                                       //if (isKalmanFilterSelected()) {
@@ -1533,7 +1504,6 @@ TABS.pid_tuning.initialize = function (callback) {
                                       return MSP.promise(MSPCodes.MSP_SET_IMUF_CONFIG, mspHelper.crunch(MSPCodes.MSP_SET_IMUF_CONFIG));
                                   }
                               }
->>>>>>> b81b7259... fixing pid filter tab
             }).then(function () {
                 return MSP.promise(MSPCodes.MSP_SET_RC_TUNING, mspHelper.crunch(MSPCodes.MSP_SET_RC_TUNING));
             }).then(function () {

@@ -9,13 +9,6 @@
 # ${DEST_FOLDER} - Destination folder for the installer files
 
 # Some definitions
-<<<<<<< HEAD
-!define SOURCE_FILES          "..\..\apps\emuflight-configurator\${PLATFORM}\*"
-!define APP_NAME              "Emuflight Configurator"
-!define COMPANY_NAME          "The Emuflight open source project."
-!define GROUP_NAME            "Emuglight"
-!define FOLDER_NAME           "Emuglight-Configurator"
-=======
 !define VERSION               "0.0.3"
 !define PLATFORM              "win32"
 !define DEST_FOLDER           "apps"
@@ -24,7 +17,6 @@
 !define COMPANY_NAME          "The Emuflight open source project."
 !define GROUP_NAME            "Emuflight"
 !define FOLDER_NAME           "emuflight-configurator"
->>>>>>> b81b7259... fixing pid filter tab
 !define FILE_NAME_INSTALLER   "emuflight-configurator-installer_${VERSION}_${PLATFORM}.exe"
 !define FILE_NAME_UNINSTALLER "uninstall-emuflight-configurator.exe"
 !define FILE_NAME_EXECUTABLE  "emuflight-configurator.exe"

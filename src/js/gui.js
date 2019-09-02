@@ -339,11 +339,7 @@ GUI_control.prototype.content_ready = function (callback) {
         // Build link to in-use CF version documentation
         var documentationButton = $('div#content #button-documentation');
         documentationButton.html("Wiki");
-<<<<<<< HEAD
         documentationButton.attr("href","https://github.com/emuflight/emuflight/wiki");
-=======
-        documentationButton.attr("href","https://github.comemuflightbetaflight/wiki");
->>>>>>> b81b7259... fixing pid filter tab
     }
 
     // loading tooltip

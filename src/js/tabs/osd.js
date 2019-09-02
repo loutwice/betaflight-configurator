@@ -1330,11 +1330,7 @@ OSD.constants = {
         { file: "bold", name: "Bold" },
         { file: "large", name: "Large" },
         { file: "extra_large", name: "Extra Large" },
-<<<<<<< HEAD
         { file: "emuflight", name: "Emuflight" },
-=======
-        { file: "betaflight", name: "Emuflight" },
->>>>>>> b81b7259... fixing pid filter tab
         { file: "digital", name: "Digital" },
         { file: "clarity", name: "Clarity" },
         { file: "vision", name: "Vision" },

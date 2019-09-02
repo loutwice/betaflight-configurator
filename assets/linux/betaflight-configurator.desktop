@@ -1,13 +1,8 @@
 [Desktop Entry]
 Name=Emuflight Configurator
 Comment=Crossplatform configuration tool for the Emuflight flight control system
-<<<<<<< HEAD
 Exec=/opt/emuflight/emuflight-configurator/emuflight-configurator
 Icon=/opt/emuflight/emuflight-configurator/icon/emu_icon_128.png
-=======
-Exec=/optemuflightemuflight-configurator/emuflight-configurator
-Icon=/optemuflightemuflight-configurator/icon/emu_icon_128.png
->>>>>>> b81b7259... fixing pid filter tab
 Terminal=false
 Type=Application
 Categories=Utility
