@@ -545,7 +545,11 @@ function startProcess() {
 };
 
 function checkForConfiguratorUpdates() {
+<<<<<<< HEAD
     var releaseChecker = new ReleaseChecker('configurator', 'https://api.github.com/repos/emuflight/emuflight-configurator/releases');
+=======
+    var releaseChecker = new ReleaseChecker('configurator', 'https://api.github.com/repos/Emuflight/emuflight-configurator/releases');
+>>>>>>> b81b7259... fixing pid filter tab
 
     releaseChecker.loadReleaseData(notifyOutdatedVersion);
 }

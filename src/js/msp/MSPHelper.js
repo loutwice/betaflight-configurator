@@ -1391,12 +1391,18 @@ MspHelper.prototype.process_data = function(dataHandler) {
             case MSPCodes.MSP_COPY_PROFILE:
                 console.log('Copy profile');
                 break;
-            case MSPCodes.MSP_ARMING_DISABLE:
+            case MSPCodes.MSP_SET_ARMING_DISABLED:
                 console.log('Arming disable');
                 break;
             case MSPCodes.MSP_SET_RTC:
                 console.log('Real time clock set');
                 break;
+            case MSPCodes.MSP_SET_FAST_KALMAN:
+                console.log('kalman filter set');
+                break;
+                case MSPCodes.MSP_SET_IMUF_CONFIG:
+                    console.log('imuf filter set');
+                    break;
             default:
                 console.log('Unknown code detected: ' + code);
         } else {
@@ -1797,6 +1803,20 @@ MspHelper.prototype.crunch = function(code) {
                 }
             }
             break;
+            case MSPCodes.MSP_SET_FAST_KALMAN:
+            buffer.push16(KALMAN_FILTER_CONFIG.gyro_filter_q);
+            buffer.push16(KALMAN_FILTER_CONFIG.gyro_filter_r);
+            break;
+        case MSPCodes.MSP_SET_IMUF_CONFIG:
+            buffer.push16(IMUF_FILTER_CONFIG.imuf_mode);
+            buffer.push16(IMUF_FILTER_CONFIG.imuf_roll_q);
+            buffer.push16(IMUF_FILTER_CONFIG.imuf_pitch_q);
+            buffer.push16(IMUF_FILTER_CONFIG.imuf_yaw_q);
+            buffer.push16(IMUF_FILTER_CONFIG.imuf_w);
+            buffer.push16(IMUF_FILTER_CONFIG.imuf_pitch_lpf_cutoff_hz);
+            buffer.push16(IMUF_FILTER_CONFIG.imuf_roll_lpf_cutoff_hz);
+            buffer.push16(IMUF_FILTER_CONFIG.imuf_yaw_lpf_cutoff_hz);
+            break;
         case MSPCodes.MSP_SET_PID_ADVANCED:
             if (semver.gte(CONFIG.apiVersion, "1.20.0")) {
                 buffer.push16(ADVANCED_TUNING.rollPitchItermIgnoreRate)
@@ -1896,7 +1916,7 @@ MspHelper.prototype.crunch = function(code) {
                 .push8(COPY_PROFILE.dstProfile)
                 .push8(COPY_PROFILE.srcProfile);
             break;
-        case MSPCodes.MSP_ARMING_DISABLE:
+        case MSPCodes.MSP_SET_ARMING_DISABLED:
             var value;
             if (CONFIG.armingDisabled) {
                 value = 1;
@@ -2433,7 +2453,7 @@ MspHelper.prototype.setArmingEnabled = function(doEnable, disableRunawayTakeoffP
         CONFIG.armingDisabled = !doEnable;
         CONFIG.runawayTakeoffPreventionDisabled = disableRunawayTakeoffPrevention;
 
-        MSP.send_message(MSPCodes.MSP_ARMING_DISABLE, mspHelper.crunch(MSPCodes.MSP_ARMING_DISABLE), false, function () {
+        MSP.send_message(MSPCodes.MSP_SET_ARMING_DISABLED, mspHelper.crunch(MSPCodes.MSP_SET_ARMING_DISABLED), false, function () {
             if (doEnable) {
                 GUI.log(i18n.getMessage('armingEnabled'));
                 if (disableRunawayTakeoffPrevention) {

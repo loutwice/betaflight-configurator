@@ -1,4 +1,4 @@
-# Builds Betaflight Configurator on Windows, Linux and OSX platforms.
+# Builds Emuflight Configurator on Windows, Linux and OSX platforms.
 #
 # After building, artifacts are released to a seperate repository.
 #
@@ -42,7 +42,7 @@ jobs:
   - task: PublishPipelineArtifact@0
     displayName: 'Publish Windows release'
     inputs: 
-      artifactName: betaflight-configurator-windows
+      artifactName: emuflight-configurator-windows
       targetPath: '$(System.DefaultWorkingDirectory)/release'
 
 - job: 'Linux'
@@ -71,7 +71,7 @@ jobs:
   - task: PublishPipelineArtifact@0
     displayName: 'Publish Linux release'
     inputs: 
-      artifactName: betaflight-configurator-linux
+      artifactName: emuflight-configurator-linux
       targetPath: '$(System.DefaultWorkingDirectory)/release'
 
 - job: 'MacOS'
@@ -100,5 +100,5 @@ jobs:
   - task: PublishPipelineArtifact@0
     displayName: 'Publish MacOS release'
     inputs: 
-      artifactName: betaflight-configurator-macos
+      artifactName: emuflight-configurator-macos
       targetPath: '$(System.DefaultWorkingDirectory)/release'

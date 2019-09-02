@@ -471,7 +471,7 @@
         "message": "Pridonošenje"
     },
     "defaultContributingText": {
-        "message": "Ako biste htjeli Emuflight učinit još boljim možete pomoći na razne načine, uključujući:<br \/><ul><li>Odgovaranjem na upite drugih korisnika na forumima i IRC-u<\/li><li>Dodavanjem programskog koda firmwareu i konfiguratoru - nove mogućnosti, popravci i nadogradnje<\/li><li>Testiranjem <a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">novih mogućnosti<\/a> i davanje povratnih informacija.<\/li><li>Pomaganjem <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">problemima i komentiranjem na nove <\/a>.<\/li><li>Kolaboracijom u <a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\">prevođenju aplikacije za konfiguriranje<\/a> na svoj jezik.<\/li><li><\/li><\/ul>"
+        "message": "Ako biste htjeli Emuflight učinit još boljim možete pomoći na razne načine, uključujući:<br \/><ul><li>Odgovaranjem na upite drugih korisnika na forumima i IRC-u<\/li><li>Dodavanjem programskog koda firmwareu i konfiguratoru - nove mogućnosti, popravci i nadogradnje<\/li><li>Testiranjem <a href=\"https:\/\/github.com\/Emuflight\/betaflight\/pulls\" target=\"_blank\">novih mogućnosti<\/a> i davanje povratnih informacija.<\/li><li>Pomaganjem <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">problemima i komentiranjem na nove <\/a>.<\/li><li>Kolaboracijom u <a href=\"https:\/\/crowdin.com\/project\/emuflight-configurator\" target=\"_blank\">prevođenju aplikacije za konfiguriranje<\/a> na svoj jezik.<\/li><li><\/li><\/ul>"
     },
     "defaultFacebookText": {
         "message": "Imamo i svoju <a href=\"https:\/\/www.facebook.com\/groups\/betaflightgroup\/\" target=\"_blank\">Facebook grupu<\/a>.<br \/>Pridružite nam se i postavite pitanja o Emuflightu, konfiguriranju i ostalom."
@@ -492,7 +492,7 @@
         "message": "Napomena za doniranje"
     },
     "defaultDonateText": {
-        "message": "<p><strong>Betaflight<\/strong> je software za kontrolere leta koji je <strong>open source<\/strong>, potpuno je besplatan i <strong>bez garancije<\/strong> za sve korisnike.<\/p><p>Ako su vam Emuflight ili Emuflight konfigurator poslužili svrsi, <strong>podržite<\/strong> daljnji razvoj donacijom.<\/p>"
+        "message": "<p><strong>Emuflight<\/strong> je software za kontrolere leta koji je <strong>open source<\/strong>, potpuno je besplatan i <strong>bez garancije<\/strong> za sve korisnike.<\/p><p>Ako su vam Emuflight ili Emuflight konfigurator poslužili svrsi, <strong>podržite<\/strong> daljnji razvoj donacijom.<\/p>"
     },
     "defaultDonateBottom": {
         "message": "<p>Ako želite doprinjeti financiski na mjesečnoj bazi, razmislite o doniranju putem <a href='https:\/\/www.patreon.com\/betaflight'>Patreona<\/a>.<\/p>"
@@ -513,7 +513,7 @@
         "message": "Emuflight wiki je odličan izvor informacija, može se naći <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\">ovdje<\/a>."
     },
     "defaultDocumentation2": {
-        "message": "Napomene izdanja za firmware možete pročitati na GitHubu <a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\">ovdje<\/a>."
+        "message": "Napomene izdanja za firmware možete pročitati na GitHubu <a href=\"https:\/\/github.com\/Emuflight\/Emuflight\/releases\" target=\"_blank\">ovdje<\/a>."
     },
     "defaultSupportHead": {
         "message": "Podrška"
@@ -537,7 +537,7 @@
         "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\">Joshua Bardwell Emuflight Videos<\/a>"
     },
     "defaultSupport4": {
-        "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
+        "message": "<a href=\"https:\/\/github.com\/Emuflight\" target=\"_blank\">GitHub<\/a>"
     },
     "defaultSupport5": {
         "message": "<a href=\"https:\/\/slack.betaflight.com\" target=\"_blank\">Emuflight developeri na Slack platformi<\/a>"
@@ -2526,7 +2526,7 @@
         "message": "<strong>Oporavljanje \/ Izgubljena komunikacija<\/strong>"
     },
     "firmwareFlasherRecoveryText": {
-        "message": "Ako ste izgubili komunikaciju s pločom, pratite ove korake kako biste ponovno uspostavili komunikaciju <ul><li>Isključite sve<\/li><li>Omogučite 'Bez sekvence ponovnog pokretanja<\/li><li>Prespojite BOOT pinove ili držite BOOT tipku<\/li><li>Uključite (LED lampica aktivnosti ne bi trebala treptati).<\/li><li>Instalirajte sve STM32 drivere i Zadig ako je potrebno (pogledajte <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Betaflight\"target=\"_blank\">'USB Flashing'<\/a> poglavlje u Emuflight uputstvima).<\/li><li>Zatvorite konfigurator, sve Chrome prozore, sve Chrome aplikacije i ponovno pokrenite konfigurator<\/li><li>Pustite BOOT tipku ako ju vaš FC ima.<\/li><li>Ažurirajte kontroler ispravnim firmwareom (koristeći ručno postavljen baud rate ako kontroler tako zahtjeva) <\/li><li>Isključite sve.<\/li><li>Uklonite BOOT prespojnicu<\/li><li>Uključite (LED lampica aktivnosti bi trebala treperiti).<\/li><li>Normalno se povežite.<\/li><\/ul>"
+        "message": "Ako ste izgubili komunikaciju s pločom, pratite ove korake kako biste ponovno uspostavili komunikaciju <ul><li>Isključite sve<\/li><li>Omogučite 'Bez sekvence ponovnog pokretanja<\/li><li>Prespojite BOOT pinove ili držite BOOT tipku<\/li><li>Uključite (LED lampica aktivnosti ne bi trebala treptati).<\/li><li>Instalirajte sve STM32 drivere i Zadig ako je potrebno (pogledajte <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Emuflight\"target=\"_blank\">'USB Flashing'<\/a> poglavlje u Emuflight uputstvima).<\/li><li>Zatvorite konfigurator, sve Chrome prozore, sve Chrome aplikacije i ponovno pokrenite konfigurator<\/li><li>Pustite BOOT tipku ako ju vaš FC ima.<\/li><li>Ažurirajte kontroler ispravnim firmwareom (koristeći ručno postavljen baud rate ako kontroler tako zahtjeva) <\/li><li>Isključite sve.<\/li><li>Uklonite BOOT prespojnicu<\/li><li>Uključite (LED lampica aktivnosti bi trebala treperiti).<\/li><li>Normalno se povežite.<\/li><\/ul>"
     },
     "firmwareFlasherButtonLeave": {
         "message": "Napusti firmware flasher"

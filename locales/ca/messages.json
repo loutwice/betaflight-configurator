@@ -441,7 +441,7 @@
         "message": "Contribuir"
     },
     "defaultContributingText": {
-        "message": "Si vols contribuir a fer un Emuflight encara millor pots ajudar de diverses maneres, incloent:<br \/><ul><li>Responent a altres usuaris les preguntes als forums i IRC.<\/li><li>Aportant codi al firmware i configurador - noves caracteristiques, solucions, millores<\/li><li>Proves <a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">noves caracteristiques\/solucions<\/a> i facilitant feedback.<\/li><li>Ajudar amb <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">problemes i comentar sol·licituds de funcions<\/a>.<\/li><li><\/li><\/ul>Coŀlabora traduint <a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\">al teu idioma.<\/li><li><\/li><\/ul>"
+        "message": "Si vols contribuir a fer un Emuflight encara millor pots ajudar de diverses maneres, incloent:<br \/><ul><li>Responent a altres usuaris les preguntes als forums i IRC.<\/li><li>Aportant codi al firmware i configurador - noves caracteristiques, solucions, millores<\/li><li>Proves <a href=\"https:\/\/github.com\/Emuflight\/betaflight\/pulls\" target=\"_blank\">noves caracteristiques\/solucions<\/a> i facilitant feedback.<\/li><li>Ajudar amb <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">problemes i comentar sol·licituds de funcions<\/a>.<\/li><li><\/li><\/ul>Coŀlabora traduint <a href=\"https:\/\/crowdin.com\/project\/emuflight-configurator\" target=\"_blank\">al teu idioma.<\/li><li><\/li><\/ul>"
     },
     "defaultChangelogAction": {
         "message": "Canvis"
@@ -471,7 +471,7 @@
         "message": "La wiki de Emuflight és una gran font d'informació. La pots trobar <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\">aquí<\/a>."
     },
     "defaultDocumentation2": {
-        "message": "Les notes de llançament del firmware es poden llegir a la pàgina de novetats de GitHub, <a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\">aquí<\/a>."
+        "message": "Les notes de llançament del firmware es poden llegir a la pàgina de novetats de GitHub, <a href=\"https:\/\/github.com\/Emuflight\/Emuflight\/releases\" target=\"_blank\">aquí<\/a>."
     },
     "defaultSupportHead": {
         "message": "Suport"
@@ -495,7 +495,7 @@
         "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\">Videos de Emuflight de Joshua Bardwell<\/a>"
     },
     "defaultSupport4": {
-        "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
+        "message": "<a href=\"https:\/\/github.com\/Emuflight\" target=\"_blank\">GitHub<\/a>"
     },
     "defaultSupport5": {
         "message": "<a href=\"http:\/\/betaflight.tk\/slack\" target=\"_blank\">Desenvolupadors Emuflight a slack<\/a>"
@@ -2091,13 +2091,13 @@
         "message": "Missatge:"
     },
     "firmwareFlasherWarningText": {
-        "message": "Si us plau, <span class=\"message-negative\">no<\/span> intenteu flashejar el maquinari <strong>no-Betaflight<\/strong> amb aquest firmware flasher.<br \/><span class=\"message-negative\">No<\/span> <strong>desconnecteu<\/strong> la FC o <strong>desactiveu<\/strong> l'ordinador mentre flasheja.<br \/><br \/><strong>Nota: <\/strong>STM32 bootloader s'emmagatzema en ROM, no es pot brickejar. <br \/><strong>Nota: <\/strong><span class=\"message-negative\">Connectar automàticament<\/span> sempre està desactivat mentre es troba dins del firmware flasher.<br \/><strong>Nota: <\/strong>Assegureu-vos que teniu una còpia de seguretat; les actualitzacions \/ downgrades esborraran la teva configuració.<br \/><strong>Nota:<\/strong> si teniu problemes per flashejar <strong>proveu de desconnectar tots els cables del FC<\/strong> intenteu reiniciar, actualitzeu Chrome, actualitzeu controladors.<br \/> <strong>Nota:<\/strong> Quan flashejis les cpmtrpñadpres que connecten directament als ports USB (la majoria de les controladores més noves), assegureu-vos de llegir la secció USB Flashing del manual Emuflight i instal·lar el programari i controladors correctes"
+        "message": "Si us plau, <span class=\"message-negative\">no<\/span> intenteu flashejar el maquinari <strong>no-Emuflight<\/strong> amb aquest firmware flasher.<br \/><span class=\"message-negative\">No<\/span> <strong>desconnecteu<\/strong> la FC o <strong>desactiveu<\/strong> l'ordinador mentre flasheja.<br \/><br \/><strong>Nota: <\/strong>STM32 bootloader s'emmagatzema en ROM, no es pot brickejar. <br \/><strong>Nota: <\/strong><span class=\"message-negative\">Connectar automàticament<\/span> sempre està desactivat mentre es troba dins del firmware flasher.<br \/><strong>Nota: <\/strong>Assegureu-vos que teniu una còpia de seguretat; les actualitzacions \/ downgrades esborraran la teva configuració.<br \/><strong>Nota:<\/strong> si teniu problemes per flashejar <strong>proveu de desconnectar tots els cables del FC<\/strong> intenteu reiniciar, actualitzeu Chrome, actualitzeu controladors.<br \/> <strong>Nota:<\/strong> Quan flashejis les cpmtrpñadpres que connecten directament als ports USB (la majoria de les controladores més noves), assegureu-vos de llegir la secció USB Flashing del manual Emuflight i instal·lar el programari i controladors correctes"
     },
     "firmwareFlasherRecoveryHead": {
         "message": "<strong>Recuperació \/ Comunicació perduda<\/strong>"
     },
     "firmwareFlasherRecoveryText": {
-        "message": "Si has perdut comunicació amb la teva controladora segueix aquests passos: <ul><li>Apaga<\/li><li>Habilita \"No seqüència de reinici\", habilita \"Full chip erase\"<\/li><li>Creua els pins de boot o prem el botó.<\/li><li>Engega (El led d'activitat no ha de parpellejar si ho has fet correctament).<\/li><li>Instaŀla els drivers STM32 i Zadig si es requereix (mira a la secció de <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Betaflight\"target=\"_blank\">flasheig USB<\/a> del manual).<\/li><li>Tanca el configurador, Tanca totes les apps de Chrome, Reinicia el configurador.<\/li><li>Deixa anar el botó de Boot si en tens.<\/li><li>Flasheja el firmware correcte (Amb velocitat de bauds manual si així ho necessites).<\/li><li>Apaga.<\/li><li>Treu el boot dels pins.<\/li><li>Engega (El led d'activitat ha de parpellejar).<\/li><li>Connecta amb normalitat.<\/li><\/ul>"
+        "message": "Si has perdut comunicació amb la teva controladora segueix aquests passos: <ul><li>Apaga<\/li><li>Habilita \"No seqüència de reinici\", habilita \"Full chip erase\"<\/li><li>Creua els pins de boot o prem el botó.<\/li><li>Engega (El led d'activitat no ha de parpellejar si ho has fet correctament).<\/li><li>Instaŀla els drivers STM32 i Zadig si es requereix (mira a la secció de <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Emuflight\"target=\"_blank\">flasheig USB<\/a> del manual).<\/li><li>Tanca el configurador, Tanca totes les apps de Chrome, Reinicia el configurador.<\/li><li>Deixa anar el botó de Boot si en tens.<\/li><li>Flasheja el firmware correcte (Amb velocitat de bauds manual si així ho necessites).<\/li><li>Apaga.<\/li><li>Treu el boot dels pins.<\/li><li>Engega (El led d'activitat ha de parpellejar).<\/li><li>Connecta amb normalitat.<\/li><\/ul>"
     },
     "firmwareFlasherButtonLeave": {
         "message": "Surt del flashejador de Firmware"

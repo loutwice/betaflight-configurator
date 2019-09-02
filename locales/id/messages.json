@@ -474,7 +474,7 @@
         "message": "Berkontribusi"
     },
     "defaultContributingText": {
-        "message": "Jika anda ingin menjadikan Emuflight jadi lebih baik, anda bisa membantu dengan bermacam cara, termasuk:<br\/><ul> <li>Menjawab pertanyaan pengguna lainnya di forum dan IRC.<\/li> <li>Menyumbang kode ke firmware dan configurator - fitur baru, perbaikan, peningkatan<\/li><li>Menguji<a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">fitur baru\/perbaikan<\/a> dan memberikan umpan balik.<\/li><li>Membantu dengan <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">Menerbitkan dan memberikan komentar pada permintaan fitur<\/a>.<\/li><li>Berkolaborasi dengan <a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\">menerjemahkan aplikasi configurasi<\/a> ke bahasa anda.<\/li><li><\/li><\/ul>"
+        "message": "Jika anda ingin menjadikan Emuflight jadi lebih baik, anda bisa membantu dengan bermacam cara, termasuk:<br\/><ul> <li>Menjawab pertanyaan pengguna lainnya di forum dan IRC.<\/li> <li>Menyumbang kode ke firmware dan configurator - fitur baru, perbaikan, peningkatan<\/li><li>Menguji<a href=\"https:\/\/github.com\/Emuflight\/betaflight\/pulls\" target=\"_blank\">fitur baru\/perbaikan<\/a> dan memberikan umpan balik.<\/li><li>Membantu dengan <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">Menerbitkan dan memberikan komentar pada permintaan fitur<\/a>.<\/li><li>Berkolaborasi dengan <a href=\"https:\/\/crowdin.com\/project\/emuflight-configurator\" target=\"_blank\">menerjemahkan aplikasi configurasi<\/a> ke bahasa anda.<\/li><li><\/li><\/ul>"
     },
     "defaultFacebookText": {
         "message": "Kami juga memiliki <a href=\"https:\/\/www.facebook.com\/groups\/betaflightgroup\/\" target=\"_blank\">grup Facebook<\/a>.<br \/>Bergabunglah bersama kami sebagai wadah untuk membahas Emuflight, cara konfigurasi, atau hanya bergaul dengan sesama pilot."
@@ -510,7 +510,7 @@
         "message": "Wiki Emuflight merupakan sumber informasi yang lengkap, bisa ditemukan <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\">di sini<\/a>."
     },
     "defaultDocumentation2": {
-        "message": "Catatan rilis untuk firmware bisa di baca di halaman rilis GitHub, <a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\">di sini<\/a>."
+        "message": "Catatan rilis untuk firmware bisa di baca di halaman rilis GitHub, <a href=\"https:\/\/github.com\/Emuflight\/Emuflight\/releases\" target=\"_blank\">di sini<\/a>."
     },
     "defaultSupportHead": {
         "message": "Dukungan"
@@ -534,7 +534,7 @@
         "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\"> Video Emuflight oleh Joshua Bardwell<\/a>"
     },
     "defaultSupport4": {
-        "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
+        "message": "<a href=\"https:\/\/github.com\/Emuflight\" target=\"_blank\">GitHub<\/a>"
     },
     "defaultSupport5": {
         "message": "<a href=\"https:\/\/slack.betaflight.com\" target=\"_blank\">Emuflight devs di slack<\/a>"
@@ -2315,13 +2315,13 @@
         "message": "Pesan:"
     },
     "firmwareFlasherWarningText": {
-        "message": "<span class =\"message-negative\">Jangan<\/span> coba flashing perangkat keras<strong> non-Betaflight<\/strong> dengan flasher firmware ini.<br \/> <span class =\"message-negative\" >Jangan <\/span><strong>memutuskan<\/strong> sambungan ke FC atau<strong>mematikan<\/strong> komputer Anda saat flashing.<br \/><br \/><strong> Catatan: <\/strong> bootloader STM32 disimpan dalam ROM, tidak akan rusak. <br \/><strong>Catatan:<\/strong><span class =\"message-negative\">Sambungan-otomatis<\/span> selalu dinonaktifkan saat Anda berada di dalam flasher firmware. <br \/><strong>Catatan:<\/strong>Pastikan Anda memiliki backup; beberapa upgrade \/ downgrade akan menghapus konfigurasi anda. <br \/><strong>Catatan:<\/strong>Jika Anda mengalami masalah flashing <strong>coba lepaskan semua kabel dari FC<\/strong>terlebih dulu, coba reboot, upgrade chrome, upgrade driver <br \/><strong>Catatan: <\/strong>Saat flashing FC yang terhubung langsung dengan soket USB (FC generasi baru) pastikan Anda telah membaca bagian USB Flashing di manual Emuflight dan menginstal perangkat lunak dan driver yang benar"
+        "message": "<span class =\"message-negative\">Jangan<\/span> coba flashing perangkat keras<strong> non-Emuflight<\/strong> dengan flasher firmware ini.<br \/> <span class =\"message-negative\" >Jangan <\/span><strong>memutuskan<\/strong> sambungan ke FC atau<strong>mematikan<\/strong> komputer Anda saat flashing.<br \/><br \/><strong> Catatan: <\/strong> bootloader STM32 disimpan dalam ROM, tidak akan rusak. <br \/><strong>Catatan:<\/strong><span class =\"message-negative\">Sambungan-otomatis<\/span> selalu dinonaktifkan saat Anda berada di dalam flasher firmware. <br \/><strong>Catatan:<\/strong>Pastikan Anda memiliki backup; beberapa upgrade \/ downgrade akan menghapus konfigurasi anda. <br \/><strong>Catatan:<\/strong>Jika Anda mengalami masalah flashing <strong>coba lepaskan semua kabel dari FC<\/strong>terlebih dulu, coba reboot, upgrade chrome, upgrade driver <br \/><strong>Catatan: <\/strong>Saat flashing FC yang terhubung langsung dengan soket USB (FC generasi baru) pastikan Anda telah membaca bagian USB Flashing di manual Emuflight dan menginstal perangkat lunak dan driver yang benar"
     },
     "firmwareFlasherRecoveryHead": {
         "message": "<strong>Pemulihan \/ Komunikasi terputus<\/strong>"
     },
     "firmwareFlasherRecoveryText": {
-        "message": "Jika komunikasi terputus dengan FC anda, ikuti cara ini untuk memulihkan komunikasi: <ul><li>Matikan daya<\/li><li>Aktifkan 'Tanpa urutan reboot', aktifkan 'Penghapusan chip penuh'.<\/li><li>Pasang pin jumper BOOT atau tahan tombol BOOT.<\/li><li> Hidupkan daya (LED aktivitas TIDAK akan menyala jika di lakukan dengan benar).<\/li><li> Pasang semua driver STM32 dan Zadig jika diperlukan (lihat <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Betaflight\" target=\"_blank\">USB Flashing<\/a> bagian dari manual Emuflight).<\/li><li>Tutup configurator, Tutup semua proses Crome yang dijalankan, Tutup semua aplikasi Chrome, Restart Configurator.<\/li><li> Lepas tombol BOOT jika FC anda memilikinya.<\/li><li>Flash dengan firmware yang cocok (menggunakan nilai baud manual jika ditentukan dalam manual FC anda).<\/li><li>Matikan daya.<\/li><li>Lepas jumper BOOT.<\/li><li>Hidupkan daya (LED aktivitas seharusnya berkedip).<\/li><li>Hubungkan dengan normal.<\/li><\/ul>"
+        "message": "Jika komunikasi terputus dengan FC anda, ikuti cara ini untuk memulihkan komunikasi: <ul><li>Matikan daya<\/li><li>Aktifkan 'Tanpa urutan reboot', aktifkan 'Penghapusan chip penuh'.<\/li><li>Pasang pin jumper BOOT atau tahan tombol BOOT.<\/li><li> Hidupkan daya (LED aktivitas TIDAK akan menyala jika di lakukan dengan benar).<\/li><li> Pasang semua driver STM32 dan Zadig jika diperlukan (lihat <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Emuflight\" target=\"_blank\">USB Flashing<\/a> bagian dari manual Emuflight).<\/li><li>Tutup configurator, Tutup semua proses Crome yang dijalankan, Tutup semua aplikasi Chrome, Restart Configurator.<\/li><li> Lepas tombol BOOT jika FC anda memilikinya.<\/li><li>Flash dengan firmware yang cocok (menggunakan nilai baud manual jika ditentukan dalam manual FC anda).<\/li><li>Matikan daya.<\/li><li>Lepas jumper BOOT.<\/li><li>Hidupkan daya (LED aktivitas seharusnya berkedip).<\/li><li>Hubungkan dengan normal.<\/li><\/ul>"
     },
     "firmwareFlasherButtonLeave": {
         "message": "Tinggalkan Flasher Firmware"

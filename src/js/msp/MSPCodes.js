@@ -77,7 +77,7 @@ var MSPCodes = {
     MSP_SENSOR_CONFIG:              96,
     MSP_SET_SENSOR_CONFIG:          97,
     //MSP_SPECIAL_PARAMETERS:         98, // DEPRECATED
-    MSP_ARMING_DISABLE:             99,
+    MSP_SET_ARMING_DISABLED:             99,
     //MSP_SET_SPECIAL_PARAMETERS:     99, // DEPRECATED
     //MSP_IDENT:                      100, // DEPRECTED
     MSP_STATUS:                     101,
@@ -163,9 +163,9 @@ var MSPCodes = {
     MSP_DEBUGMSG:                   253, // Not used
     MSP_DEBUG:                      254,
 
-    MSP_FAST_KALMAN:            225,
+    MSP_FAST_KALMAN:                225,
     MSP_SET_FAST_KALMAN:            226,
     MSP_IMUF_CONFIG:                227,
-    MSP_SET_IMUF_CONFIG:                228,
+    MSP_SET_IMUF_CONFIG:            228,
     MSP_IMUF_INFO:                  229
 };

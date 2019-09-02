@@ -520,7 +520,7 @@
         "message": "Contribuir"
     },
     "defaultContributingText": {
-        "message": "Se quere axudar a facer mellor Emuflight, pode axudar de moitas maneiras, incluíndo:<br \/><ul><li>Contestando preguntas de outros usuarios en forums e IRC.<\/li><li>Contribuindo código ó firmware e ó configurador: novas funcións, correccións, melloras<\/li><li>Testeando <a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">novas características \/ correccións<\/a> e proporcionar feedback.<\/li><li>Axudar con <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">cuestións e comentarios sobre solicitudes de funcións<\/a>.<\/li><li>Colaborado <a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\">traducindo a aplicación do configurador<\/a> na súa lingua.<\/li><li><\/li><\/ul>"
+        "message": "Se quere axudar a facer mellor Emuflight, pode axudar de moitas maneiras, incluíndo:<br \/><ul><li>Contestando preguntas de outros usuarios en forums e IRC.<\/li><li>Contribuindo código ó firmware e ó configurador: novas funcións, correccións, melloras<\/li><li>Testeando <a href=\"https:\/\/github.com\/Emuflight\/betaflight\/pulls\" target=\"_blank\">novas características \/ correccións<\/a> e proporcionar feedback.<\/li><li>Axudar con <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">cuestións e comentarios sobre solicitudes de funcións<\/a>.<\/li><li>Colaborado <a href=\"https:\/\/crowdin.com\/project\/emuflight-configurator\" target=\"_blank\">traducindo a aplicación do configurador<\/a> na súa lingua.<\/li><li><\/li><\/ul>"
     },
     "defaultFacebookText": {
         "message": "Nós tamén temos <a href=\"https:\/\/www.facebook.com\/groups\/betaflightgroup\/\" target=\"_blank\">Grupo de Facebook<\/a>.<br \/>Únase a nós para conseguir un lugar para falar sobre Emuflight, facer preguntas de configuración ou simplemente saír cos compañeiros pilotos."
@@ -541,7 +541,7 @@
         "message": "Código aberto \/ Aviso de doazón"
     },
     "defaultDonateText": {
-        "message": "<p><strong>Betaflight<\/strong> é un software de controlador de voo que é <strong>open source<\/strong> e está dispoñible gratuitamente <strong>sin garantía<\/strong> para tódolos usuarios.<\/p><p>Se atopou o Emuflight ou o configurador Emuflight, porfavor considere<strong>apoiar<\/strong> o seu desenvolvemento cunha donación.<\/p>"
+        "message": "<p><strong>Emuflight<\/strong> é un software de controlador de voo que é <strong>open source<\/strong> e está dispoñible gratuitamente <strong>sin garantía<\/strong> para tódolos usuarios.<\/p><p>Se atopou o Emuflight ou o configurador Emuflight, porfavor considere<strong>apoiar<\/strong> o seu desenvolvemento cunha donación.<\/p>"
     },
     "defaultDonateBottom": {
         "message": "<p>Se quere contribuír continuamente de forma financeira, debe considerar converterse nun patrocinador en <a href='https:\/\/www.patreon.com\/betaflight'> Patreon <\/a>.<\/p >"
@@ -562,7 +562,7 @@
         "message": "O Wiki de Emuflight ten unha gran cantidade de información e pode atoparse <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\">aquí<\/a>."
     },
     "defaultDocumentation2": {
-        "message": "As notas da versión do firmware poden ser lidas na páxina de GitHub, <a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\">aquí<\/a>."
+        "message": "As notas da versión do firmware poden ser lidas na páxina de GitHub, <a href=\"https:\/\/github.com\/Emuflight\/Emuflight\/releases\" target=\"_blank\">aquí<\/a>."
     },
     "defaultSupportHead": {
         "message": "Soporte"
@@ -586,7 +586,7 @@
         "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\">Videos Emuflight de Joshua Bardwell<\/a>"
     },
     "defaultSupport4": {
-        "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
+        "message": "<a href=\"https:\/\/github.com\/Emuflight\" target=\"_blank\">GitHub<\/a>"
     },
     "defaultSupport5": {
         "message": "<a href=\"https:\/\/slack.betaflight.com\" target=\"_blank\"> Desenvolvedores de Emuflight no slack<\/a>"
@@ -2563,7 +2563,7 @@
         "message": "<strong> Recuperación \/ comunicación perdida <\/strong>"
     },
     "firmwareFlasherRecoveryText": {
-        "message": "Se perde a conexión coa súa controladora siga estes pasos para reestabrecer a comunicación: <ul><li>Apagar<\/li><li>Activar 'non reiniciar', Activar 'Borrado completo do chip'.<\/li><li>Puenté os pins de BOOT ou manteña pulsado o botón BOOT.<\/li><li>Encenda(o LED de actividade NON parpadeará se se fai correctamente).<\/li><li>Instale tódolos drivers para STM32 e Zadig en caso de ser necesario (consulte a sección <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Betaflight\"target=\"_blank\">Flasheo USB<\/a> do manual de Emuflight).<\/li><li>Peche o configurador, peche tódalas instancias de chrome, peche tódalas aplicacións de Chrome, Reinicie o Configurador.<\/li><li>Solte o botón se a súa controladora ten un.<\/li><li>Cargue o firmware correcto empregando unha velocidade de transmisión manual (se está especificada no manual da controladora)<\/li><li>Apagar.<\/li><li>Elimine o puenteo dos pins de BOOT<\/li><li>Encenda (o LED de actividad debería de parpadear).<\/li><li>Conecte con normalidade.<\/li><\/ul>"
+        "message": "Se perde a conexión coa súa controladora siga estes pasos para reestabrecer a comunicación: <ul><li>Apagar<\/li><li>Activar 'non reiniciar', Activar 'Borrado completo do chip'.<\/li><li>Puenté os pins de BOOT ou manteña pulsado o botón BOOT.<\/li><li>Encenda(o LED de actividade NON parpadeará se se fai correctamente).<\/li><li>Instale tódolos drivers para STM32 e Zadig en caso de ser necesario (consulte a sección <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Emuflight\"target=\"_blank\">Flasheo USB<\/a> do manual de Emuflight).<\/li><li>Peche o configurador, peche tódalas instancias de chrome, peche tódalas aplicacións de Chrome, Reinicie o Configurador.<\/li><li>Solte o botón se a súa controladora ten un.<\/li><li>Cargue o firmware correcto empregando unha velocidade de transmisión manual (se está especificada no manual da controladora)<\/li><li>Apagar.<\/li><li>Elimine o puenteo dos pins de BOOT<\/li><li>Encenda (o LED de actividad debería de parpadear).<\/li><li>Conecte con normalidade.<\/li><\/ul>"
     },
     "firmwareFlasherButtonLeave": {
         "message": "Abandoando o Instalador o Firmware"
