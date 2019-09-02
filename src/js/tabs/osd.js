@@ -63,8 +63,8 @@ SYM.loadSymbols = function() {
     SYM.PITCH = 0x15;
     SYM.ROLL = 0x14;
 
-    /* Versions before Betaflight 4.1 use font V1
-     * To maintain this list at minimum, we only add here: 
+    /* Versions before Emuflight 4.1 use font V1
+     * To maintain this list at minimum, we only add here:
      * - Symbols used in this versions
      * - That were moved or didn't exist in the font file
      */
@@ -1330,7 +1330,7 @@ OSD.constants = {
         { file: "bold", name: "Bold" },
         { file: "large", name: "Large" },
         { file: "extra_large", name: "Extra Large" },
-        { file: "betaflight", name: "Betaflight" },
+        { file: "emuflight", name: "Emuflight" },
         { file: "digital", name: "Digital" },
         { file: "clarity", name: "Clarity" },
         { file: "vision", name: "Vision" },
@@ -1509,7 +1509,7 @@ OSD.chooseFields = function () {
 
     // ** IMPORTANT **
     //
-    // Starting with 1.39.0 (Betaflight 3.4) the OSD stats selection options
+    // Starting with 1.39.0 (Emuflight 3.4) the OSD stats selection options
     // are ordered in the same sequence as displayed on-screen in the OSD.
     // If future versions of the firmware implement changes to the on-screen ordering,
     // that needs to be implemented here as well. Simply appending new stats does not
@@ -1598,7 +1598,7 @@ OSD.chooseFields = function () {
             F.GPS_RESCUE_DISABLED
         ]);
     }
-    
+
     OSD.constants.TIMER_TYPES = [
         'ON_TIME',
         'TOTAL_ARMED_TIME',
@@ -1670,7 +1670,7 @@ OSD.msp = {
                 if (semver.gte(CONFIG.apiVersion, "1.21.0")) {
                     // size * y + x
                     display_item.position = positionable ? FONT.constants.SIZES.LINE * ((bits >> 5) & 0x001F) + (bits & 0x001F) : default_position;
-                    
+
                     display_item.isVisible = [];
                     for (let osd_profile = 0; osd_profile < OSD.getNumberOfProfiles(); osd_profile++) {
                         display_item.isVisible[osd_profile] = (bits & (OSD.constants.VISIBLE << osd_profile)) != 0;
@@ -1740,7 +1740,7 @@ OSD.msp = {
                     result.push8(OSD.data.osd_profiles.selected + 1);
                 }
             }
-            
+
         }
         return result;
     },
@@ -1824,7 +1824,7 @@ OSD.msp = {
             if (expectedStatsCount != OSD.constants.STATISTIC_FIELDS.length) {
                 console.error("Firmware is transmitting a different number of statistics (" + expectedStatsCount + ") to what the configurator is expecting (" + OSD.constants.STATISTIC_FIELDS.length + ")");
             }
-            
+
             for (var i = 0; i < expectedStatsCount; i++) {
 
                 let v = view.readU8();
@@ -2104,7 +2104,7 @@ TABS.osd.initialize = function (callback) {
         $('.warnings-container div.cf_tip').attr('title', i18n.getMessage('osdSectionHelpWarnings'));
 
         function titleizeField(field) {
-            let finalFieldName = null; 
+            let finalFieldName = null;
             if (field.text) {
                 if (Array.isArray(field.text) && i18n.existsMessage(field.text[0])) {
                     finalFieldName = i18n.getMessage(field.text[0], field.text.slice(1));
@@ -2467,7 +2467,7 @@ TABS.osd.initialize = function (callback) {
                                 );
                         }
 
-                        let finalFieldName = titleizeField(field); 
+                        let finalFieldName = titleizeField(field);
                         $field.append('<label for="' + field.name + '" class="char-label">' + finalFieldName + '</label>');
                         if (field.positionable && field.isVisible[OSD.getCurrentPreviewProfile()]) {
                             $field.append(
@@ -2542,7 +2542,7 @@ TABS.osd.initialize = function (callback) {
                             for (var i = 0; i < arrayElements.length; i++) {
                                 var element = arrayElements[i];
                                 //Add string to the preview.
-                                if (element.constructor === String) { 
+                                if (element.constructor === String) {
                                     for(var j = 0; j < element.length; j++) {
                                         var charCode = element.charCodeAt(j);
                                         OSD.drawByOrder(selectedPosition++, field, charCode, j, i);

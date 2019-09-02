@@ -32,7 +32,7 @@ cache:
   - node_modules
 
 # Notifications are encrypted to betaflight/betaflight to avoid spam from forks
-# Command: `travis encrypt "<secret>" --com -r betaflight/betaflight-configurator`
+# Command: `travis encrypt "<secret>" --com -r betaflight/emuflight-configurator`
 notifications:
   slack:
     rooms:

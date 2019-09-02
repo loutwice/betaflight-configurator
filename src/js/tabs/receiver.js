@@ -76,7 +76,7 @@ TABS.receiver.initialize = function (callback) {
                 tab.yawDeadband = parseInt($(this).val());
             }).change();
         }
-        
+
         if (semver.lt(CONFIG.apiVersion, "1.15.0")) {
             $('.sticks').hide();
         } else {
@@ -333,7 +333,7 @@ TABS.receiver.initialize = function (callback) {
 
             var rcSmoothingnNumberElement = $('input[name="rcSmoothingInputHz-number"]');
             var rcSmoothingnDerivativeNumberElement = $('input[name="rcSmoothingDerivativeCutoff-number"]');
-            
+
             $('.tab-receiver .rcSmoothing-input-cutoff').show();
             $('select[name="rcSmoothing-input-manual-select"]').val("1");
             $('.tab-receiver .rc-smoothing-input-blank').hide();
@@ -350,7 +350,7 @@ TABS.receiver.initialize = function (callback) {
                 if ($(this).val() == 1) {
                     rcSmoothingnNumberElement.val(RX_CONFIG.rcSmoothingInputCutoff);
                     $('.tab-receiver .rcSmoothing-input-cutoff').show();
-                } 
+                }
             });
 
             $('.tab-receiver .rcSmoothing-derivative-cutoff').show();
@@ -371,7 +371,7 @@ TABS.receiver.initialize = function (callback) {
                     rcSmoothingnDerivativeNumberElement.val(RX_CONFIG.rcSmoothingDerivativeCutoff);
                 }
             });
-            
+
             rcSmoothingnNumberElement.change(function () {
                 RX_CONFIG.rcSmoothingInputCutoff = $(this).val();
             });
@@ -554,13 +554,10 @@ TABS.receiver.initModelPreview = function () {
     }
 
     var useOldRateCurve = false;
-    if (CONFIG.flightControllerIdentifier == 'CLFL' && semver.lt(CONFIG.apiVersion, '2.0.0')) {
+    if (CONFIG.flightControllerIdentifier == 'EMUF' && semver.lt(CONFIG.flightControllerVersion, '0.0.1')) {
         useOldRateCurve = true;
     }
-    if (CONFIG.flightControllerIdentifier == 'BTFL' && semver.lt(CONFIG.flightControllerVersion, '2.8.0')) {
-        useOldRateCurve = true;
-    }
-        
+
     this.rateCurve = new RateCurve(useOldRateCurve);
 
     $(window).on('resize', $.proxy(this.model.resize, this.model));

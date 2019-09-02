@@ -9,14 +9,17 @@
 # ${DEST_FOLDER} - Destination folder for the installer files
 
 # Some definitions
-!define SOURCE_FILES          "..\..\apps\betaflight-configurator\${PLATFORM}\*"
-!define APP_NAME              "Betaflight Configurator"
-!define COMPANY_NAME          "The Betaflight open source project."
-!define GROUP_NAME            "Betaflight"
-!define FOLDER_NAME           "Betaflight-Configurator"
-!define FILE_NAME_INSTALLER   "betaflight-configurator-installer_${VERSION}_${PLATFORM}.exe"
-!define FILE_NAME_UNINSTALLER "uninstall-betaflight-configurator.exe"
-!define FILE_NAME_EXECUTABLE  "betaflight-configurator.exe"
+!define VERSION               "0.0.3"
+!define PLATFORM              "win32"
+!define DEST_FOLDER           "apps"
+!define SOURCE_FILES          "..\..\apps\emuflight-configurator\${PLATFORM}\*"
+!define APP_NAME              "Emuflight Configurator"
+!define COMPANY_NAME          "The Emuflight open source project."
+!define GROUP_NAME            "Emuflight"
+!define FOLDER_NAME           "emuflight-configurator"
+!define FILE_NAME_INSTALLER   "emuflight-configurator-installer_${VERSION}_${PLATFORM}.exe"
+!define FILE_NAME_UNINSTALLER "uninstall-emuflight-configurator.exe"
+!define FILE_NAME_EXECUTABLE  "emuflight-configurator.exe"
 !define LICENSE               "..\..\LICENSE"
 !define MUI_WELCOMEFINISHPAGE_BITMAP ".\bf_installer.bmp"
 
@@ -25,8 +28,8 @@ Name "${APP_NAME}"
 BrandingText "${COMPANY_NAME}"
 
 # set the icon
-!define MUI_ICON ".\bf_installer_icon.ico"
-!define MUI_UNICON ".\bf_uninstaller_icon.ico"
+!define MUI_ICON ".\emu_installer.ico"
+!define MUI_UNICON ".\emu_uninstaller.ico"
 
 #Define uninstall list name
 !define UninstName "uninbf00"
@@ -85,13 +88,13 @@ Function .onInit
             # New version, select default folder
             UserInfo::GetAccountType
             Pop $R2
-            
+
             ${If} $R2 == "Admin"
                 # set the default installation directory
                 !if ${PLATFORM} == 'win64'
-                        StrCpy $INSTDIR "$PROGRAMFILES64\${GROUP_NAME}\${FOLDER_NAME}\" 
+                        StrCpy $INSTDIR "$PROGRAMFILES64\${GROUP_NAME}\${FOLDER_NAME}\"
                 !else
-                        StrCpy $INSTDIR "$PROGRAMFILES\${GROUP_NAME}\${FOLDER_NAME}\" 
+                        StrCpy $INSTDIR "$PROGRAMFILES\${GROUP_NAME}\${FOLDER_NAME}\"
                 !endif
             ${Else}
                 StrCpy $INSTDIR "$DOCUMENTS\${GROUP_NAME}\${FOLDER_NAME}\"
@@ -152,10 +155,10 @@ Section
     !insertmacro UNINSTALLER_DATA_END
 
     # create shortcuts in the start menu and on the desktop
-    CreateDirectory "$SMPROGRAMS\${GROUP_NAME}\${FOLDER_NAME}"    
-    CreateShortCut "$SMPROGRAMS\${GROUP_NAME}\${FOLDER_NAME}\${APP_NAME}.lnk" "$INSTDIR\${FILE_NAME_EXECUTABLE}" "" "$INSTDIR\images\bf_icon.ico" "0" "" "" ""
+    CreateDirectory "$SMPROGRAMS\${GROUP_NAME}\${FOLDER_NAME}"
+    CreateShortCut "$SMPROGRAMS\${GROUP_NAME}\${FOLDER_NAME}\${APP_NAME}.lnk" "$INSTDIR\${FILE_NAME_EXECUTABLE}" "" "$INSTDIR\images\emu_icon.ico" "0" "" "" ""
     CreateShortCut "$SMPROGRAMS\${GROUP_NAME}\${FOLDER_NAME}\Uninstall ${APP_NAME}.lnk" "$INSTDIR\${FILE_NAME_UNINSTALLER}"
-    CreateShortCut "$DESKTOP\${APP_NAME}.lnk" "$INSTDIR\${FILE_NAME_EXECUTABLE}" "" "$INSTDIR\images\bf_icon.ico" "0" "" "" ""
+    CreateShortCut "$DESKTOP\${APP_NAME}.lnk" "$INSTDIR\${FILE_NAME_EXECUTABLE}" "" "$INSTDIR\images\emu_icon.ico" "0" "" "" ""
 
     # include in add/remove programs
     WriteRegStr HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\${APP_NAME}" \
@@ -189,10 +192,10 @@ Section "Uninstall"
 
     # terminate uninstaller if the .dat file does not exist
     !define UNINST_TERMINATE
- 
+
     # delete files
     !insertmacro UNINST_DELETE "$INSTDIR" "${UninstName}"
- 
+
     # remove installation folder if it is empty
     RMDir "$INSTDIR"
 

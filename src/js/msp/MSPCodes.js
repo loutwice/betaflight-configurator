@@ -77,7 +77,7 @@ var MSPCodes = {
     MSP_SENSOR_CONFIG:              96,
     MSP_SET_SENSOR_CONFIG:          97,
     //MSP_SPECIAL_PARAMETERS:         98, // DEPRECATED
-    MSP_ARMING_DISABLE:             99,
+    MSP_SET_ARMING_DISABLED:             99,
     //MSP_SET_SPECIAL_PARAMETERS:     99, // DEPRECATED
     //MSP_IDENT:                      100, // DEPRECTED
     MSP_STATUS:                     101,
@@ -92,7 +92,7 @@ var MSPCodes = {
     MSP_ANALOG:                     110,
     MSP_RC_TUNING:                  111,
     MSP_PID:                        112,
-    //MSP_BOX:                        113, // DEPRECATED 
+    //MSP_BOX:                        113, // DEPRECATED
     MSP_MISC:                       114, // DEPRECATED
     MSP_BOXNAMES:                   116,
     MSP_PIDNAMES:                   117,
@@ -146,7 +146,7 @@ var MSPCodes = {
     MSP_SET_MOTOR_CONFIG:           222,
     MSP_SET_GPS_CONFIG:             223,
     MSP_SET_COMPASS_CONFIG:         224,
-    MSP_SET_GPS_RESCUE:             225,
+    MSP_SET_GPS_RESCUE:             230,
 
     MSP_MODE_RANGES_EXTRA:          238,
     MSP_SET_ACC_TRIM:               239,
@@ -161,5 +161,11 @@ var MSPCodes = {
 
     MSP_EEPROM_WRITE:               250,
     MSP_DEBUGMSG:                   253, // Not used
-    MSP_DEBUG:                      254
+    MSP_DEBUG:                      254,
+
+    MSP_FAST_KALMAN:                225,
+    MSP_SET_FAST_KALMAN:            226,
+    MSP_IMUF_CONFIG:                227,
+    MSP_SET_IMUF_CONFIG:            228,
+    MSP_IMUF_INFO:                  229
 };

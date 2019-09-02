@@ -61,6 +61,6 @@
 }
 
 .tab-osd input[type='checkbox']:checked:after {
-    background: #ffbb00;
+    background: #2297eb;
     border: 1px solid #404040;
 }

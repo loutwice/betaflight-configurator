@@ -361,7 +361,7 @@ TABS.configuration.initialize = function (callback, scrollPosition) {
                 legacy_accel_alignment_e.hide();
 
                 const GYRO_DETECTION_FLAGS = {
-                        DETECTED_GYRO_1:      (1 << 0), 
+                        DETECTED_GYRO_1:      (1 << 0),
                         DETECTED_GYRO_2:      (1 << 1),
                         DETECTED_DUAL_GYROS:  (1 << 7)
                 };
@@ -681,8 +681,7 @@ TABS.configuration.initialize = function (callback, scrollPosition) {
             serialRXtypes.push('IBUS');
         }
 
-        if ((CONFIG.flightControllerIdentifier === 'BTFL' && semver.gte(CONFIG.flightControllerVersion, "2.6.0")) ||
-            (CONFIG.flightControllerIdentifier === 'CLFL' && semver.gte(CONFIG.apiVersion, "1.31.0"))) {
+        if ((CONFIG.flightControllerIdentifier === 'EMUF' && semver.gte(CONFIG.flightControllerVersion, "0.0.1"))) {
             serialRXtypes.push('JETIEXBUS');
         }
 

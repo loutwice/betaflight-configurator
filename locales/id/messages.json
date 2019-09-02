@@ -125,7 +125,7 @@
         "message": "Tampilkan pemberitahuan pembaruan untuk versi yang tidak stabil dari konfigurator"
     },
     "configuratorUpdateNotice": {
-        "message": "Anda sedang menggunakan sebuah versi lama dari <b>Betaflight Configurator<\/b>.<br>Versi <b>$1<\/b> tersedia secara online, silahkan kunjungi <a href=\"$2\" target=\"_blank\">halaman rilis<\/a> untuk mengunduh dan memasang versi terbaru dengan perbaikan dan penyempurnaan.<br>Silahkan tutup jendela Betaflight sebelum memperbarui."
+        "message": "Anda sedang menggunakan sebuah versi lama dari <b>Emuflight Configurator<\/b>.<br>Versi <b>$1<\/b> tersedia secara online, silahkan kunjungi <a href=\"$2\" target=\"_blank\">halaman rilis<\/a> untuk mengunduh dan memasang versi terbaru dengan perbaikan dan penyempurnaan.<br>Silahkan tutup jendela Emuflight sebelum memperbarui."
     },
     "configuratorUpdateWebsite": {
         "message": "Kunjungi situs Rilis"
@@ -137,16 +137,16 @@
         "message": "Perangkat - <span class=\"message-positive\">Siap<\/span>"
     },
     "backupFileIncompatible": {
-        "message": "Backup dibuat untuk versi lama Betaflight dan tidak sesuai dengan versi Betaflight ini. Maaf"
+        "message": "Backup dibuat untuk versi lama Emuflight dan tidak sesuai dengan versi Emuflight ini. Maaf"
     },
     "backupFileUnmigratable": {
-        "message": "Backup dibuat oleh versi lama Betaflight dan tidak dapat di migrasi ke versi Betaflight yg lebih baru. Maaf."
+        "message": "Backup dibuat oleh versi lama Emuflight dan tidak dapat di migrasi ke versi Emuflight yg lebih baru. Maaf."
     },
     "configMigrationFrom": {
-        "message": "Migrasi berkas konfigurasi yang dihasilkan oleh Betaflight: $1"
+        "message": "Migrasi berkas konfigurasi yang dihasilkan oleh Emuflight: $1"
     },
     "configMigratedTo": {
-        "message": "Migrasi berkas konfigurasi ke Betaflight: $1"
+        "message": "Migrasi berkas konfigurasi ke Emuflight: $1"
     },
     "configMigrationSuccessful": {
         "message": "Migrasi berkas konfigurasi selesai, migrasi telah diterapkan: $1"
@@ -335,13 +335,13 @@
         "message": "Tidak ada konfigurasi yang diterima setelah <span class=\"message-negative\">10 detik<\/span>, komunikasi <span class=\"message-negative\">gagal<\/span>"
     },
     "firmwareVersionNotSupported": {
-        "message": "Firmware ini adalah versi<span class=\"message-negative\">tidak didukung<\/span>. Silahkan perbarui ke firmware yang mendukung versi api<strong>$1<\/strong>atau lebih tinggi. Gunakan CLI untuk backup sebelum flashing. Prosedur backup\/restore CLI ada di dokumentasi.<br \/>Atau unduh dan gunakan Betaflight versi lama jika anda belum siap untuk upgrade."
+        "message": "Firmware ini adalah versi<span class=\"message-negative\">tidak didukung<\/span>. Silahkan perbarui ke firmware yang mendukung versi api<strong>$1<\/strong>atau lebih tinggi. Gunakan CLI untuk backup sebelum flashing. Prosedur backup\/restore CLI ada di dokumentasi.<br \/>Atau unduh dan gunakan Emuflight versi lama jika anda belum siap untuk upgrade."
     },
     "firmwareTypeNotSupported": {
-        "message": "Firmware selain Cleanflight\/Betaflight <span class=\"message-negative\">tidak didukung<\/span>, kecuali untuk mode CLI."
+        "message": "Firmware selain Cleanflight\/Emuflight <span class=\"message-negative\">tidak didukung<\/span>, kecuali untuk mode CLI."
     },
     "firmwareUpgradeRequired": {
-        "message": "Firmware pada perangkat ini perlu ditingkatkan ke versi yang lebih baru. Gunakan CLI untuk backup sebelum flashing. Prosedur backup\/restore CLI ada di dokumentasi.<br \/>Atau unduh dan gunakan Betaflight versi lama jika anda belum siap untuk upgrade."
+        "message": "Firmware pada perangkat ini perlu ditingkatkan ke versi yang lebih baru. Gunakan CLI untuk backup sebelum flashing. Prosedur backup\/restore CLI ada di dokumentasi.<br \/>Atau unduh dan gunakan Emuflight versi lama jika anda belum siap untuk upgrade."
     },
     "infoVersions": {
         "message": "Sistem Operasi: <strong>{{operatingSystem}}<\/strong>, Chrome: <strong>{{chromeVersion}}<\/strong>, Configurator: <strong>{{configuratorVersion}}<\/strong>",
@@ -375,7 +375,7 @@
         "message": "Anda <span class=\"message-negative\">tidak dapat<\/span> melakukan ini sekarang, silahkan tunggu operasi saat ini selesai ..."
     },
     "tabSwitchUpgradeRequired": {
-        "message": "Anda perlu untuk <strong>upgrade<\/strong> firmware anda ke versi Betaflight terbaru sebelum dapat menggunakan tab $1."
+        "message": "Anda perlu untuk <strong>upgrade<\/strong> firmware anda ke versi Emuflight terbaru sebelum dapat menggunakan tab $1."
     },
     "firmwareVersion": {
         "message": "Versi Firmware: <strong>$1<\/strong>"
@@ -462,22 +462,22 @@
         "message": "EEPROM <span class=\"message-positive\">disimpan<\/span>"
     },
     "defaultWelcomeIntro": {
-        "message": "Selamat Datang di <strong> Betaflight - Configurator <\/strong>, sebuah perangkat yang dirancang untuk memudahkan pembaruan, konfigurasi dan menyetel <em> flight controller<\/em> anda."
+        "message": "Selamat Datang di <strong> Emuflight - Configurator <\/strong>, sebuah perangkat yang dirancang untuk memudahkan pembaruan, konfigurasi dan menyetel <em> flight controller<\/em> anda."
     },
     "defaultWelcomeHead": {
         "message": "Perangkat Keras"
     },
     "defaultWelcomeText": {
-        "message": "Aplikasi ini mendukung semua perangkat keras yang dapat menjalankan Betaflight. Buka tab flash untuk daftar seluruh perangkat keras.<br><br> <a href=\"https:\/\/github.com\/betaflight\/blackbox-log-viewer\/releases\" target=\"_blank\"> Unduh Betaflight Blackbox Log Viewer<\/a><br \/><br \/>Source code firmware dapat diunduh dari <a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">sini<\/a><br \/><br \/> <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">Driver CP210x<\/a> terbaru dapat diunduh dari <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">sini<\/a><br \/> <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">Driver STM USB VCP<\/a> terbaru dapat diunduh dari <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">sini<\/a><br \/> <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a> terbaru untuk installasi Driver USB Windows dapat diunduh dari <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">sini<\/a><br \/>"
+        "message": "Aplikasi ini mendukung semua perangkat keras yang dapat menjalankan Emuflight. Buka tab flash untuk daftar seluruh perangkat keras.<br><br> <a href=\"https:\/\/github.com\/betaflight\/blackbox-log-viewer\/releases\" target=\"_blank\"> Unduh Emuflight Blackbox Log Viewer<\/a><br \/><br \/>Source code firmware dapat diunduh dari <a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">sini<\/a><br \/><br \/> <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">Driver CP210x<\/a> terbaru dapat diunduh dari <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">sini<\/a><br \/> <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">Driver STM USB VCP<\/a> terbaru dapat diunduh dari <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">sini<\/a><br \/> <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a> terbaru untuk installasi Driver USB Windows dapat diunduh dari <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">sini<\/a><br \/>"
     },
     "defaultContributingHead": {
         "message": "Berkontribusi"
     },
     "defaultContributingText": {
-        "message": "Jika anda ingin menjadikan Betaflight jadi lebih baik, anda bisa membantu dengan bermacam cara, termasuk:<br\/><ul> <li>Menjawab pertanyaan pengguna lainnya di forum dan IRC.<\/li> <li>Menyumbang kode ke firmware dan configurator - fitur baru, perbaikan, peningkatan<\/li><li>Menguji<a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">fitur baru\/perbaikan<\/a> dan memberikan umpan balik.<\/li><li>Membantu dengan <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">Menerbitkan dan memberikan komentar pada permintaan fitur<\/a>.<\/li><li>Berkolaborasi dengan <a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\">menerjemahkan aplikasi configurasi<\/a> ke bahasa anda.<\/li><li><\/li><\/ul>"
+        "message": "Jika anda ingin menjadikan Emuflight jadi lebih baik, anda bisa membantu dengan bermacam cara, termasuk:<br\/><ul> <li>Menjawab pertanyaan pengguna lainnya di forum dan IRC.<\/li> <li>Menyumbang kode ke firmware dan configurator - fitur baru, perbaikan, peningkatan<\/li><li>Menguji<a href=\"https:\/\/github.com\/Emuflight\/betaflight\/pulls\" target=\"_blank\">fitur baru\/perbaikan<\/a> dan memberikan umpan balik.<\/li><li>Membantu dengan <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">Menerbitkan dan memberikan komentar pada permintaan fitur<\/a>.<\/li><li>Berkolaborasi dengan <a href=\"https:\/\/crowdin.com\/project\/emuflight-configurator\" target=\"_blank\">menerjemahkan aplikasi configurasi<\/a> ke bahasa anda.<\/li><li><\/li><\/ul>"
     },
     "defaultFacebookText": {
-        "message": "Kami juga memiliki <a href=\"https:\/\/www.facebook.com\/groups\/betaflightgroup\/\" target=\"_blank\">grup Facebook<\/a>.<br \/>Bergabunglah bersama kami sebagai wadah untuk membahas Betaflight, cara konfigurasi, atau hanya bergaul dengan sesama pilot."
+        "message": "Kami juga memiliki <a href=\"https:\/\/www.facebook.com\/groups\/betaflightgroup\/\" target=\"_blank\">grup Facebook<\/a>.<br \/>Bergabunglah bersama kami sebagai wadah untuk membahas Emuflight, cara konfigurasi, atau hanya bergaul dengan sesama pilot."
     },
     "defaultChangelogAction": {
         "message": "Changelog"
@@ -504,13 +504,13 @@
         "message": "Dokumentasi \/ Manual"
     },
     "defaultDocumentation": {
-        "message": "Dokumentasi Betaflight tersedia dalam catatan rilis dan wiki.<br \/><br \/>"
+        "message": "Dokumentasi Emuflight tersedia dalam catatan rilis dan wiki.<br \/><br \/>"
     },
     "defaultDocumentation1": {
-        "message": "Wiki Betaflight merupakan sumber informasi yang lengkap, bisa ditemukan <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\">di sini<\/a>."
+        "message": "Wiki Emuflight merupakan sumber informasi yang lengkap, bisa ditemukan <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\">di sini<\/a>."
     },
     "defaultDocumentation2": {
-        "message": "Catatan rilis untuk firmware bisa di baca di halaman rilis GitHub, <a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\">di sini<\/a>."
+        "message": "Catatan rilis untuk firmware bisa di baca di halaman rilis GitHub, <a href=\"https:\/\/github.com\/Emuflight\/EmuFlight-Butter-Varient\/releases\" target=\"_blank\">di sini<\/a>."
     },
     "defaultSupportHead": {
         "message": "Dukungan"
@@ -528,19 +528,19 @@
         "message": "<a href=\"http:\/\/www.rcgroups.com\/forums\/showthread.php?t=2464844&page=1\" target=\"_blank\">Pembahasan di RC Groups<\/a>"
     },
     "defaultSupport2": {
-        "message": "<a href=\"http:\/\/betaflight.info\" target=\"_blank\">Wiki Betaflight<\/a>"
+        "message": "<a href=\"http:\/\/betaflight.info\" target=\"_blank\">Wiki Emuflight<\/a>"
     },
     "defaultSupport3": {
-        "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\"> Video Betaflight oleh Joshua Bardwell<\/a>"
+        "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\"> Video Emuflight oleh Joshua Bardwell<\/a>"
     },
     "defaultSupport4": {
-        "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
+        "message": "<a href=\"https:\/\/github.com\/Emuflight\" target=\"_blank\">GitHub<\/a>"
     },
     "defaultSupport5": {
-        "message": "<a href=\"https:\/\/slack.betaflight.com\" target=\"_blank\">Betaflight devs di slack<\/a>"
+        "message": "<a href=\"https:\/\/slack.betaflight.com\" target=\"_blank\">Emuflight devs di slack<\/a>"
     },
     "initialSetupBackupAndRestoreApiVersion": {
-        "message": "<span class=\"message-negative\">Fungsi Backup dan Restore nonaktif.<\/span> Anda memiliki firmware dengan versi API <span class=\"message-negative\">$1<\/span>, backup dan restore membutuhkan versi <span class=\"message-positive\">$2<\/span>. Backup pengaturan anda melalui CLI, lihat dokumentasi Betaflight untuk mengetahui caranya."
+        "message": "<span class=\"message-negative\">Fungsi Backup dan Restore nonaktif.<\/span> Anda memiliki firmware dengan versi API <span class=\"message-negative\">$1<\/span>, backup dan restore membutuhkan versi <span class=\"message-positive\">$2<\/span>. Backup pengaturan anda melalui CLI, lihat dokumentasi Emuflight untuk mengetahui caranya."
     },
     "initialSetupButtonCalibrateAccel": {
         "message": "Kalibrasi Accelerometer"
@@ -954,7 +954,7 @@
         "message": "Nada Beacon"
     },
     "configurationDshotBeaconHelp": {
-        "message": "Dshot beacon menggunakan ESC dan motor untuk menghasilkan suara. Oleh karena itu Dshot beacon tidak dapat digunakan ketika motor berputar. Pada Betaflight 3.4 dan yang lebih baru, ketika terjadi percobaan arming saat Dshot beacon aktif, akan ada jeda 2 detik setelah nada Dshot beacon terakhir sebelum model di arm. Hal ini berguna untuk mencegah fungsi Dshot beacon mengganggu perintah Dshot ke ESC ketika arming.<br\/><strong>Peringatan:<\/strong> Karena Dshot beacon mengalirkan arus ke motor Anda ketika aktif, hal ini dapat menyebabkan panas berlebih yang dapat merusak motor \/ atau ESC jika kekuatannnya di set terlalu tinggi. Gunakan BLHeli Configurator atau BLHeli Suite untuk menyesuaikan dan mengetahui kekuatan Dshot beacon."
+        "message": "Dshot beacon menggunakan ESC dan motor untuk menghasilkan suara. Oleh karena itu Dshot beacon tidak dapat digunakan ketika motor berputar. Pada Emuflight 3.4 dan yang lebih baru, ketika terjadi percobaan arming saat Dshot beacon aktif, akan ada jeda 2 detik setelah nada Dshot beacon terakhir sebelum model di arm. Hal ini berguna untuk mencegah fungsi Dshot beacon mengganggu perintah Dshot ke ESC ketika arming.<br\/><strong>Peringatan:<\/strong> Karena Dshot beacon mengalirkan arus ke motor Anda ketika aktif, hal ini dapat menyebabkan panas berlebih yang dapat merusak motor \/ atau ESC jika kekuatannnya di set terlalu tinggi. Gunakan BLHeli Configurator atau BLHeli Suite untuk menyesuaikan dan mengetahui kekuatan Dshot beacon."
     },
     "configurationBeeper": {
         "message": "Pengaturan Bunyi"
@@ -1532,7 +1532,7 @@
         "message": "Tinjauan"
     },
     "receiverMspWarningText": {
-        "message": "Stik ini memungkinkan Betaflight untuk di arm dan diuji tanpa tx\/rx. Namun,<strong>fitur ini tidak ditujukan untuk penerbangan dan baling-baling tidak boleh terpasang.<\/strong><br><br>Fitur ini tidak menjamin kontrol yang dapat diandalkan. <strong>Cedera serius kemungkinan terjadi jika baling-baling terpasang.<\/strong>"
+        "message": "Stik ini memungkinkan Emuflight untuk di arm dan diuji tanpa tx\/rx. Namun,<strong>fitur ini tidak ditujukan untuk penerbangan dan baling-baling tidak boleh terpasang.<\/strong><br><br>Fitur ini tidak menjamin kontrol yang dapat diandalkan. <strong>Cedera serius kemungkinan terjadi jika baling-baling terpasang.<\/strong>"
     },
     "receiverMspEnableButton": {
         "message": "Aktifkan kontrol"
@@ -2315,13 +2315,13 @@
         "message": "Pesan:"
     },
     "firmwareFlasherWarningText": {
-        "message": "<span class =\"message-negative\">Jangan<\/span> coba flashing perangkat keras<strong> non-Betaflight<\/strong> dengan flasher firmware ini.<br \/> <span class =\"message-negative\" >Jangan <\/span><strong>memutuskan<\/strong> sambungan ke FC atau<strong>mematikan<\/strong> komputer Anda saat flashing.<br \/><br \/><strong> Catatan: <\/strong> bootloader STM32 disimpan dalam ROM, tidak akan rusak. <br \/><strong>Catatan:<\/strong><span class =\"message-negative\">Sambungan-otomatis<\/span> selalu dinonaktifkan saat Anda berada di dalam flasher firmware. <br \/><strong>Catatan:<\/strong>Pastikan Anda memiliki backup; beberapa upgrade \/ downgrade akan menghapus konfigurasi anda. <br \/><strong>Catatan:<\/strong>Jika Anda mengalami masalah flashing <strong>coba lepaskan semua kabel dari FC<\/strong>terlebih dulu, coba reboot, upgrade chrome, upgrade driver <br \/><strong>Catatan: <\/strong>Saat flashing FC yang terhubung langsung dengan soket USB (FC generasi baru) pastikan Anda telah membaca bagian USB Flashing di manual Betaflight dan menginstal perangkat lunak dan driver yang benar"
+        "message": "<span class =\"message-negative\">Jangan<\/span> coba flashing perangkat keras<strong> non-Emuflight<\/strong> dengan flasher firmware ini.<br \/> <span class =\"message-negative\" >Jangan <\/span><strong>memutuskan<\/strong> sambungan ke FC atau<strong>mematikan<\/strong> komputer Anda saat flashing.<br \/><br \/><strong> Catatan: <\/strong> bootloader STM32 disimpan dalam ROM, tidak akan rusak. <br \/><strong>Catatan:<\/strong><span class =\"message-negative\">Sambungan-otomatis<\/span> selalu dinonaktifkan saat Anda berada di dalam flasher firmware. <br \/><strong>Catatan:<\/strong>Pastikan Anda memiliki backup; beberapa upgrade \/ downgrade akan menghapus konfigurasi anda. <br \/><strong>Catatan:<\/strong>Jika Anda mengalami masalah flashing <strong>coba lepaskan semua kabel dari FC<\/strong>terlebih dulu, coba reboot, upgrade chrome, upgrade driver <br \/><strong>Catatan: <\/strong>Saat flashing FC yang terhubung langsung dengan soket USB (FC generasi baru) pastikan Anda telah membaca bagian USB Flashing di manual Emuflight dan menginstal perangkat lunak dan driver yang benar"
     },
     "firmwareFlasherRecoveryHead": {
         "message": "<strong>Pemulihan \/ Komunikasi terputus<\/strong>"
     },
     "firmwareFlasherRecoveryText": {
-        "message": "Jika komunikasi terputus dengan FC anda, ikuti cara ini untuk memulihkan komunikasi: <ul><li>Matikan daya<\/li><li>Aktifkan 'Tanpa urutan reboot', aktifkan 'Penghapusan chip penuh'.<\/li><li>Pasang pin jumper BOOT atau tahan tombol BOOT.<\/li><li> Hidupkan daya (LED aktivitas TIDAK akan menyala jika di lakukan dengan benar).<\/li><li> Pasang semua driver STM32 dan Zadig jika diperlukan (lihat <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Betaflight\" target=\"_blank\">USB Flashing<\/a> bagian dari manual Betaflight).<\/li><li>Tutup configurator, Tutup semua proses Crome yang dijalankan, Tutup semua aplikasi Chrome, Restart Configurator.<\/li><li> Lepas tombol BOOT jika FC anda memilikinya.<\/li><li>Flash dengan firmware yang cocok (menggunakan nilai baud manual jika ditentukan dalam manual FC anda).<\/li><li>Matikan daya.<\/li><li>Lepas jumper BOOT.<\/li><li>Hidupkan daya (LED aktivitas seharusnya berkedip).<\/li><li>Hubungkan dengan normal.<\/li><\/ul>"
+        "message": "Jika komunikasi terputus dengan FC anda, ikuti cara ini untuk memulihkan komunikasi: <ul><li>Matikan daya<\/li><li>Aktifkan 'Tanpa urutan reboot', aktifkan 'Penghapusan chip penuh'.<\/li><li>Pasang pin jumper BOOT atau tahan tombol BOOT.<\/li><li> Hidupkan daya (LED aktivitas TIDAK akan menyala jika di lakukan dengan benar).<\/li><li> Pasang semua driver STM32 dan Zadig jika diperlukan (lihat <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Emuflight\" target=\"_blank\">USB Flashing<\/a> bagian dari manual Emuflight).<\/li><li>Tutup configurator, Tutup semua proses Crome yang dijalankan, Tutup semua aplikasi Chrome, Restart Configurator.<\/li><li> Lepas tombol BOOT jika FC anda memilikinya.<\/li><li>Flash dengan firmware yang cocok (menggunakan nilai baud manual jika ditentukan dalam manual FC anda).<\/li><li>Matikan daya.<\/li><li>Lepas jumper BOOT.<\/li><li>Hidupkan daya (LED aktivitas seharusnya berkedip).<\/li><li>Hubungkan dengan normal.<\/li><\/ul>"
     },
     "firmwareFlasherButtonLeave": {
         "message": "Tinggalkan Flasher Firmware"
@@ -2680,7 +2680,7 @@
         "message": "Kekuatan Expo RC"
     },
     "pidTuningRcExpoPowerHelp": {
-        "message": "Eksponen yang digunakan saat mengkalkulasi expo RC. Dalam versi Betaflight sebelum 3.0, nilainya tetap pada 3."
+        "message": "Eksponen yang digunakan saat mengkalkulasi expo RC. Dalam versi Emuflight sebelum 3.0, nilainya tetap pada 3."
     },
     "pidTuningLevel": {
         "message": "Angle\/Horizon"
@@ -2848,7 +2848,7 @@
         "message": "Rotasi FC dalam derajat, untuk memungkinkan pemasangannya miring \/ terbalik \/ diputar dll. Saat menjalankan sensor eksternal, atur kelurusan sensor (Gyro, Acc, Mag) untuk menentukan posisi sensor tanpa pengaruh orientasi FC. "
     },
     "failsafeFeaturesHelpOld": {
-        "message": "Konfigurasi Failsafe sudah jauh berbeda. Gunakan Betaflight <strong>v1.12.0+<\/strong> untuk mengaktifkan panel konfigurasi yang lebih bagus."
+        "message": "Konfigurasi Failsafe sudah jauh berbeda. Gunakan Emuflight <strong>v1.12.0+<\/strong> untuk mengaktifkan panel konfigurasi yang lebih bagus."
     },
     "failsafePaneTitleOld": {
         "message": "Failsafe Receiver"
@@ -2980,7 +2980,7 @@
         "message": "Simpan"
     },
     "powerFirmwareUpgradeRequired": {
-        "message": "Upgrade firmware <span class =\"message-negative\">wajib<\/span>. Konfigurasi Battery\/Amperage\/Voltage menggunakan API &lt; 1.33.0 (rilis Betaflight &lt; = 3.17) tidak didukung."
+        "message": "Upgrade firmware <span class =\"message-negative\">wajib<\/span>. Konfigurasi Battery\/Amperage\/Voltage menggunakan API &lt; 1.33.0 (rilis Emuflight &lt; = 3.17) tidak didukung."
     },
     "powerBatteryVoltageMeterSource": {
         "message": "Sumber Meteran Tegangan"
@@ -3202,7 +3202,7 @@
         "message": "<strong>Catatan:<\/strong> Tinjauan OSD mungkin tidak menampilkan bentuk huruf sebenarnya yang terpasang pada flight controller."
     },
     "osdSetupUnsupportedNote1": {
-        "message": "Flight controller anda tidak menanggapi ke perintah OSD. Mungkin FC anda tidak memiliki OSD Betaflight."
+        "message": "Flight controller anda tidak menanggapi ke perintah OSD. Mungkin FC anda tidak memiliki OSD Emuflight."
     },
     "osdSetupUnsupportedNote2": {
         "message": "Perhatikan bahwa beberapa flight controller sudah terpasang <a href=\"https:\/\/www.youtube.com\/watch?v=ikKH_6SQ-Tk\" target=\"_blank\">MinimOSD<\/a> yang dapat dinyalakan dan dikonfigurasi dengan <a href=\"https:\/\/github.com\/ShikOfTheRa\/scarab-osd\/releases\/latest\" target = '_ blank'>scarab-osd<\/a>, namun MinimOSD tidak dapat di konfigurasi melalui antarmuka ini."
@@ -3709,7 +3709,7 @@
         "message": "<b>Derivatif dari Kesalahan<\/b> memberikan respons stik langsung dan lebih sering digunakan untuk Racing.<br><br><b>Derivatif dari Pengukuran<\/b> memberikan respon stik yang lebih halus dan lebih berguna terbang freestyle"
     },
     "pidTuningPidControllerTip": {
-        "message": "<b>Legacy vs Betaflight (float):<\/b> PID scaling dan logika PID sama persis. Belum tentu butuh retune. Legacy adalah versi lama betaflight yg telah ditulis ulang, yg merupakan kontroler PID sederhana menggunakan perhitungan dalam bilangan bulat. Kontroler PID Betaflight menggunakan perhitungan desimal yg lebih presisi dan memiliki banyak fitur baru yg dirancang khusus untuk aplikasi multirotor <br><b>Koma vs Tanpa Koma:<\/b> scaling PID dan logika PID sama persis. Tidak butuh retune. FC F1 tidak memiliki FPU onboard dan perhitungan dengan tingkat presisi dalam koma meningkatkan beban CPU, bilangan tanpa koma akan memperbaiki kinerjanya, tapi perhitungan dalam koma mungkin akan sedikit lebih presisi."
+        "message": "<b>Legacy vs Emuflight (float):<\/b> PID scaling dan logika PID sama persis. Belum tentu butuh retune. Legacy adalah versi lama betaflight yg telah ditulis ulang, yg merupakan kontroler PID sederhana menggunakan perhitungan dalam bilangan bulat. Kontroler PID Emuflight menggunakan perhitungan desimal yg lebih presisi dan memiliki banyak fitur baru yg dirancang khusus untuk aplikasi multirotor <br><b>Koma vs Tanpa Koma:<\/b> scaling PID dan logika PID sama persis. Tidak butuh retune. FC F1 tidak memiliki FPU onboard dan perhitungan dengan tingkat presisi dalam koma meningkatkan beban CPU, bilangan tanpa koma akan memperbaiki kinerjanya, tapi perhitungan dalam koma mungkin akan sedikit lebih presisi."
     },
     "pidTuningFilterTip": {
         "message": "<b>Gyro Soft Filter:<\/b> Filter lowpass untuk gyro. Gunakan nilai yang lebih rendah untuk penyaringan yang lebih banyak.<br><b>Filter Istilah D:<\/b> Filter lowpass untuk Dterm. Dapat mempengaruhi D tuning. Gunakan nilai yang lebih rendah untuk penyaringan yang lebih banyak.<br><b>Filter Yaw:<\/b> Filter menguap output. Ini bisa membantu dalam setup dengan sumbu yaw yang berisik."

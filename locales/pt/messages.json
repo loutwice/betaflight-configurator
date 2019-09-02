@@ -122,7 +122,7 @@
         "message": "Mostrar notificações de atualizações para versões instáveis do configurador"
     },
     "configuratorUpdateNotice": {
-        "message": "Você está usando uma versão antiga do <b>Betaflight Configurator<\/b>. <br>A versão <b>$1<\/b> está disponível online, por favor visite <a href=\"$2\" target=\"_blank\">a página da nova versão<\/a> para efetuar o download e instalar a última versão com correções e melhorias. <br>Por favor feche a janela do configurador antes de atualizar."
+        "message": "Você está usando uma versão antiga do <b>Emuflight Configurator<\/b>. <br>A versão <b>$1<\/b> está disponível online, por favor visite <a href=\"$2\" target=\"_blank\">a página da nova versão<\/a> para efetuar o download e instalar a última versão com correções e melhorias. <br>Por favor feche a janela do configurador antes de atualizar."
     },
     "configuratorUpdateWebsite": {
         "message": "Ir para a Página Web do lançamento"
@@ -335,7 +335,7 @@
         "message": "Esta versão do firmware <span class=\"message-negative\">não é suportada<\/span>. Por favor atualize para um firmware que suporte a versão <strong>$1<\/strong> ou superior da API. Use a Linha de comandos (CLI) para fazer um backup antes de atualizar. O procedimento para fazer uma cópia de segurança\/restaurar encontra-se na documentação.<br \/>Como alternativa faça o download e use uma versão antiga do configurador caso não esteja preparado para efetuar a atualização."
     },
     "firmwareTypeNotSupported": {
-        "message": "Firmware que não seja Cleanflight ou Betaflight <span class=\"message-negative\">não é suportado<\/span>, exceto por Linha de comandos (CLI)."
+        "message": "Firmware que não seja Cleanflight ou Emuflight <span class=\"message-negative\">não é suportado<\/span>, exceto por Linha de comandos (CLI)."
     },
     "firmwareUpgradeRequired": {
         "message": "O firmware deste dispositivo precisa ser atualizado para uma versão mais recente. Use a Linha de comandos (CLI) para realizar uma cópia de segurança antes da atualização. O procedimento para fazer uma cópia de segurança\/restaurar encontra-se na documentação.<br \/>Como alternativa faça o download e use uma versão antiga do configurador, caso não esteja preparado para efetuar a atualização."
@@ -372,7 +372,7 @@
         "message": "Você <span class=\"message-negative\">não pode<\/span> realizar esta operação neste momento, por favor aguarde o fim da operação em execução..."
     },
     "tabSwitchUpgradeRequired": {
-        "message": "Você precisa <strong>atualizar<\/strong> o firmware para a última versão do Betaflight antes de poder usar a aba $1."
+        "message": "Você precisa <strong>atualizar<\/strong> o firmware para a última versão do Emuflight antes de poder usar a aba $1."
     },
     "firmwareVersion": {
         "message": "Versão do firmware: <strong>$1<\/strong>"
@@ -459,22 +459,22 @@
         "message": "EEPROM <span class=\"message-positive\">salvo<\/span>"
     },
     "defaultWelcomeIntro": {
-        "message": "Bem-vindo ao <strong>Configurador Betaflight<\/strong>, um utilitário feito para simplificar a atualização, configuração e otimização do seu controlador de voo."
+        "message": "Bem-vindo ao <strong>Configurador Emuflight<\/strong>, um utilitário feito para simplificar a atualização, configuração e otimização do seu controlador de voo."
     },
     "defaultWelcomeHead": {
         "message": "Hardware"
     },
     "defaultWelcomeText": {
-        "message": "Esta aplicação é compatível com todo hardware que consegue executar o Betaflight. Verifique a aba \"Atualização de firmware\" para ver a lista completa de hardware compatível.<br><br> <a href=\"https:\/\/github.com\/betaflight\/blackbox-log-viewer\/releases\" target=\"_blank\"> Baixar o Betaflight Blackbox Log Viewer<\/a><br \/><br \/>O código fonte do firmware pode ser baixado <a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">aqui<\/a><br \/><br \/>Os drivers <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">CP210x<\/a> mais recentes podem ser baixados <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">aqui<\/a><br \/>Os drivers <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">STM USB VCP<\/a> podem ser baixados <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">aqui<\/a><br \/>O driver <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a> para Windows pode ser baixado <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">aqui<\/a><br \/>"
+        "message": "Esta aplicação é compatível com todo hardware que consegue executar o Emuflight. Verifique a aba \"Atualização de firmware\" para ver a lista completa de hardware compatível.<br><br> <a href=\"https:\/\/github.com\/betaflight\/blackbox-log-viewer\/releases\" target=\"_blank\"> Baixar o Emuflight Blackbox Log Viewer<\/a><br \/><br \/>O código fonte do firmware pode ser baixado <a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">aqui<\/a><br \/><br \/>Os drivers <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">CP210x<\/a> mais recentes podem ser baixados <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">aqui<\/a><br \/>Os drivers <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">STM USB VCP<\/a> podem ser baixados <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">aqui<\/a><br \/>O driver <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a> para Windows pode ser baixado <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">aqui<\/a><br \/>"
     },
     "defaultContributingHead": {
         "message": "Contribuir"
     },
     "defaultContributingText": {
-        "message": "Se desejar ajudar o Betaflight a tornar-se ainda melhor, pode contribuir de várias formas, incluindo:<br \/><ul><li>Respondendo a questões de outros usuários nos fóruns e IRC.<\/li><li>Contribuindo com código para o firmware e para o configurador: Novas funcionalidades, correções e melhorias<\/li><li>Testando <a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">novas funcionalidades\/correções<\/a> e fornecer feedback. <\/li><li>Ajudar com <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">correções e comentar em sugestões de novas funcionalidades<\/a>.<\/li><li>Colaborar <a href=\"https:\/\/crowdin.com\/project\/betaflight-configurator\" target=\"_blank\">ajudando na tradução do configurador<\/a> para a seu idioma.<\/li><li><\/li><\/ul>"
+        "message": "Se desejar ajudar o Emuflight a tornar-se ainda melhor, pode contribuir de várias formas, incluindo:<br \/><ul><li>Respondendo a questões de outros usuários nos fóruns e IRC.<\/li><li>Contribuindo com código para o firmware e para o configurador: Novas funcionalidades, correções e melhorias<\/li><li>Testando <a href=\"https:\/\/github.com\/Emuflight\/betaflight\/pulls\" target=\"_blank\">novas funcionalidades\/correções<\/a> e fornecer feedback. <\/li><li>Ajudar com <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">correções e comentar em sugestões de novas funcionalidades<\/a>.<\/li><li>Colaborar <a href=\"https:\/\/crowdin.com\/project\/emuflight-configurator\" target=\"_blank\">ajudando na tradução do configurador<\/a> para a seu idioma.<\/li><li><\/li><\/ul>"
     },
     "defaultFacebookText": {
-        "message": "Nós também temos um <a href=\"https:\/\/www.facebook.com\/groups\/betaflightgroup\/\" target=\"_blank\">grupo no Facebook<\/a>.<br \/> Participe dele para ter um lugar para falar sobre o Betaflight, fazer perguntas sobre configurações ou encontrar outros pilotos."
+        "message": "Nós também temos um <a href=\"https:\/\/www.facebook.com\/groups\/betaflightgroup\/\" target=\"_blank\">grupo no Facebook<\/a>.<br \/> Participe dele para ter um lugar para falar sobre o Emuflight, fazer perguntas sobre configurações ou encontrar outros pilotos."
     },
     "defaultChangelogAction": {
         "message": "Novidades"
@@ -492,7 +492,7 @@
         "message": "Código Fonte \/ Nota de Doação"
     },
     "defaultDonateText": {
-        "message": "<p><strong>Betaflight<\/strong> é um software para controladores de voo feito com <strong>código aberto<\/strong> e disponível gratuitamente <strong>sem nenhuma garantia<\/strong> para todos os usuários.<\/p><p> Se você achou o Betaflight ou o Configurador Betaflight útil, considere <strong>ajudar<\/strong> seu desenvolvimento com uma doação.<\/p>"
+        "message": "<p><strong>Emuflight<\/strong> é um software para controladores de voo feito com <strong>código aberto<\/strong> e disponível gratuitamente <strong>sem nenhuma garantia<\/strong> para todos os usuários.<\/p><p> Se você achou o Emuflight ou o Configurador Emuflight útil, considere <strong>ajudar<\/strong> seu desenvolvimento com uma doação.<\/p>"
     },
     "defaultDonateBottom": {
         "message": "<p>Se deseja ajudar este projeto financeiramente, de forma continua, considere tornar-se nosso benfeitor pelo site <a href='https:\/\/www.patreon.com\/betaflight'>Patreon<\/a><\/p>"
@@ -507,13 +507,13 @@
         "message": "Documentação \/ Manual"
     },
     "defaultDocumentation": {
-        "message": "A documentação do Betaflight está disponível nas notas de lançamento e no wiki.<br \/><br \/>"
+        "message": "A documentação do Emuflight está disponível nas notas de lançamento e no wiki.<br \/><br \/>"
     },
     "defaultDocumentation1": {
-        "message": "O wiki do Betaflight é um grande recurso para obter informações, ele pode ser encontrado <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\"> aqui<\/a>."
+        "message": "O wiki do Emuflight é um grande recurso para obter informações, ele pode ser encontrado <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\"> aqui<\/a>."
     },
     "defaultDocumentation2": {
-        "message": "As notas de lançamento para o firmware podem ser lidas na página de versões do Github, <a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\">aqui<\/a>."
+        "message": "As notas de lançamento para o firmware podem ser lidas na página de versões do Github, <a href=\"https:\/\/github.com\/Emuflight\/EmuFlight-Butter-Varient\/releases\" target=\"_blank\">aqui<\/a>."
     },
     "defaultSupportHead": {
         "message": "Suporte"
@@ -531,19 +531,19 @@
         "message": "<a href=\"http:\/\/www.rcgroups.com\/forums\/showthread.php?t=2464844&page=1\" target=\"_blank\">Tópico RC Groups<\/a>"
     },
     "defaultSupport2": {
-        "message": "<a href=\"http:\/\/betaflight.info\" target=\"_blank\">Wiki do Betaflight<\/a>"
+        "message": "<a href=\"http:\/\/betaflight.info\" target=\"_blank\">Wiki do Emuflight<\/a>"
     },
     "defaultSupport3": {
-        "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\">Vídeos do Betaflight por Joshua Bardwell<\/a>"
+        "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\">Vídeos do Emuflight por Joshua Bardwell<\/a>"
     },
     "defaultSupport4": {
-        "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
+        "message": "<a href=\"https:\/\/github.com\/Emuflight\" target=\"_blank\">GitHub<\/a>"
     },
     "defaultSupport5": {
-        "message": "<a href=\"http:\/\/betaflight.tk\/slack\" target=\"_blank\">Programadores do Betaflight no Slack<\/a>"
+        "message": "<a href=\"http:\/\/betaflight.tk\/slack\" target=\"_blank\">Programadores do Emuflight no Slack<\/a>"
     },
     "initialSetupBackupAndRestoreApiVersion": {
-        "message": "<span class=\"message-negative\">Funcionalidades de Backup e restauração desativadas.<\/span>Seu firmware está na versão <span class=\"message-negative\">$1<\/span> da API, O Backup e restauração requer a versão <span class=\"message-positive\">$2<\/span>. Por favor realize uma cópia de segurança pela Linha de comandos (CLI), veja a documentação do Betaflight para o procedimento."
+        "message": "<span class=\"message-negative\">Funcionalidades de Backup e restauração desativadas.<\/span>Seu firmware está na versão <span class=\"message-negative\">$1<\/span> da API, O Backup e restauração requer a versão <span class=\"message-positive\">$2<\/span>. Por favor realize uma cópia de segurança pela Linha de comandos (CLI), veja a documentação do Emuflight para o procedimento."
     },
     "initialSetupButtonCalibrateAccel": {
         "message": "Calibrar Acelerômetro"
@@ -739,7 +739,7 @@
         "description": "Description of the BST arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipMSP": {
-        "message": "A conexão MSP está ativa, provavelmente com este configurador Betaflight",
+        "message": "A conexão MSP está ativa, provavelmente com este configurador Emuflight",
         "description": "Description of the MSP arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipPARALYZE": {
@@ -1065,7 +1065,7 @@
         "message": "Tom do sinalizador"
     },
     "configurationDshotBeaconHelp": {
-        "message": "O sinalizador do Dshot usa os ESCs e motores para emitir som. Isso significa que o sinalizador do Dshot não pode ser usado enquanto os motores estiverem rodando. A partir do Betaflight 3.4, quando tentar armar com o sinalizador do Dshot ativo, haverá um atraso de 2 segundos para que a aeronave seja armada após um tom do sinalizador do Dshot. Isto evita que o sinalizador interfira com os comando Dshot enviados durante o processo de armar.<br\/><strong>Atenção:<\/strong> O sinalizador do Dshot envia uma corrente elétrica para os motores quando ativo, isso pode gerar calor excessivo e danificar seus motores e\/ou ESCs se a potência do sinalizador estiver muito alta. Use o configurador BLHeli ou o BLHeli Suite para ajustar e testar a potência do sinalizador."
+        "message": "O sinalizador do Dshot usa os ESCs e motores para emitir som. Isso significa que o sinalizador do Dshot não pode ser usado enquanto os motores estiverem rodando. A partir do Emuflight 3.4, quando tentar armar com o sinalizador do Dshot ativo, haverá um atraso de 2 segundos para que a aeronave seja armada após um tom do sinalizador do Dshot. Isto evita que o sinalizador interfira com os comando Dshot enviados durante o processo de armar.<br\/><strong>Atenção:<\/strong> O sinalizador do Dshot envia uma corrente elétrica para os motores quando ativo, isso pode gerar calor excessivo e danificar seus motores e\/ou ESCs se a potência do sinalizador estiver muito alta. Use o configurador BLHeli ou o BLHeli Suite para ajustar e testar a potência do sinalizador."
     },
     "configurationBeeper": {
         "message": "Configuração dos Sinais Sonoros"
@@ -1164,7 +1164,7 @@
         "message": "<strong>Nota:<\/strong> Tenha a certeza de que o controlador é capaz de operar na velocidade selecionada! Verifique a estabilidade do CPU e o tempo de ciclo. Alterar este valor pode requerer uma nova afinação do PID. DICA: Desative o acelerômetro e outros sensores para ganhar mais performance."
     },
     "configurationLoopTimeNo32KhzHelp": {
-        "message": "$t(configurationLoopTimeHelp.message)<br><strong>Nota sobre a frequência de atualização do Gyro a 32 kHz:<\/strong> O Modo 32kHz foi adicionado no Betaflight de forma experimental. Durante o tempo em que esteve disponível, nunca foi possível observar qualquer vantagem sobre o modo de 8kHz, por ser susceptível a vibrações e seu alto nível de ruído, que requer uma filtragem agressiva, causando atrasos no loop de controle. Por este motivo, no Betaflight 4.0, <strong>não há mais suporte para a frequência de atualização do Gyro a 32 kHz<\/strong>."
+        "message": "$t(configurationLoopTimeHelp.message)<br><strong>Nota sobre a frequência de atualização do Gyro a 32 kHz:<\/strong> O Modo 32kHz foi adicionado no Emuflight de forma experimental. Durante o tempo em que esteve disponível, nunca foi possível observar qualquer vantagem sobre o modo de 8kHz, por ser susceptível a vibrações e seu alto nível de ruído, que requer uma filtragem agressiva, causando atrasos no loop de controle. Por este motivo, no Emuflight 4.0, <strong>não há mais suporte para a frequência de atualização do Gyro a 32 kHz<\/strong>."
     },
     "configurationGPS": {
         "message": "GPS"
@@ -1689,7 +1689,7 @@
         "message": "Pré-visualizar"
     },
     "receiverMspWarningText": {
-        "message": "Estes sticks permitem o Betaflight ser armado e testado sem um transmissor ou receptor disponíveis. Porém, <strong>esta funcionalidade não foi feita para voos e as hélices não devem estar montadas.<\/strong><br><br>Esta função não garante um controle viável da sua aeronave. <strong>Ferimentos graves podem ocorrer se as hélices estiverem montadas.<\/strong>"
+        "message": "Estes sticks permitem o Emuflight ser armado e testado sem um transmissor ou receptor disponíveis. Porém, <strong>esta funcionalidade não foi feita para voos e as hélices não devem estar montadas.<\/strong><br><br>Esta função não garante um controle viável da sua aeronave. <strong>Ferimentos graves podem ocorrer se as hélices estiverem montadas.<\/strong>"
     },
     "receiverMspEnableButton": {
         "message": "Habilitar controles"
@@ -2505,13 +2505,13 @@
         "message": "Mensagem:"
     },
     "firmwareFlasherWarningText": {
-        "message": "Por favor <span class=\"message-negative\">não<\/span> tente atualizar hardware <strong>não-betaflight<\/strong> utilizando este atualizador de firmware.<br \/><span class=\"message-negative\">Não<\/span><strong> desconecte<\/strong> a placa ou <strong>desligue<\/strong> seu computador durante a atualização<br \/><br \/><strong>Nota: <\/strong>o bootloader do STM32 é salvo na ROM, não é possível danificá-lo.<br \/><strong>Nota: <\/strong><span class=\"message-negative\">Auto-Conectar<\/span> está sempre desativado enquanto você está na tela de atualização.<br \/><strong>Nota: <\/strong>Tenha a certeza de que você tem um backup; algumas atualizações podem limpar as suas configurações.<br \/><strong>Nota:<\/strong> Se não conseguir atualizar, <strong> tente primeiro desconectar todos os cabos do seu controlador de voo<\/strong>, tente reiniciar, atualizar o chrome ou atualizar seus drivers.<br \/><strong>Nota:<\/strong> Quando for atualizar placas com uma conexão USB direta (como a maioria das placas recentes) tenha a certeza de que você leu a seção de atualização por USB (USB Flashing) do manual do Betaflight e que também os drivers e softwares corretos estão instalados"
+        "message": "Por favor <span class=\"message-negative\">não<\/span> tente atualizar hardware <strong>não-betaflight<\/strong> utilizando este atualizador de firmware.<br \/><span class=\"message-negative\">Não<\/span><strong> desconecte<\/strong> a placa ou <strong>desligue<\/strong> seu computador durante a atualização<br \/><br \/><strong>Nota: <\/strong>o bootloader do STM32 é salvo na ROM, não é possível danificá-lo.<br \/><strong>Nota: <\/strong><span class=\"message-negative\">Auto-Conectar<\/span> está sempre desativado enquanto você está na tela de atualização.<br \/><strong>Nota: <\/strong>Tenha a certeza de que você tem um backup; algumas atualizações podem limpar as suas configurações.<br \/><strong>Nota:<\/strong> Se não conseguir atualizar, <strong> tente primeiro desconectar todos os cabos do seu controlador de voo<\/strong>, tente reiniciar, atualizar o chrome ou atualizar seus drivers.<br \/><strong>Nota:<\/strong> Quando for atualizar placas com uma conexão USB direta (como a maioria das placas recentes) tenha a certeza de que você leu a seção de atualização por USB (USB Flashing) do manual do Emuflight e que também os drivers e softwares corretos estão instalados"
     },
     "firmwareFlasherRecoveryHead": {
         "message": "<strong>Recuperação \/ Comunicação perdida<\/strong>"
     },
     "firmwareFlasherRecoveryText": {
-        "message": "Se você perdeu a comunicação com sua placa, siga estas instruções para restaurar a comunicação: <ul><li>Desligue a placa<\/li><li>Ative a opção 'Sem sequencia de reinicialização' e 'Formatar chip'.<\/li><li> Faça 'curto-circuito' aos pinos BOOT ou segure o botão BOOT.<\/li><li>Ligue a placa (O LED de atividade NÃO irá piscar se realizado corretamente).<\/li><li>Instale todos os drivers STM32 e Zadig se necessário (veja a sessão <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Betaflight\"target=\"_blank\">USB Flashing<\/a> do manual do Betaflight).<\/li><li>Feche o Configurador. Feche todas as janelas no Chrome, Feche todos aplicativos do Chrome, Reinicie o Configurador.<\/li><li>Solte o botão BOOT se seu FC tem um.<\/li><li>Atualize o Firmware correto (usando o Baud rate manual se especificado no manual do seu FC).<\/li><li>Desligue a placa.<\/li><li>Remova o 'curto-circuito' do BOOT.<\/li><li>Ligue a placa (O LED de atividade deve piscar).<\/li><li>Conecte normalmente.<\/li><\/ul>"
+        "message": "Se você perdeu a comunicação com sua placa, siga estas instruções para restaurar a comunicação: <ul><li>Desligue a placa<\/li><li>Ative a opção 'Sem sequencia de reinicialização' e 'Formatar chip'.<\/li><li> Faça 'curto-circuito' aos pinos BOOT ou segure o botão BOOT.<\/li><li>Ligue a placa (O LED de atividade NÃO irá piscar se realizado corretamente).<\/li><li>Instale todos os drivers STM32 e Zadig se necessário (veja a sessão <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Emuflight\"target=\"_blank\">USB Flashing<\/a> do manual do Emuflight).<\/li><li>Feche o Configurador. Feche todas as janelas no Chrome, Feche todos aplicativos do Chrome, Reinicie o Configurador.<\/li><li>Solte o botão BOOT se seu FC tem um.<\/li><li>Atualize o Firmware correto (usando o Baud rate manual se especificado no manual do seu FC).<\/li><li>Desligue a placa.<\/li><li>Remova o 'curto-circuito' do BOOT.<\/li><li>Ligue a placa (O LED de atividade deve piscar).<\/li><li>Conecte normalmente.<\/li><\/ul>"
     },
     "firmwareFlasherButtonLeave": {
         "message": "Sair do atualizador de Firmware"
@@ -2870,7 +2870,7 @@
         "message": "Potencia do Expo do RC"
     },
     "pidTuningRcExpoPowerHelp": {
-        "message": "O expoente que é usado ao calcular o Expo do RC. nas versões do Betaflight anteriores a 3.0, o valor é fixo em 3."
+        "message": "O expoente que é usado ao calcular o Expo do RC. nas versões do Emuflight anteriores a 3.0, o valor é fixo em 3."
     },
     "pidTuningLevel": {
         "message": "Angulo\/Horizonte"
@@ -3074,7 +3074,7 @@
         "message": "Rotação da placa em graus, permite que a placa seja montada de lado, de cabeça para baixo, rotacionada, etc. Quando estiver utilizando sensores externos, use o alinhamento dos sensores (Gyro, Accel, Mag) para definir a posição do sensor independente da orientação da placa. "
     },
     "failsafeFeaturesHelpOld": {
-        "message": "As configurações do Failsafe mudaram consideravelmente. Use o Betaflight <strong>v1.12.0+<\/strong> para ativar o painel de configuração aprimorado."
+        "message": "As configurações do Failsafe mudaram consideravelmente. Use o Emuflight <strong>v1.12.0+<\/strong> para ativar o painel de configuração aprimorado."
     },
     "failsafePaneTitleOld": {
         "message": "Failsafe do receptor"
@@ -3206,7 +3206,7 @@
         "message": "Salvar"
     },
     "powerFirmwareUpgradeRequired": {
-        "message": "Atualização de Firmware <span class=\"message-negative\">necessária<\/span>. As configurações de Bateria\/Corrente\/Voltagem utilizando a API &lt; 1.33.0 (Lançamento Betaflight &lt;=3.17) não é suportado."
+        "message": "Atualização de Firmware <span class=\"message-negative\">necessária<\/span>. As configurações de Bateria\/Corrente\/Voltagem utilizando a API &lt; 1.33.0 (Lançamento Emuflight &lt;=3.17) não é suportado."
     },
     "powerBatteryVoltageMeterSource": {
         "message": "Origem do medidor de voltagem"
@@ -3995,7 +3995,7 @@
         "message": "<b>Derivativo a partir do Erro<\/b> gera uma reposta mais direta ao stick e é melhor para corridas.<br><br><b>Derivativo a partir da Medição<\/b> gera uma resposta mais suave ao stick e é melhor para freestyle"
     },
     "pidTuningPidControllerTip": {
-        "message": "<b>Legado vs Betaflight (flutuante):<\/b> A lógica e a escala do PID é exatamente a mesma. Não é necessário reajustar. O modo Legado é o antigo Betaflight Evolved Rewrite, que é um controlador PID básico baseado em matemática de números inteiros. o controlador PID Betaflight usa matemática de números com ponto flutuante e tem várias novas funcionalidades especificamente desenhadas para multirotores<br><b>Inteiro vs Flutuante:<\/b> A lógica e a escala do PID é exatamente a mesma. Não é necessário reajustar. placas F1 não tem um FPU a bordo e a matemática com ponto flutuante aumenta a carga do CPU; Matemática com inteiros melhora a performance, mas a matemática com ponto flutuante é mais precisa."
+        "message": "<b>Legado vs Emuflight (flutuante):<\/b> A lógica e a escala do PID é exatamente a mesma. Não é necessário reajustar. O modo Legado é o antigo Emuflight Evolved Rewrite, que é um controlador PID básico baseado em matemática de números inteiros. o controlador PID Emuflight usa matemática de números com ponto flutuante e tem várias novas funcionalidades especificamente desenhadas para multirotores<br><b>Inteiro vs Flutuante:<\/b> A lógica e a escala do PID é exatamente a mesma. Não é necessário reajustar. placas F1 não tem um FPU a bordo e a matemática com ponto flutuante aumenta a carga do CPU; Matemática com inteiros melhora a performance, mas a matemática com ponto flutuante é mais precisa."
     },
     "pidTuningFilterTip": {
         "message": "<b>Filtro Soft para o Giroscópio:<\/b> Um filtro Lowpass para o Giroscópio. Use valores mais baixos para filtrar mais.<br><b>Filtro do Termo D:<\/b> Filtro Lowpass para o termo D. Pode afetar a afinação do D. Use valores mais baixos para filtrar mais.<br><b>Filtro Yaw:<\/b> Filtra a saída do Yaw. Pode ajudar nas aeronaves com ruídos no eixo Yaw."

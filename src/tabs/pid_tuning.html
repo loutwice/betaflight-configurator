@@ -2,7 +2,7 @@
     <div class="content_wrapper">
         <div class="tab_title" i18n="tabPidTuning"></div>
         <div class="cf_doc_version_bt">
-            <a id="button-documentation" href="https://github.com/betaflight/betaflight/releases" target="_blank"></a>
+            <a id="button-documentation" href="https://github.com/emuflight/EmuFlight-Butter-Varient/releases" target="_blank"></a>
         </div>
         <div class="cf_column">
             <div class="profile single-field">
@@ -483,7 +483,7 @@
                                             <span i18n="pidTuningItermRelaxType" />
                                         </label>
                                         <select id="itermrelaxType">
-                                            <option i18n="pidTuningItermRelaxTypeOptionGyro"     value="0"/> 
+                                            <option i18n="pidTuningItermRelaxTypeOptionGyro"     value="0"/>
                                             <option i18n="pidTuningItermRelaxTypeOptionSetpoint" value="1"/>
                                         </select>
                                     </span>
@@ -893,7 +893,7 @@
                                     </div>
                                 </td>
                             </tr>
-                            
+
                             <tr>
                                 <th colspan="2">
                                     <div class="pid_mode dynamicNotch">
@@ -958,6 +958,78 @@
                             </tr>
                         </table>
                     </div>
+
+<!-- TEST -->
+
+<div id="imufFilterSettingsPanel" style="display: none;" class="gui_box grey topspacer pid_filter">
+                        <table class="pid_titlebar new_rates">
+                            <tr>
+                                <th i18n="pidTuningIMUFFilterSettings" ></th>
+                            </tr>
+                        </table>
+                        <table>
+                          <th colspan="2">
+                            <tr>
+
+                                <td>
+                                    <input id="imuf_roll_q" type="number" name="imuf_roll_q" step="100" min="100" max="16000"/>
+                                </td>
+                                <td>
+                                    <div>
+                                        <label>
+                                            <span i18n="pidTuningImufRollQ"></span>
+                                        </label>
+                                        <div class="helpicon cf_tip" i18n_title="pidTuningKalmanFilterQHelp"></div>
+                                    </div>
+                                </td>
+
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input id="imuf_pitch_q" type="number" name="imuf_pitch_q" step="100" min="100" max="16000"/>
+                                </td>
+                                <td>
+                                    <div>
+                                        <label>
+                                            <span i18n="pidTuningImufPitchQ"></span>
+                                        </label>
+                                        <div class="helpicon cf_tip" i18n_title="pidTuningKalmanFilterQHelp"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input id="imuf_yaw_q" type="number" name="imuf_yaw_q" step="100" min="100" max="48000"/>
+                                </td>
+                                <td>
+                                    <div>
+                                        <label>
+                                            <span i18n="pidTuningImufYawQ"></span>
+                                        </label>
+                                        <div class="helpicon cf_tip" i18n_title="pidTuningKalmanFilterQHelp"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input id="imuf_w" type="number" name="imuf_w" step="1" min="6" max="100"/>
+                                </td>
+                                <td>
+                                    <div>
+                                        <label>
+                                            <span i18n="pidTuningImufW"></span>
+                                        </label>
+                                        <div class="helpicon cf_tip" i18n_title="pidTuningKalmanFilterQHelp"></div>
+                                    </div>
+                                </td>
+                            </tr>
+                          </ th>
+                        </table>
+                    </div>
+
+
+                    <!-- end TEST-->
+
                     <div class="gui_box grey topspacer pid_filter two_columns_second">
                         <table class="pid_titlebar new_rates">
                             <tr>
@@ -973,7 +1045,7 @@
                                         <div i18n="pidTuningDTermLowpassFiltersGroup" />
                                         <div class="helpicon cf_tip" i18n_title="pidTuningLowpassFilterHelp" />
                                     </div>
-                                        
+
                                     </div>
                                 </th>
                             </tr>
@@ -1090,7 +1162,7 @@
                                         <div  i18n="pidTuningDTermNotchFiltersGroup" />
                                         <div class="helpicon cf_tip" i18n_title="pidTuningNotchFilterHelp" />
                                     </div>
-                                    
+
                                 </th>
                             </tr>
 
@@ -1146,6 +1218,49 @@
                             </tr>
                         </table>
                     </div>
+
+<!-- TEST -->
+<tr>
+                    <div class="gui_box grey topspacer pid_filter kalmanFilterSettingsPanel">
+                                            <table class="pid_titlebar new_rates">
+                                                <tr>
+                                                    <th i18n="pidTuningKalmanFilterSettings"></th>
+                                                </tr>
+                                            </table>
+                                            <table>
+                                                <th colspan="2">
+                                                <tr>
+                                                    <td>
+                                                        <input id="QCoefficient" type="number" name="kalmanQCoefficient" step="1" min="20" max="48000"/>
+                                                    </td>
+                                                    <td>
+                                                        <div>
+                                                            <label>
+                                                                <span i18n="pidTuningKalmanFilterQ"></span>
+                                                            </label>
+                                                            <div class="helpicon cf_tip" i18n_title="pidTuningKalmanFilterQHelp"></div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td>
+                                                        <input type="number" name="kalmanRCoefficient" step="1" min="0" max="16000"/>
+                                                    </td>
+                                                    <td>
+                                                        <div>
+                                                            <label>
+                                                                <span i18n="pidTuningKalmanFilterR"></span>
+                                                            </label>
+                                                            <div class="helpicon cf_tip" i18n_title="pidTuningKalmanFilterRHelp"></div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                </th>
+                                            </table>
+                                        </div>
+                                        </tr>
+<!-- entest -->
+
                 </div>
             </div>
         </form>
@@ -1181,7 +1296,7 @@
         </div>
         <div class="buttons">
             <a href="#" class="dialogCopyProfile-confirmbtn regular-button" i18n="dialogCopyProfileConfirm"></a>
-            <a href="#" class="dialogCopyProfile-cancelbtn regular-button" i18n="dialogCopyProfileClose"></a> 
+            <a href="#" class="dialogCopyProfile-cancelbtn regular-button" i18n="dialogCopyProfileClose"></a>
         </div>
     </dialog>
 

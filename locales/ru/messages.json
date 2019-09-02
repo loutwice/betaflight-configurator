@@ -122,7 +122,7 @@
         "message": "Показывать уведомления о появлении нестабильных версий конфигуратора"
     },
     "configuratorUpdateNotice": {
-        "message": "Вы используете устаревшую версию <b>Betaflight конфигуратора<\/b>.<br>Новая версия <b>$1<\/b> доступна для скачивания, пожалуйста, посетите <a href=\"$2\" target=\"_blank\">страницу с релизами<\/a> для загрузки и установки самой последней версии с исправлениями и улучшениями.<br>Пожалуйста, закройте окно конфигуратора перед обновлением."
+        "message": "Вы используете устаревшую версию <b>Emuflight конфигуратора<\/b>.<br>Новая версия <b>$1<\/b> доступна для скачивания, пожалуйста, посетите <a href=\"$2\" target=\"_blank\">страницу с релизами<\/a> для загрузки и установки самой последней версии с исправлениями и улучшениями.<br>Пожалуйста, закройте окно конфигуратора перед обновлением."
     },
     "configuratorUpdateWebsite": {
         "message": "Перейти на сайт с релизами"
@@ -335,7 +335,7 @@
         "message": "Версия этой прошивки <span class=\"message-negative\">не поддерживается<\/span> данным конфигуратором. Пожалуйста, обновите прошивку, которая поддерживает версию конфигуратора <strong>$1<\/strong> или выше. Используйте командную строку, чтобы сделать резервную копию прошивки перед тем, как обновлять прошивку. Процедура создания\/восстановления резервной копии описана в документации.<br \/>Если вы не хотите обновлять прошивку, то используйте более старую версию конфигуратора."
     },
     "firmwareTypeNotSupported": {
-        "message": "Прошивки, кроме Cleanflight\/Betaflight <span class=\"message-negative\">не поддерживаются<\/span>, но для них доступен режим командной строки."
+        "message": "Прошивки, кроме Cleanflight\/Emuflight <span class=\"message-negative\">не поддерживаются<\/span>, но для них доступен режим командной строки."
     },
     "firmwareUpgradeRequired": {
         "message": "Прошивка в этом устройстве нуждается в обновлении до новой версии. Используйте командную строку, чтобы сделать резервную копию перед обновлением прошивки. Процедура создания\/восстановления резервной копии описана в документации.<br \/>Если вы не хотите обновлять прошивку, то используйте более старую версию конфигуратора."
@@ -372,7 +372,7 @@
         "message": "Вы <span class=\"message-negative\">не можете<\/span> сделать это прямо сейчас, пожалуйста, дождитесь завершения текущей операции ..."
     },
     "tabSwitchUpgradeRequired": {
-        "message": "Вам нужно <strong>обновить<\/strong> прошивку до последней версии Betaflight прежде чем использовать вкладку $1."
+        "message": "Вам нужно <strong>обновить<\/strong> прошивку до последней версии Emuflight прежде чем использовать вкладку $1."
     },
     "firmwareVersion": {
         "message": "Версия прошивки: <strong>$1<\/strong>"
@@ -459,22 +459,22 @@
         "message": "EEPROM <span class=\"message-positive\">сохранён<\/span>"
     },
     "defaultWelcomeIntro": {
-        "message": "Вас приветствует <strong>Betaflight конфигуратор<\/strong> - утилита разработанная для лёгкого обновления, конфигурации и настройки вашего полётного контроллера."
+        "message": "Вас приветствует <strong>Emuflight конфигуратор<\/strong> - утилита разработанная для лёгкого обновления, конфигурации и настройки вашего полётного контроллера."
     },
     "defaultWelcomeHead": {
         "message": "Железо"
     },
     "defaultWelcomeText": {
-        "message": "Это приложение поддерживает все устройства, которые могут запускаться в Betaflight конфигураторе. Вы также можете посмотреть весь список поддерживаемых устройств во вкладке \"Программатор\".<br><br><a href=\"https:\/\/github.com\/betaflight\/blackbox-log-viewer\/releases\" target=\"_blank\"> Скачать Betaflight Blackbox Log Viewer<\/a><br \/><br \/>Исходный код прошивки можно скачать <a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">здесь<\/a><br \/><br \/>Последнюю версию <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">CP210x драйвера<\/a> можно скачать <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">здесь<\/a><br \/>Последнюю версию <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">STM USB VCP драйвера<\/a> можно скачать <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">здесь<\/a><br \/>Последнюю версию <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a> для установки USB драйвера под Windows можно скачать <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">здесь<\/a><br \/>"
+        "message": "Это приложение поддерживает все устройства, которые могут запускаться в Emuflight конфигураторе. Вы также можете посмотреть весь список поддерживаемых устройств во вкладке \"Программатор\".<br><br><a href=\"https:\/\/github.com\/betaflight\/blackbox-log-viewer\/releases\" target=\"_blank\"> Скачать Emuflight Blackbox Log Viewer<\/a><br \/><br \/>Исходный код прошивки можно скачать <a href=\"https:\/\/github.com\/betaflight\/betaflight\" title=\"www.github.com\" target=\"_blank\">здесь<\/a><br \/><br \/>Последнюю версию <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">CP210x драйвера<\/a> можно скачать <a href=\"http:\/\/www.silabs.com\/products\/mcu\/pages\/usbtouartbridgevcpdrivers.aspx\" title=\"http:\/\/www.silabs.com\" target=\"_blank\">здесь<\/a><br \/>Последнюю версию <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">STM USB VCP драйвера<\/a> можно скачать <a href=\"http:\/\/www.st.com\/web\/en\/catalog\/tools\/PF257938\" title=\"http:\/\/www.st.com\" target=\"_blank\">здесь<\/a><br \/>Последнюю версию <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">Zadig<\/a> для установки USB драйвера под Windows можно скачать <a href=\"http:\/\/zadig.akeo.ie\/\" title=\"http:\/\/zadig.akeo.ie\" target=\"_blank\">здесь<\/a><br \/>"
     },
     "defaultContributingHead": {
         "message": "Содействие"
     },
     "defaultContributingText": {
-        "message": "Если вы хотите сделать Betaflight лучше, вы можете помочь нам несколькими способами:<br \/><ul><li>Ответами на вопросы других пользователей на форумах и IRC.<\/li><li>Добавлением кода прошивки и конфигуратора с целью: добавления нового функционала, исправления ошибок, улучшений<\/li><li>Тестированием <a href=\"https:\/\/github.com\/Betaflight\/betaflight\/pulls\" target=\"_blank\">нового функционала\/исправленных ошибок<\/a> и сообщая нам результаты.<\/li><li>Помочь нам <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">обсудить запросы на новые функционалы<\/a>.<\/li><li>Помочь с <a href=\"http:\/\/betaflight.oneskyapp.com\" target=\"_blank\">переводом конфигуратора<\/a> на свой родной язык.<\/li><li><\/li><\/ul>"
+        "message": "Если вы хотите сделать Emuflight лучше, вы можете помочь нам несколькими способами:<br \/><ul><li>Ответами на вопросы других пользователей на форумах и IRC.<\/li><li>Добавлением кода прошивки и конфигуратора с целью: добавления нового функционала, исправления ошибок, улучшений<\/li><li>Тестированием <a href=\"https:\/\/github.com\/Emuflight\/betaflight\/pulls\" target=\"_blank\">нового функционала\/исправленных ошибок<\/a> и сообщая нам результаты.<\/li><li>Помочь нам <a href=\"https:\/\/github.com\/betaflight\/betaflight\/issues\" target=\"_blank\">обсудить запросы на новые функционалы<\/a>.<\/li><li>Помочь с <a href=\"http:\/\/betaflight.oneskyapp.com\" target=\"_blank\">переводом конфигуратора<\/a> на свой родной язык.<\/li><li><\/li><\/ul>"
     },
     "defaultFacebookText": {
-        "message": "У нас также есть <\/a><a href=\"https:\/\/www.facebook.com\/groups\/betaflightgroup\/\" target=\"_blank\">группа Facebook <\/a>.<br \/>Присоединяйтесь к нам, чтобы говорить о Betaflight, задавать вопросы о конфигурации или просто пообщаться с другими пилотами."
+        "message": "У нас также есть <\/a><a href=\"https:\/\/www.facebook.com\/groups\/betaflightgroup\/\" target=\"_blank\">группа Facebook <\/a>.<br \/>Присоединяйтесь к нам, чтобы говорить о Emuflight, задавать вопросы о конфигурации или просто пообщаться с другими пилотами."
     },
     "defaultChangelogAction": {
         "message": "Изменения"
@@ -492,7 +492,7 @@
         "message": "Открытый код \/ Пожертвование"
     },
     "defaultDonateText": {
-        "message": "<p><strong>Betaflight<\/strong> является прошивкой для полётных контроллеров <strong>с открытым исходным кодом<\/strong> и доступна абсолютно бесплатно <strong>без гарантии<\/strong> для всех пользователей.<\/p><p>Если вы нашли Betaflight или Betaflight конфигуратор полезными, пожалуйста<strong>поддержите<\/strong> разработку пожертвованием.<\/p>"
+        "message": "<p><strong>Emuflight<\/strong> является прошивкой для полётных контроллеров <strong>с открытым исходным кодом<\/strong> и доступна абсолютно бесплатно <strong>без гарантии<\/strong> для всех пользователей.<\/p><p>Если вы нашли Emuflight или Emuflight конфигуратор полезными, пожалуйста<strong>поддержите<\/strong> разработку пожертвованием.<\/p>"
     },
     "defaultDonateBottom": {
         "message": "<p>Если вы хотите финансово помогать на постоянной основе, вы можете стать нашим покровителем на <a href='https:\/\/www.patreon.com\/betaflight'>Patreon<\/a>.<\/p>"
@@ -507,13 +507,13 @@
         "message": "Документация \/ Инструкция"
     },
     "defaultDocumentation": {
-        "message": "Betaflight документация доступна в release notes и на wiki (на сайте Github).<br \/><br \/>"
+        "message": "Emuflight документация доступна в release notes и на wiki (на сайте Github).<br \/><br \/>"
     },
     "defaultDocumentation1": {
-        "message": "Betaflight wiki - это отличный источник информации, который можно найти <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\">здесь<\/a>."
+        "message": "Emuflight wiki - это отличный источник информации, который можно найти <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\" target=\"_blank\">здесь<\/a>."
     },
     "defaultDocumentation2": {
-        "message": "Информацию о новых прошивках можно почитать на Github в разделе releases <a href=\"https:\/\/github.com\/Betaflight\/Betaflight\/releases\" target=\"_blank\">здесь<\/a>."
+        "message": "Информацию о новых прошивках можно почитать на Github в разделе releases <a href=\"https:\/\/github.com\/Emuflight\/EmuFlight-Butter-Varient\/releases\" target=\"_blank\">здесь<\/a>."
     },
     "defaultSupportHead": {
         "message": "Нужна помощь?"
@@ -531,19 +531,19 @@
         "message": "<a href=\"http:\/\/www.rcgroups.com\/forums\/showthread.php?t=2464844&page=1\" target=\"_blank\">Обсуждения RC Groups<\/a>"
     },
     "defaultSupport2": {
-        "message": "<a href=\"http:\/\/betaflight.info\" target=\"_blank\">Betaflight Wiki<\/a>"
+        "message": "<a href=\"http:\/\/betaflight.info\" target=\"_blank\">Emuflight Wiki<\/a>"
     },
     "defaultSupport3": {
-        "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\">Betaflight видео от Джошуа Бардуэлла<\/a>"
+        "message": "<a href=\"https:\/\/www.youtube.com\/playlist?list=PLwoDb7WF6c8kdK6yHr7vhsU9iRTr5HxP4\" target=\"_blank\">Emuflight видео от Джошуа Бардуэлла<\/a>"
     },
     "defaultSupport4": {
-        "message": "<a href=\"https:\/\/github.com\/Betaflight\" target=\"_blank\">GitHub<\/a>"
+        "message": "<a href=\"https:\/\/github.com\/Emuflight\" target=\"_blank\">GitHub<\/a>"
     },
     "defaultSupport5": {
-        "message": "<a href=\"https:\/\/slack.betaflight.com\" target=\"_blank\"> Разработчики Betaflight на slack<\/a>"
+        "message": "<a href=\"https:\/\/slack.betaflight.com\" target=\"_blank\"> Разработчики Emuflight на slack<\/a>"
     },
     "initialSetupBackupAndRestoreApiVersion": {
-        "message": "<span class=\"message-negative\">Функционал создания и восстановления из резервной копии не доступен.<\/span> Ваша прошивка имеет API версию конфигуратора <span class=\"message-negative\">$1<\/span>, создание и восстановление из резервной копии требует версию <span class=\"message-positive\">$2<\/span>. Пожалуйста, создайте резервную копию ваших настроек через командную строку; загляните в документацию Betaflight, чтобы узнать как это сделать."
+        "message": "<span class=\"message-negative\">Функционал создания и восстановления из резервной копии не доступен.<\/span> Ваша прошивка имеет API версию конфигуратора <span class=\"message-negative\">$1<\/span>, создание и восстановление из резервной копии требует версию <span class=\"message-positive\">$2<\/span>. Пожалуйста, создайте резервную копию ваших настроек через командную строку; загляните в документацию Emuflight, чтобы узнать как это сделать."
     },
     "initialSetupButtonCalibrateAccel": {
         "message": "Калибровать Акселерометр"
@@ -739,7 +739,7 @@
         "description": "Description of the BST arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipMSP": {
-        "message": "MSP соединение активно, возможно с этим Betaflight Configurator",
+        "message": "MSP соединение активно, возможно с этим Emuflight Configurator",
         "description": "Description of the MSP arming disable flag"
     },
     "initialSetupArmingDisableFlagsTooltipPARALYZE": {
@@ -1059,7 +1059,7 @@
         "message": "Тон писка моторами"
     },
     "configurationDshotBeaconHelp": {
-        "message": "Dshot маяк используется для того чтоб ESCs и двигатели производили звук. Это значит, что Dshot маяк не может быть использован когда двигатели вращаются. В Betaflight 3.4 и новее, когда происходит попытка \"вооружить\" пока Dshot маяк активен, тогда аппарат \"вооружится\" спустя 2 секунды после последнего Dshot маяка. Это должно помешать функциям маяка Dshot мешать командам Dshot, отправленным при вооружении.<br\/><strong>Внимание:<\/strong> Поскольку маяк Dshot пропускает ток через ваши двигатели, когда он активен, то это может привести к чрезмерному перегреву и повреждению ваших двигателей и \/ или ESC, если мощность маяка слишком высока. Используете BLHeli Configurator или BLHeli Suite для регулировки и проверки силы маяка."
+        "message": "Dshot маяк используется для того чтоб ESCs и двигатели производили звук. Это значит, что Dshot маяк не может быть использован когда двигатели вращаются. В Emuflight 3.4 и новее, когда происходит попытка \"вооружить\" пока Dshot маяк активен, тогда аппарат \"вооружится\" спустя 2 секунды после последнего Dshot маяка. Это должно помешать функциям маяка Dshot мешать командам Dshot, отправленным при вооружении.<br\/><strong>Внимание:<\/strong> Поскольку маяк Dshot пропускает ток через ваши двигатели, когда он активен, то это может привести к чрезмерному перегреву и повреждению ваших двигателей и \/ или ESC, если мощность маяка слишком высока. Используете BLHeli Configurator или BLHeli Suite для регулировки и проверки силы маяка."
     },
     "configurationBeeper": {
         "message": "Настройка пищалки"
@@ -1158,7 +1158,7 @@
         "message": "<strong>Примечание:<\/strong> Убедитесь, что Ваш FC способен работать на этих скоростях! Проверьте ЦП и стабильность времени цикла. Эти изменения могут потребовать подстройки PID. Совет: Отключите Акселерометр и другие сенсоры для повышения производительности."
     },
     "configurationLoopTimeNo32KhzHelp": {
-        "message": "$t(configurationLoopTimeHelp.message)<br><strong>Примечание по 32 кГц дискретизации гироскопа:<\/strong> Поддержа режима 32 кГц дискретизации была добавлена в Betaflight как экспериментальная опция. За те годы, что он был доступен, он никогда не показывал, что у него есть какое-либо преимущество перед режимом гироскопической дискретизации 8 кГц, из-за его восприимчивости к вибрациям и высокого уровня шума, который требует агрессивной фильтрации, вызывая задержки в контуре управления. По этой причине, <strong>поддержка режима дискретизации гироскопа 32 кГц выброшена<\/strong> в Betaflight 4.0."
+        "message": "$t(configurationLoopTimeHelp.message)<br><strong>Примечание по 32 кГц дискретизации гироскопа:<\/strong> Поддержа режима 32 кГц дискретизации была добавлена в Emuflight как экспериментальная опция. За те годы, что он был доступен, он никогда не показывал, что у него есть какое-либо преимущество перед режимом гироскопической дискретизации 8 кГц, из-за его восприимчивости к вибрациям и высокого уровня шума, который требует агрессивной фильтрации, вызывая задержки в контуре управления. По этой причине, <strong>поддержка режима дискретизации гироскопа 32 кГц выброшена<\/strong> в Emuflight 4.0."
     },
     "configurationGPS": {
         "message": "GPS"
@@ -1672,7 +1672,7 @@
         "message": "Предпросмотр"
     },
     "receiverMspWarningText": {
-        "message": "Эти стики позволяют Betaflight армиться и тестироваться без установленного приемника или передатчика. Тем не менее, <strong>эта фича не предназначена для полетов и пропеллеры должны быть сняты.<\/strong><br><br>Эта фича не гарантирует надежного управления аппаратом. <strong>Если не снять пропеллеры это может привести к серьёзным травмам.<\/strong>"
+        "message": "Эти стики позволяют Emuflight армиться и тестироваться без установленного приемника или передатчика. Тем не менее, <strong>эта фича не предназначена для полетов и пропеллеры должны быть сняты.<\/strong><br><br>Эта фича не гарантирует надежного управления аппаратом. <strong>Если не снять пропеллеры это может привести к серьёзным травмам.<\/strong>"
     },
     "receiverMspEnableButton": {
         "message": "Включить управление"
@@ -2479,13 +2479,13 @@
         "message": "Сообщение:"
     },
     "firmwareFlasherWarningText": {
-        "message": "Пожалуйста, <span class=\"message-negative\">не пытайтесь прошивать <\/span> <strong>не поддерживаемые<\/strong> Betaflight-ом контроллеры этим программатором.<br \/><span class=\"message-negative\">Не <\/span><strong>отключайте<\/strong> кабель от полётного контроллера и <strong>не выключайте<\/strong> ваш компьютер во время прошивки.<br \/><br \/><strong>Примечание:<\/strong> STM32-загрузчик хранится в ROM-памяти, его нельзя затирать.<br \/><strong>Примечание:<\/strong><span class=\"message-negative\"> Подключаться автоматически<\/span> всегда выключено во вкладке \"Программатор\".<br \/><strong>Примечание:<\/strong> Убедитесь, что Вы сделали резервную копию, т. к. различные обновления и возвраты к предыдущей версии могут стереть Ваши настройки. <br \/><strong>Примечание:<\/strong> Если при прошивке возникают проблемы, то попробуйте сперва <strong>отключить все сторонние кабели от полётного контроллера<\/strong>, перезагрузите компьютер, обновите chrome, обновите драйверы.<br \/><strong>Примечание:<\/strong> При прошивке полётных контроллеров непосредственно через USB кабель (особенно новых моделей контроллеров) обязательно ознакомьтесь с разделом USB Flashing в инструкции Betaflight и убедитесь, что у Вас установлены нужные программы и драйвера"
+        "message": "Пожалуйста, <span class=\"message-negative\">не пытайтесь прошивать <\/span> <strong>не поддерживаемые<\/strong> Emuflight-ом контроллеры этим программатором.<br \/><span class=\"message-negative\">Не <\/span><strong>отключайте<\/strong> кабель от полётного контроллера и <strong>не выключайте<\/strong> ваш компьютер во время прошивки.<br \/><br \/><strong>Примечание:<\/strong> STM32-загрузчик хранится в ROM-памяти, его нельзя затирать.<br \/><strong>Примечание:<\/strong><span class=\"message-negative\"> Подключаться автоматически<\/span> всегда выключено во вкладке \"Программатор\".<br \/><strong>Примечание:<\/strong> Убедитесь, что Вы сделали резервную копию, т. к. различные обновления и возвраты к предыдущей версии могут стереть Ваши настройки. <br \/><strong>Примечание:<\/strong> Если при прошивке возникают проблемы, то попробуйте сперва <strong>отключить все сторонние кабели от полётного контроллера<\/strong>, перезагрузите компьютер, обновите chrome, обновите драйверы.<br \/><strong>Примечание:<\/strong> При прошивке полётных контроллеров непосредственно через USB кабель (особенно новых моделей контроллеров) обязательно ознакомьтесь с разделом USB Flashing в инструкции Emuflight и убедитесь, что у Вас установлены нужные программы и драйвера"
     },
     "firmwareFlasherRecoveryHead": {
         "message": "<strong>Потеря связи \/ Восстановление связи<\/strong>"
     },
     "firmwareFlasherRecoveryText": {
-        "message": "Если возникла потеря связи с вашим устройством, то следуйте следующим шагам, чтобы восстановить связь:<ul><li>Отключите питание<\/li><li>Включите \"No reboot sequence\", включите \"Полное стирание чипа\".<\/li><li>Замкните контакты \"BOOT\" или удерживайте кнопку BOOT.<\/li><li>Включите питание (светодиод НЕ будет мигать, если всё сделано правильно).<\/li><li>Установите STM32 драйвера и Zadig, если это необходимо (см. раздел <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Betaflight\"target=\"_blank\">USB Flashing<\/a> в инструкции Betaflight).<\/li><li>Закройте конфигуратор, закройте все Chrome приложения и завершите все chrome процессы, перезапустите конфигуратор.<\/li><li>Отпустите кнопку \"BOOT\", если она есть.<\/li><li>Залейте нужную прошивку (укажите ручной битрейт, если он указан в инструкции вашего полётного контроллера).<\/li><li>Отключите питание<\/li><li>Разомкните контакты \"BOOT\".<\/li><li>Включите питание (светодиод должен мигать).<\/li><li>Пробуйте подключиться.<\/li><\/ul>"
+        "message": "Если возникла потеря связи с вашим устройством, то следуйте следующим шагам, чтобы восстановить связь:<ul><li>Отключите питание<\/li><li>Включите \"No reboot sequence\", включите \"Полное стирание чипа\".<\/li><li>Замкните контакты \"BOOT\" или удерживайте кнопку BOOT.<\/li><li>Включите питание (светодиод НЕ будет мигать, если всё сделано правильно).<\/li><li>Установите STM32 драйвера и Zadig, если это необходимо (см. раздел <a href=\"https:\/\/github.com\/betaflight\/betaflight\/wiki\/Installing-Emuflight\"target=\"_blank\">USB Flashing<\/a> в инструкции Emuflight).<\/li><li>Закройте конфигуратор, закройте все Chrome приложения и завершите все chrome процессы, перезапустите конфигуратор.<\/li><li>Отпустите кнопку \"BOOT\", если она есть.<\/li><li>Залейте нужную прошивку (укажите ручной битрейт, если он указан в инструкции вашего полётного контроллера).<\/li><li>Отключите питание<\/li><li>Разомкните контакты \"BOOT\".<\/li><li>Включите питание (светодиод должен мигать).<\/li><li>Пробуйте подключиться.<\/li><\/ul>"
     },
     "firmwareFlasherButtonLeave": {
         "message": "Покинуть программатор"
@@ -2844,7 +2844,7 @@
         "message": "Мощность RC Экспо"
     },
     "pidTuningRcExpoPowerHelp": {
-        "message": "Эта экспонента используется при расчете RC Expo. В Betaflight версиях до 3.0 значение фиксируется на 3."
+        "message": "Эта экспонента используется при расчете RC Expo. В Emuflight версиях до 3.0 значение фиксируется на 3."
     },
     "pidTuningLevel": {
         "message": "Angle\/Horizon"
@@ -3015,7 +3015,7 @@
         "message": "Произвольное вращение платы в градусах, для разрешения установки в другом направлении \/ вверх ногами \/ повернутое и т. д. При работе с внешними датчиками используется выравнивание датчиков (Gyro, Acc, Mag), чтобы определить положение датчика независимо от ориентации платы. "
     },
     "failsafeFeaturesHelpOld": {
-        "message": "Failsafe конфигурация изменилась существенно. Используете Betaflight <strong>v1.12.0 +<\/strong> для включения улучшенной конфигурационной панели."
+        "message": "Failsafe конфигурация изменилась существенно. Используете Emuflight <strong>v1.12.0 +<\/strong> для включения улучшенной конфигурационной панели."
     },
     "failsafePaneTitleOld": {
         "message": "Failsafe приемника"
@@ -3147,7 +3147,7 @@
         "message": "Сохранить"
     },
     "powerFirmwareUpgradeRequired": {
-        "message": "Firmware <span class=\"message-negative\">требует<\/span> обновления. Батарея\/Ток\/Напряжение конфигурация использует API &lt; 1.33.0 (Betaflight release &lt;= 3.17) это не поддерживается."
+        "message": "Firmware <span class=\"message-negative\">требует<\/span> обновления. Батарея\/Ток\/Напряжение конфигурация использует API &lt; 1.33.0 (Emuflight release &lt;= 3.17) это не поддерживается."
     },
     "powerBatteryVoltageMeterSource": {
         "message": "Использовать в качестве датчика напряжения"
@@ -3369,7 +3369,7 @@
         "message": "<strong>Примечание:<\/strong> OSD предпросмотр может отображаться не тем шрифтом, который установлен в полётном контроллере."
     },
     "osdSetupUnsupportedNote1": {
-        "message": "Ваш полётный контроллер не отвечает на команды OSD. Возможно, это означает, что в него не встроен Betaflight OSD."
+        "message": "Ваш полётный контроллер не отвечает на команды OSD. Возможно, это означает, что в него не встроен Emuflight OSD."
     },
     "osdSetupUnsupportedNote2": {
         "message": "Обратите внимание, что некоторые полётные контроллеры имеют встроенный <a href=\"https:\/\/www.youtube.com\/watch?v=ikKH_6SQ-Tk\" target=\"_blank\">MinimOSD<\/a>, который можно прошить и сконфигурировать при помощи <a href=\"https:\/\/github.com\/ShikOfTheRa\/scarab-osd\/releases\/latest\" target='_blank'>scarab-osd<\/a>, однако после этого MinimOSD невозможно будет сконфигурировать в этом интерфейсе."
@@ -3936,7 +3936,7 @@
         "message": "<b>Derivative from Error<\/b> обеспечивает более резкую отзывчивость стиков и это предпочтительнее для гонок. <br><br><b>Derivative from Measurement<\/b> обеспечивает более плавную отзывчивость стиков, что больше подходит для фристайла"
     },
     "pidTuningPidControllerTip": {
-        "message": "<b>Legacy vs Betaflight (float):<\/b> PID коэффициенты и PID логика абсолютно те же. Нет необходимости их перенастраивать. Legacy - это старый betaflight, чей PID-контроллер был основан на целочисленных вычислениях. PID-контроллер Betaflight использует вычисления с дробными числами и имеет множество новых возможностей, специально разработанных для мультироторных приложений. <br> <b>Float vs Integer:<\/b> PID коэффициенты и PID логика абсолютно те же. Перенастройка не нужна. Полётные контроллеры F1 не имели встроенного FPU и вычисления с дробными числами увеличивают нагрузку на CPU, а вычисления с целыми числами повышают повышают производительность, но вычисления с дробными числами немного увеличивают точность."
+        "message": "<b>Legacy vs Emuflight (float):<\/b> PID коэффициенты и PID логика абсолютно те же. Нет необходимости их перенастраивать. Legacy - это старый betaflight, чей PID-контроллер был основан на целочисленных вычислениях. PID-контроллер Emuflight использует вычисления с дробными числами и имеет множество новых возможностей, специально разработанных для мультироторных приложений. <br> <b>Float vs Integer:<\/b> PID коэффициенты и PID логика абсолютно те же. Перенастройка не нужна. Полётные контроллеры F1 не имели встроенного FPU и вычисления с дробными числами увеличивают нагрузку на CPU, а вычисления с целыми числами повышают повышают производительность, но вычисления с дробными числами немного увеличивают точность."
     },
     "pidTuningFilterTip": {
         "message": "<b>Gyro сглаж. фильтр:<\/b> Фильтр нижних частот для гироскопа. Чем ниже значение, тем больше фильтрация. <br><b>D Term фильтр:<\/b> Фильтр нижних частот для параметра D (в PID-ах). Может повлиять на настройку D. Чем ниже значение, тем больше фильтрация. <br><b>Yaw-фильтр:<\/b> Фильтрует рыскание (yaw). Может помочь в аппаратурах с шумными стиками по yaw."

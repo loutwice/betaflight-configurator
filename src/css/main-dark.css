@@ -1,5 +1,5 @@
 :root {
-    --accent: #ffbb00;
+    --accent: #2297eb;
     --subtleAccent: #9c9c9c;
     --quietHeader: #bf8606;
     --defaultText: #ffffff;
@@ -44,7 +44,7 @@ a {
 dialog {
     background-color: #3a3d3c;
     color:white;
-    border: 1px solid #ffbb2a;
+    border: 1px solid #2297eb;
 }
 
 /* Note */
@@ -58,11 +58,11 @@ dialog {
 }
 
 .content_toolbar .btn a {
-    border: 1px solid #ffbb2a;
+    border: 1px solid #2297eb;
 }
 
 .content_toolbar .btn a.disabled {
-    border: 1px solid #ffbb2a;
+    border: 1px solid #2297eb;
 }
 
 .gui_box {
@@ -105,11 +105,11 @@ dialog {
 
 .default_btn a.disabled {
     background-color: #393b3a;
-    border: 1px solid #ffbb2a;
+    border: 1px solid #2297eb;
 }
 
 .small a {
-    border: 1px solid #ffbb2a;
+    border: 1px solid #2297eb;
 }
 
 #quad-status_wrapper {
@@ -117,8 +117,8 @@ dialog {
 }
 
 button {
-    border: 1px solid #ffbb2a;
-    background-color: #ffbb2a;
+    border: 1px solid #2297eb;
+    background-color: #2297eb;
     color: black;
 }
 
