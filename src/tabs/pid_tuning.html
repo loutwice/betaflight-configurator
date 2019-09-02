@@ -961,7 +961,7 @@
 
 <!-- TEST -->
 
-<div id="imufFilterSettingsPanel" style="display: yes;" class="gui_box grey topspacer pid_filter">
+<div id="imufFilterSettingsPanel" style="display: none;" class="gui_box grey topspacer pid_filter">
                         <table class="pid_titlebar new_rates">
                             <tr>
                                 <th i18n="pidTuningIMUFFilterSettings" ></th>
@@ -1220,6 +1220,7 @@
                     </div>
 
 <!-- TEST -->
+<tr>
                     <div class="gui_box grey topspacer pid_filter kalmanFilterSettingsPanel">
                                             <table class="pid_titlebar new_rates">
                                                 <tr>
@@ -1227,6 +1228,7 @@
                                                 </tr>
                                             </table>
                                             <table>
+                                              <th colspan="2">
                                                 <tr>
                                                     <td>
                                                         <input id="QCoefficient" type="number" name="kalmanQCoefficient" step="1" min="20" max="48000"/>
@@ -1253,8 +1255,10 @@
                                                         </div>
                                                     </td>
                                                 </tr>
+                                                </th>
                                             </table>
                                         </div>
+                                        </tr>
 <!-- entest -->
 
                 </div>

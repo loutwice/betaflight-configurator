@@ -13,7 +13,7 @@ var GUI_control = function () {
     this.operating_system;
     this.interval_array = [];
     this.timeout_array = [];
-    
+
     this.defaultAllowedTabsWhenDisconnected = [
         'landing',
         'changelog',
@@ -339,7 +339,7 @@ GUI_control.prototype.content_ready = function (callback) {
         // Build link to in-use CF version documentation
         var documentationButton = $('div#content #button-documentation');
         documentationButton.html("Wiki");
-        documentationButton.attr("href","https://github.com/betaflight/betaflight/wiki");
+        documentationButton.attr("href","https://github.com/emuflight/emuflight/wiki");
     }
 
     // loading tooltip
@@ -349,7 +349,7 @@ GUI_control.prototype.content_ready = function (callback) {
     });
 
     $('.cf_tip').each(function() {
-        $(this).jBox('Tooltip', {            
+        $(this).jBox('Tooltip', {
             delayOpen: 100,
             delayClose: 100,
             position: {
@@ -367,14 +367,14 @@ GUI_control.prototype.content_ready = function (callback) {
 
 GUI_control.prototype.selectDefaultTabWhenConnected = function() {
     ConfigStorage.get(['rememberLastTab', 'lastTab'], function (result) {
-        if (!(result.rememberLastTab 
-                && !!result.lastTab 
+        if (!(result.rememberLastTab
+                && !!result.lastTab
                 && result.lastTab.substring(4) != "cli")) {
             $('#tabs ul.mode-connected .tab_setup a').click();
             return;
         }
         $("#tabs ul.mode-connected ." + result.lastTab + " a").click();
-    });    
+    });
 };
 
 GUI_control.prototype.isChromeApp = function () {

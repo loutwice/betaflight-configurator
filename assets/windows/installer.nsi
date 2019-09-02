@@ -9,14 +9,14 @@
 # ${DEST_FOLDER} - Destination folder for the installer files
 
 # Some definitions
-!define SOURCE_FILES          "..\..\apps\betaflight-configurator\${PLATFORM}\*"
+!define SOURCE_FILES          "..\..\apps\emuflight-configurator\${PLATFORM}\*"
 !define APP_NAME              "Emuflight Configurator"
 !define COMPANY_NAME          "The Emuflight open source project."
-!define GROUP_NAME            "Betaflight"
-!define FOLDER_NAME           "Betaflight-Configurator"
-!define FILE_NAME_INSTALLER   "betaflight-configurator-installer_${VERSION}_${PLATFORM}.exe"
-!define FILE_NAME_UNINSTALLER "uninstall-betaflight-configurator.exe"
-!define FILE_NAME_EXECUTABLE  "betaflight-configurator.exe"
+!define GROUP_NAME            "Emuglight"
+!define FOLDER_NAME           "Emuglight-Configurator"
+!define FILE_NAME_INSTALLER   "emuflight-configurator-installer_${VERSION}_${PLATFORM}.exe"
+!define FILE_NAME_UNINSTALLER "uninstall-emuflight-configurator.exe"
+!define FILE_NAME_EXECUTABLE  "emuflight-configurator.exe"
 !define LICENSE               "..\..\LICENSE"
 !define MUI_WELCOMEFINISHPAGE_BITMAP ".\bf_installer.bmp"
 

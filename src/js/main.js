@@ -106,8 +106,8 @@ function startProcess() {
     i18n.localizePage();
 
     // alternative - window.navigator.appVersion.match(/Chrome\/([0-9.]*)/)[1];
-    GUI.log(i18n.getMessage('infoVersions',{operatingSystem: GUI.operating_system, 
-                                            chromeVersion: window.navigator.appVersion.replace(/.*Chrome\/([0-9.]*).*/, "$1"), 
+    GUI.log(i18n.getMessage('infoVersions',{operatingSystem: GUI.operating_system,
+                                            chromeVersion: window.navigator.appVersion.replace(/.*Chrome\/([0-9.]*).*/, "$1"),
                                             configuratorVersion: CONFIGURATOR.version }));
 
     $('#logo .version').text(CONFIGURATOR.version);
@@ -545,7 +545,7 @@ function startProcess() {
 };
 
 function checkForConfiguratorUpdates() {
-    var releaseChecker = new ReleaseChecker('configurator', 'https://api.github.com/repos/betaflight/betaflight-configurator/releases');
+    var releaseChecker = new ReleaseChecker('configurator', 'https://api.github.com/repos/emuflight/emuflight-configurator/releases');
 
     releaseChecker.loadReleaseData(notifyOutdatedVersion);
 }

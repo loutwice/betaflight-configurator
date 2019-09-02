@@ -2,7 +2,7 @@
 
 TABS.firmware_flasher = {
     releases: null,
-    releaseChecker: new ReleaseChecker('firmware', 'https://api.github.com/repos/betaflight/betaflight/releases'),
+    releaseChecker: new ReleaseChecker('firmware', 'https://api.github.com/repos/emuflight/emuflight/releases'),
     jenkinsLoader: new JenkinsLoader('https://ci.betaflight.tech'),
     localFileLoaded: false,
 };
@@ -20,8 +20,8 @@ TABS.firmware_flasher.initialize = function (callback) {
 
         /**
          * Change boldness of firmware option depending on cache status
-         * 
-         * @param {Descriptor} release 
+         *
+         * @param {Descriptor} release
          */
     function onFirmwareCacheUpdate(release) {
         $("option[value='{0}']".format(release.version))
@@ -63,7 +63,7 @@ TABS.firmware_flasher.initialize = function (callback) {
                         FirmwareCache.put(summary, intel_hex);
                     }
 
-                    self.flashingMessage('<a class="save_firmware" href="#" title="Save Firmware">' + i18n.getMessage('firmwareFlasherFirmwareOnlineLoaded', parsed_hex.bytes_total) + '</a>', 
+                    self.flashingMessage('<a class="save_firmware" href="#" title="Save Firmware">' + i18n.getMessage('firmwareFlasherFirmwareOnlineLoaded', parsed_hex.bytes_total) + '</a>',
                                          self.FLASH_MESSAGE_TYPES.NEUTRAL);
 
                     self.enableFlashing(true);
@@ -74,7 +74,7 @@ TABS.firmware_flasher.initialize = function (callback) {
                     $('div.release_info .status').text(summary.status);
                     $('div.release_info .file').text(summary.file).prop('href', summary.url);
 
-                    var formattedNotes = summary.notes.replace(/#(\d+)/g, '[#$1](https://github.com/betaflight/betaflight/pull/$1)');
+                    var formattedNotes = summary.notes.replace(/#(\d+)/g, '[#$1](https://github.com/emuflight/emuflight/pull/$1)');
                     formattedNotes = marked(formattedNotes);
                     $('div.release_info .notes').html(formattedNotes);
                     $('div.release_info .notes').find('a').each(function() {
@@ -90,14 +90,14 @@ TABS.firmware_flasher.initialize = function (callback) {
         }
 
         function onLoadSuccess(data, summary) {
-            summary = typeof summary === "object" 
-                ? summary 
+            summary = typeof summary === "object"
+                ? summary
                 : $('select[name="firmware_version"] option:selected').data('summary');
             process_hex(data, summary);
             $("a.load_remote_file").removeClass('disabled');
             $("a.load_remote_file").text(i18n.getMessage('firmwareFlasherButtonLoadOnline'));
         };
-    
+
         function buildJenkinsBoardOptions(builds) {
             if (!builds) {
                 $('select[name="board"]').empty().append('<option value="0">Offline</option>');
@@ -722,15 +722,15 @@ TABS.firmware_flasher.enableFlashing = function (enabled) {
     }
 }
 
-TABS.firmware_flasher.FLASH_MESSAGE_TYPES = {NEUTRAL : 'NEUTRAL', 
-                                             VALID   : 'VALID', 
+TABS.firmware_flasher.FLASH_MESSAGE_TYPES = {NEUTRAL : 'NEUTRAL',
+                                             VALID   : 'VALID',
                                              INVALID : 'INVALID',
                                              ACTION  : 'ACTION'};
 
 TABS.firmware_flasher.flashingMessage = function(message, type) {
 
     let self = this;
-    
+
     let progressLabel_e = $('span.progressLabel');
     switch (type) {
         case self.FLASH_MESSAGE_TYPES.VALID:

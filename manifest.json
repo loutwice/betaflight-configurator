@@ -1,11 +1,11 @@
 {
     "manifest_version": 2,
     "minimum_chrome_version": "49",
-    "version": "10.6.0",
-    "author": "Betaflight Squad",
-    "name": "Betaflight - Configurator",
-    "short_name": "Betaflight",
-    "description": "Crossplatform configuration tool for Betaflight flight control system",
+    "version": "0.0.2",
+    "author": "Emuflight Squad",
+    "name": "Emuflight - Configurator",
+    "short_name": "Emuflight",
+    "description": "Crossplatform configuration tool for Emuflight flight control system",
 
     "offline_enabled": true,
 
@@ -49,9 +49,9 @@
         "partitions": [
             {
                 "name": "map",
-                "accessible_resources" : ["tabs/map.html", 
-                                          "js/tabs/map.js", 
-                                          "/js/libraries/openlayers/ol.css", 
+                "accessible_resources" : ["tabs/map.html",
+                                          "js/tabs/map.js",
+                                          "/js/libraries/openlayers/ol.css",
                                           "/js/libraries/openlayers/ol.js",
                                           "/images/icons/cf_icon_position.png",
                                           "/images/icons/cf_icon_position_nofix.png"]
@@ -59,6 +59,6 @@
         ]
     },
     "icons": {
-        "128": "images/bf_icon_128.png"
+        "128": "images/emu_icon_128.png"
     }
 }

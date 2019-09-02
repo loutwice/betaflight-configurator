@@ -42,7 +42,7 @@ JenkinsLoader.prototype.loadJobs = function (viewName, callback) {
 
                 // remove Emuflight prefix, rename Emuflight job to Development
                 var jobs = jobsInfo.jobs.map(job => {
-                    return { title: job.name.replace('Emuflight ', '').replace('Betaflight', 'Development'), name: job.name };
+                    return { title: job.name.replace('Emuflight ', '').replace('Emuflight', 'Development'), name: job.name };
                 })
 
                 // cache loaded info
@@ -118,7 +118,7 @@ JenkinsLoader.prototype._parseBuilds = function (jobUrl, jobName, builds, callba
     // convert from `build -> targets` to `target -> builds` mapping
     var targetBuilds = {};
 
-    var targetFromFilenameExpression = /betaflight_([\d.]+)?_?(\w+)(\-.*)?\.(.*)/;
+    var targetFromFilenameExpression = /emuflight_([\d.]+)?_?(\w+)(\-.*)?\.(.*)/;
 
     builds.forEach(build => {
         build.artifacts.forEach(relativePath => {

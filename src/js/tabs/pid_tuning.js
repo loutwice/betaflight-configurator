@@ -199,6 +199,25 @@ TABS.pid_tuning.initialize = function (callback) {
 
         if (semver.gte(CONFIG.apiVersion, "1.40.0")) {
 
+          if (CONFIG.boardIdentifier !== "HESP" && CONFIG.boardIdentifier !== "SX10" && CONFIG.boardIdentifier !== "FLUX") {
+
+                          $('.pid_filter input[name="kalmanQCoefficient"]').val(KALMAN_FILTER_CONFIG.gyro_filter_q);
+                          $('.pid_filter input[name="kalmanRCoefficient"]').val(KALMAN_FILTER_CONFIG.gyro_filter_r);
+
+                      } else {
+                          $('#imuf_roll_q').val(IMUF_FILTER_CONFIG.imuf_roll_q);
+                          $('#imuf_pitch_q').val(IMUF_FILTER_CONFIG.imuf_pitch_q);
+                          $('#imuf_yaw_q').val(IMUF_FILTER_CONFIG.imuf_yaw_q);
+                          $('#imuf_w').val(IMUF_FILTER_CONFIG.imuf_w);
+
+                          //Only show HELIO SPRING compatible settings
+
+                          $('.kalmanFilterSettingsPanel').hide();
+
+                          $('#imufFilterSettingsPanel').show();
+                      }
+
+
             // I Term Rotation
             $('input[id="itermrotation"]').prop('checked', ADVANCED_TUNING.itermRotation !== 0);
 
@@ -655,6 +674,21 @@ TABS.pid_tuning.initialize = function (callback) {
         }
 
         if (semver.gte(CONFIG.apiVersion, "1.40.0")) {
+
+        // test merging begin
+                    if (CONFIG.boardIdentifier !== "HESP" && CONFIG.boardIdentifier !== "SX10" && CONFIG.boardIdentifier !== "FLUX") {
+
+                        KALMAN_FILTER_CONFIG.gyro_filter_q = parseInt($('.pid_filter input[name="kalmanQCoefficient"]').val());
+                        KALMAN_FILTER_CONFIG.gyro_filter_r = parseInt($('.pid_filter input[name="kalmanRCoefficient"]').val());
+                    } else {
+                        IMUF_FILTER_CONFIG.imuf_roll_q = parseInt($('#imuf_roll_q').val());
+                        IMUF_FILTER_CONFIG.imuf_pitch_q = parseInt($('#imuf_pitch_q').val());
+                        IMUF_FILTER_CONFIG.imuf_yaw_q = parseInt($('#imuf_yaw_q').val());
+                        IMUF_FILTER_CONFIG.imuf_w = parseInt($('#imuf_w').val());
+                    }
+
+// test merging end
+
 
             ADVANCED_TUNING.itermRotation = $('input[id="itermrotation"]').is(':checked') ? 1 : 0;
             ADVANCED_TUNING.smartFeedforward = $('input[id="smartfeedforward"]').is(':checked') ? 1 : 0;
@@ -1143,7 +1177,7 @@ TABS.pid_tuning.initialize = function (callback) {
             } else {
                 pidControllerList = [
                     {name: "Legacy"},
-                    {name: "Betaflight"}
+                    {name: "Emuflight"}
                 ]
             }
 
@@ -1447,6 +1481,16 @@ TABS.pid_tuning.initialize = function (callback) {
               return MSP.promise(MSPCodes.MSP_SET_PID_ADVANCED, mspHelper.crunch(MSPCodes.MSP_SET_PID_ADVANCED));
             }).then(function () {
                 return MSP.promise(MSPCodes.MSP_SET_FILTER_CONFIG, mspHelper.crunch(MSPCodes.MSP_SET_FILTER_CONFIG));
+              }).then(function () {
+                            if (semver.gte(CONFIG.apiVersion, "1.40.0")) {
+                                if(CONFIG.boardIdentifier !== "HESP" && CONFIG.boardIdentifier !== "SX10" && CONFIG.boardIdentifier !== "FLUX") {
+                                    if (isKalmanFilterSelected()) {
+                                        return MSP.promise(MSPCodes.MSP_SET_FAST_KALMAN, mspHelper.crunch(MSPCodes.MSP_SET_FAST_KALMAN));
+                                    }
+                                } else {
+                                    return MSP.promise(MSPCodes.MSP_SET_IMUF_CONFIG, mspHelper.crunch(MSPCodes.MSP_SET_IMUF_CONFIG));
+                                }
+                            }
             }).then(function () {
                 return MSP.promise(MSPCodes.MSP_SET_RC_TUNING, mspHelper.crunch(MSPCodes.MSP_SET_RC_TUNING));
             }).then(function () {
