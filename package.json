@@ -16,9 +16,8 @@
   },
   "repository": {
     "type": "git",
-<<<<<<< HEAD
     "url": "github.com/Emuflight/emuflight-configurator"
-=======
+
   },
   "webview": {
     "partitions": [
